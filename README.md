@@ -1,82 +1,22 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Darts of Doom</title>
-<style>
-  html,body{margin:0;background:#0e0e0e;color:#e8e8e8;font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Arial}
-  .wrap{max-width:720px;margin:0 auto;padding:32px 20px}
-  h1{font-weight:700;letter-spacing:.5px}
-  .card{background:#151515;border:1px solid #2a2a2a;border-radius:12px;padding:20px}
-  .btn{display:inline-block;border:1px solid #666;padding:12px 18px;border-radius:10px;background:#1d1d1d;color:#fff;cursor:pointer}
-  .btn:hover{background:#242424}
-  .result{margin-top:18px;padding:16px 14px;border-left:3px solid #7f56d9;background:#141016;border-radius:8px}
-  .muted{color:#b5b5b5}
-  .footer{margin-top:24px;color:#8a8a8a;font-size:14px}
-  .hr{height:1px;background:#262626;border:0;margin:18px 0}
-  .title{display:flex;gap:10px;align-items:center}
-  .title .dart{font-size:1.3rem}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <div class="title"><span class="dart">🎯</span><h1>Darts of Doom</h1></div>
-  <p class="muted">“Winning is easy. Surviving the prize is harder.” — Kuromi</p>
+# 🖤 Darts of Doom  
+> *“Winning is easy. Surviving the prize is harder.” — Kuromi*
 
-  <div class="card">
-    <p>Three throws for a chance at glory… or regret. Press the button to take your shot.</p>
-    <button id="throw" class="btn">Throw a Dart</button>
-    <div id="result" class="result" style="display:none"></div>
-    <div class="hr"></div>
-    <p class="muted">Tip: Append <code>?user=YourName</code> to the URL so the page addresses you.</p>
-  </div>
+Welcome to the **Darts of Doom**, a cursed carnival booth born from the  
+🖤 *Misfits × Outcasts Collaboration* 🕯️ between **Kuromi** and **Wednesday Addams**.
 
-  <div class="footer">Hosted on GitHub Pages • The Misfits × Outcasts Collab</div>
-</div>
+Step right up. Take your shot.  
+Each throw earns you a random prize — or possibly a new curse.  
 
-<script>
-const prizes = [
-  {icon:"🕯️", name:"Black Candle of Fortune",
-   text:"It glows brighter the closer you are to betrayal."},
-  {icon:"🐈‍⬛", name:"Mini Shadow Familiar",
-   text:"Whispers secrets in exchange for gossip."},
-  {icon:"💋", name:"Kiss of Kuromi",
-   text:"Irresistible charm for one conversation — then it bites back."},
-  {icon:"📖", name:"Page from Wednesday’s Journal",
-   text:"A torn entry containing a riddle about the Hyde."},
-  {icon:"⚰️", name:"Empty Prize Box",
-   text:"Cold air and disappointment. Possibly cursed."},
-  {icon:"🪞", name:"Mirror Token",
-   text:"Reflects not faces, but motives. Use once to expose a lie."}
-];
+🎯 Play it here → [Darts of Doom on GitHub Pages](https://belovedangel02.github.io/hopeless-romantics-/)
 
-const flavor = [
-  "🎈 Bullseye. The crowd goes quiet.",
-  "💫 Off-center, but fate is amused.",
-  "💥 Balloon pop — something inside hisses.",
-  "🎭 A wild miss becomes an omen.",
-  "🧷 The dart snaps… yet the booth grins."
-];
+---
 
-function pick(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
+### 🎠 About
+This project is part of the *Hopeless Romantics Universe* —  
+an experimental Discord community space that blends  
+**gothic aesthetics, storytelling, and interactive web art.**
 
-const q = new URLSearchParams(location.search);
-const user = q.get("user");
+---
 
-document.getElementById("throw").addEventListener("click", () => {
-  const f = pick(flavor);
-  const p = pick(prizes);
-  const heading = user ? `For ${user}:` : "Your result:";
-  const r = document.getElementById("result");
-  r.innerHTML = `
-    <strong>${heading}</strong><br>
-    ${f}<br><br>
-    <strong>${p.icon} ${p.name}</strong><br>
-    <span class="muted">${p.text}</span>
-  `;
-  r.style.display = "block";
-});
-</script>
-</body>
-</html>
+🕸️ *Created for the Harvest of Shadows Festival*  
+💀 *Hosted by Kuromi & Wednesday, Patrons of Chaos*

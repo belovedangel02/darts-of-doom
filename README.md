@@ -7,8 +7,8 @@ Welcome to the **Darts of Doom**, a cursed carnival booth born from the
 Step right up. Take your shot.  
 Each throw earns you a random prize — or possibly a new curse.  
 
-🎯 Play it here → [Darts of Doom on GitHub Pages](https://belovedangel02.github.io/hopeless-romantics-/)
-
+🎯 Play it here → [Darts of Doom on GitHub Pages]
+https://belovedangel02.github.io/darts-of-doom/
 ---
 
 ### 🎠 About

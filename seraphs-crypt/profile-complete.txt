@@ -1417,6 +1417,29 @@ border-bottom: 1px solid rgba(112, 14, 26, 0.35);
 </div>
 </a>
 
+<a href="#lost-tales" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
+<div style="
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(112, 14, 26, 0.45);
+border-radius: 16px;
+overflow: hidden;
+text-align: left;
+">
+<div style="
+padding: 12px 18px;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(112, 14, 26, 0.35);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">THE LOST TALES</span>
+</div>
+<div style="padding: 16px 18px;">
+<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN &amp; SLAVIC FOLKLORE</p>
+<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">old gods &middot; vile and vukodlaks &middot; oaths sworn under oak</p>
+<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">mountain mist, wax and wheat, a name you must not say aloud after dark.</p>
+</div>
+</div>
+</a>
+
 <p style="
 margin: 6px 0 0 0;
 color: rgb(76, 71, 81);
@@ -1525,6 +1548,22 @@ devotion that shelters — men who stand between her and the dark
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">KAI YOUNG</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">king of pride</span>
 </a>
+<a href="#perun" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">PERUN</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">slavic pantheon</span>
+</a>
+<a href="#krsnik" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">KRSNIK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">istrian folklore</span>
+</a>
+<a href="#mogut" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">MOGUT</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">croatian legend</span>
+</a>
+<a href="#zeleni-juraj" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZELENI JURAJ</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">spring rite</span>
+</a>
 
 </div>
 
@@ -1593,6 +1632,22 @@ loyalty at war with duty — devotion that must choose, and lose something eithe
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">HYACINTHE</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the stolen heir</span>
 </a>
+<a href="#jarilo" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">JARILO</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">slavic pantheon</span>
+</a>
+<a href="#zmaj-ognjeni-vuk" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZMAJ OGNJENI VUK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">south slavic epic</span>
+</a>
+<a href="#zduhac" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZDUHAČ</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">south slavic folklore</span>
+</a>
+<a href="#vidan" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">VIDAN</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the vila’s own</span>
+</a>
 
 </div>
 
@@ -1656,6 +1711,22 @@ devotion inseparable from control — love that does not ask permission
 <a href="#balekin" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">BALEKIN</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the cruel prince</span>
+</a>
+<a href="#veles" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">VELES</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">slavic pantheon</span>
+</a>
+<a href="#jure-grando" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">JURE GRANDO</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">kringa, 1656</span>
+</a>
+<a href="#vodenjak" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">VODENJAK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">croatian folklore</span>
+</a>
+<a href="#kudlak" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">KUDLAK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">istrian folklore</span>
 </a>
 
 </div>
@@ -3564,6 +3635,426 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 <p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE CRUEL PRINCE AU</p>
 <p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">eldest prince &bull; possession &bull; cruelty &bull; uncompromisingly dark</p>
 <p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the mortal kept beneath his roof is {{user}}. mind the warnings.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+<br><br>
+
+<div id="lost-tales"></div>
+
+<p style="
+margin: 0 0 6px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+&#12297; THE LOST TALES
+</p>
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 11px;
+font-style: italic;
+line-height: 1.7;
+">
+for the museum in Zagreb that gave them back their names.
+</p>
+
+
+<div id="perun"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">PERUN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; GOD OF THUNDER</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">thunder &bull; oak &bull; order &bull; an oath that does not bend</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>gods do not swear to mortals. he swore to {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="krsnik"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">KRSNIK</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN &amp; ISTRIAN FOLK TRADITION</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">caul-born &bull; shapeshifter &bull; the village&rsquo;s shield &bull; chosen, never asked</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he was marked from birth to defend everyone. he only ever wanted to defend {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="mogut"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">MOGUT</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN LEGEND &middot; THE GIANTS OF THE HILLS</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">immense &bull; solitary &bull; gentle to exactly one person</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the whole valley runs from him. {{user}} did not.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="zeleni-juraj"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">ZELENI JURAJ</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC SPRING RITE &middot; GREEN GEORGE</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">crowned in leaves &bull; rebirth &bull; a season long &bull; he cannot stay</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he returns every spring for one reason, and her name is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="jarilo"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">JARILO</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; THE STOLEN SON</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">taken as an infant &bull; raised by his father&rsquo;s enemy &bull; spring and slaughter</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not know whose son he is. he knows only that {{user}} is what he comes back for.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="zmaj-ognjeni-vuk"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">ZMAJ OGNJENI VUK</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SOUTH SLAVIC EPIC &middot; THE FIERY DRAGON WOLF</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">born wolf-pelted and serpent-marked &bull; part dragon &bull; never wholly a man</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he was born a weapon. {{user}} is the first to touch him without flinching.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="zduhac"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">ZDUHAČ</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SOUTH SLAVIC FOLK TRADITION &middot; THE STORM-FIGHTER</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">his soul leaves his body to fight the hail &bull; duty &bull; absence</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he saves every field in the valley and misses every night with {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="vidan"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">VIDAN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN FOLK TRADITION &middot; THE VILENJAK</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">taken by the vile as a boy &bull; healing &bull; second sight &bull; feared by the village he saves</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>they cross themselves when he passes. {{user}} takes his hand.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="veles"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">VELES</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; GOD OF THE UNDERWORLD</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">serpent &bull; shapeshifter &bull; magic and lies &bull; takes, and does not give back</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he has stolen from a storm god and kept it. what he wants now is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="jure-grando"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">JURE GRANDO</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ISTRIAN RECORD &middot; KRINGA, 1656 &middot; THE FIRST RECORDED VAMPIRE</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">buried and returned &bull; sixteen years of knocking &bull; uncompromisingly dark</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>for sixteen years he knocked on the doors of Kringa. now he knocks on {{user}}&rsquo;s. mind the warnings.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="vodenjak"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">VODENJAK</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN FOLK TRADITION &middot; THE WATER SPIRIT</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">beautiful &bull; cold &bull; patient &bull; the water always wins</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not chase. he waits at the bank until {{user}} comes down to the water.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="kudlak"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">KUDLAK</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ISTRIAN FOLK TRADITION &middot; THE DARK SHAMAN</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">leaves his body at night in the shape of a beast &bull; the krsnik&rsquo;s sworn opposite</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the krsnik fights him every night. he only stops when {{user}} is watching.</em></p>
 </td>
 </tr>
 </tbody>

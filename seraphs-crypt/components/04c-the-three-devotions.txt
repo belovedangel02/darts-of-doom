@@ -107,6 +107,22 @@ devotion that shelters — men who stand between her and the dark
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">KAI YOUNG</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">king of pride</span>
 </a>
+<a href="#perun" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">PERUN</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">slavic pantheon</span>
+</a>
+<a href="#krsnik" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">KRSNIK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">istrian folklore</span>
+</a>
+<a href="#mogut" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">MOGUT</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">croatian legend</span>
+</a>
+<a href="#zeleni-juraj" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZELENI JURAJ</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">spring rite</span>
+</a>
 
 </div>
 
@@ -175,6 +191,22 @@ loyalty at war with duty — devotion that must choose, and lose something eithe
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">HYACINTHE</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the stolen heir</span>
 </a>
+<a href="#jarilo" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">JARILO</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">slavic pantheon</span>
+</a>
+<a href="#zmaj-ognjeni-vuk" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZMAJ OGNJENI VUK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">south slavic epic</span>
+</a>
+<a href="#zduhac" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZDUHAČ</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">south slavic folklore</span>
+</a>
+<a href="#vidan" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">VIDAN</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the vila’s own</span>
+</a>
 
 </div>
 
@@ -238,6 +270,22 @@ devotion inseparable from control — love that does not ask permission
 <a href="#balekin" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">BALEKIN</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the cruel prince</span>
+</a>
+<a href="#veles" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">VELES</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">slavic pantheon</span>
+</a>
+<a href="#jure-grando" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">JURE GRANDO</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">kringa, 1656</span>
+</a>
+<a href="#vodenjak" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">VODENJAK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">croatian folklore</span>
+</a>
+<a href="#kudlak" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">KUDLAK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">istrian folklore</span>
 </a>
 
 </div>

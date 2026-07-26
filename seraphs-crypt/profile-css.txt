@@ -424,3 +424,67 @@ body { color: #dedbe1 !important; } /* The Ink of the Living */
   [class*="AlbumArt"],
   .crypt-disc { animation: none !important; }
 } /* The Record, Stilled */
+
+/* --------------------------------------------------------------------------
+   XII. THE WAKING OF THE PORTRAIT (GREYSCALE UNTIL TOUCHED)
+   The vessels sleep in black and white; touch one and it draws breath —
+   colour floods back, the name and tale sharpen out of the dark.
+   -------------------------------------------------------------------------- */
+.character-card__thumbnail,
+.character-card__avatar,
+[class*="CharacterCard"] img,
+[class*="characterCard"] img {
+  filter: grayscale(100%) contrast(108%) brightness(0.92) !important;
+  transition: filter 0.55s ease, transform 0.55s ease !important;
+} /* The Vessel, Sleeping */
+
+.character-card__wrapper:hover .character-card__thumbnail,
+.character-card__wrapper:hover .character-card__avatar,
+.character-card__wrapper:active .character-card__thumbnail,
+.character-card__wrapper:focus-within .character-card__thumbnail,
+[class*="CharacterCard"]:hover img,
+[class*="characterCard"]:hover img,
+[class*="CharacterCard"]:active img,
+[class*="characterCard"]:active img,
+[class*="CharacterCard"]:focus-within img,
+[class*="characterCard"]:focus-within img {
+  filter: grayscale(0%) contrast(105%) brightness(1) !important;
+  transform: scale(1.03) !important;
+} /* The Vessel, Waking — Colour Floods Back */
+
+/* The epitaph waits half-lit, then sharpens */
+.character-card__name,
+[class*="CharacterCard"] [class*="name"],
+[class*="characterCard"] [class*="name"] {
+  opacity: 0.35 !important;
+  transition: opacity 0.5s ease, letter-spacing 0.5s ease, color 0.5s ease !important;
+} /* The Epitaph, Half-Read */
+
+.character-card__wrapper:hover .character-card__name,
+.character-card__wrapper:active .character-card__name,
+.character-card__wrapper:focus-within .character-card__name,
+[class*="CharacterCard"]:hover [class*="name"],
+[class*="characterCard"]:hover [class*="name"],
+[class*="CharacterCard"]:active [class*="name"],
+[class*="characterCard"]:active [class*="name"] {
+  opacity: 1 !important;
+  color: #dedbe1 !important;
+  letter-spacing: 2px !important;
+  text-shadow: 0 0 10px rgba(112, 14, 26, 0.5) !important;
+} /* The Epitaph, Read Aloud */
+
+/* The tale beneath clears with it */
+.character-card__description,
+[class*="CharacterCard"] [class*="escription"],
+[class*="characterCard"] [class*="escription"] {
+  color: #6e6972 !important;
+  transition: color 0.5s ease !important;
+} /* The Tale, Whispered */
+
+.character-card__wrapper:hover .character-card__description,
+.character-card__wrapper:active .character-card__description,
+.character-card__wrapper:focus-within .character-card__description,
+[class*="CharacterCard"]:hover [class*="escription"],
+[class*="characterCard"]:hover [class*="escription"] {
+  color: #b8b0bd !important;
+} /* The Tale, Spoken Plainly */

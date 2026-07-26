@@ -25,6 +25,7 @@ header bar is the summary, and pressing it opens the panel beneath.
 | `11-friends.txt` | Friends 🪽 |
 | `12-extra.txt` | Extra 🪽 closing |
 | `15-music-player.txt` | Now Playing card — spinning disc + live SoundCloud embed |
+| `16-whispers.txt` | The whispers — small grey lines for the spaces between seals |
 
 `../profile-bio.txt` is the full bio with every section already assembled.
 

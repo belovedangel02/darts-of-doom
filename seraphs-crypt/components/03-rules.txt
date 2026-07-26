@@ -1,0 +1,69 @@
+<div style="
+width: 100%;
+max-width: 100%;
+margin: 0;
+padding: 30px 16px;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+color: rgb(170, 166, 174);
+font-family: Arial, Helvetica, sans-serif;
+">
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">RULES&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">18+ only.</span> minors do not interact.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">my bots are fempov.</span> please do not ask me to change the pov.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">be kind.</span> to me, to other creators, to each other.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">do not steal my work.</span> my vessels are carved by hand — theft is reported.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">mind the warnings.</span> every bot carries its own accurate content notes — read them before you enter.
+</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">requests &amp; feedback</span> are welcome through the carrd or the comments — constructive criticism is treasured.
+</p>
+
+</div>
+
+<br><br><br>
+
+</div>

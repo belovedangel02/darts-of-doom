@@ -74,6 +74,11 @@ DANTE RUSSO — arranged marriage · high society · controlled intensity
 KAI YOUNG — ambition · restraint · slow-burn longing
 AARON WARNER — shatter me AU · dystopian commander · worshipful devotion · not Juliette, {{user}}
 DAMON TORRANCE — devil’s night AU · revenge · psychological darkness · not Winter, {{user}}
+CARDAN GREENBRIAR — elfhame · enemies to lovers · cruelty as courtship · a crown he never wanted · the mortal girl is {{user}}
+HYACINTHE — elfhame · cursed knight · divided loyalty · bitterness softening into devotion · the girl he guards is {{user}}
+OAK — elfhame · charm as a weapon · glamour · sweetness laid over ruin · the one he sets the trap for is {{user}}
+LOCKE — elfhame · manipulation · devotion as fiction · the heroine he has cast is {{user}}
+BALEKIN — elfhame · eldest prince · possession · uncompromisingly dark · the mortal beneath his roof is {{user}}
 
 ---
 

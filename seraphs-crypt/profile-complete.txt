@@ -1336,6 +1336,29 @@ border-bottom: 1px solid rgba(112, 14, 26, 0.35);
 </div>
 </a>
 
+<a href="#elfhame" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
+<div style="
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(112, 14, 26, 0.45);
+border-radius: 16px;
+overflow: hidden;
+text-align: left;
+">
+<div style="
+padding: 12px 18px;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(112, 14, 26, 0.35);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">ELFHAME</span>
+</div>
+<div style="padding: 16px 18px;">
+<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR</p>
+<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">cruelty as courtship &middot; mortality among immortals &middot; glamour</p>
+<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">bramble crowns, poisoned wine, salt and iron, a mortal girl who refuses to kneel.</p>
+</div>
+</div>
+</a>
+
 <p style="
 margin: 6px 0 0 0;
 color: rgb(76, 71, 81);
@@ -1504,6 +1527,14 @@ loyalty at war with duty — devotion that must choose, and lose something eithe
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">DANTE RUSSO</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">king of wrath</span>
 </a>
+<a href="#cardan-greenbriar" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">CARDAN GREENBRIAR</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the cruel prince</span>
+</a>
+<a href="#hyacinthe" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">HYACINTHE</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the stolen heir</span>
+</a>
 
 </div>
 
@@ -1555,6 +1586,18 @@ devotion inseparable from control — love that does not ask permission
 <a href="#damon-torrance" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">DAMON TORRANCE</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">devil’s night</span>
+</a>
+<a href="#oak" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">OAK</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the stolen heir</span>
+</a>
+<a href="#locke" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">LOCKE</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the cruel prince</span>
+</a>
+<a href="#balekin" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">BALEKIN</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the cruel prince</span>
 </a>
 
 </div>
@@ -3291,6 +3334,184 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tbody>
 </table>
 
+<br><br>
+
+<div id="elfhame"></div>
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+&#12297; ELFHAME
+</p>
+
+
+<div id="cardan-greenbriar"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">CARDAN GREENBRIAR</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE CRUEL PRINCE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">enemies to lovers &bull; cruelty as courtship &bull; a crown he never wanted</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the mortal girl he torments because he cannot admit he wants her is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="hyacinthe"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">HYACINTHE</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE STOLEN HEIR AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">cursed knight &bull; divided loyalty &bull; bitterness softening into devotion</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>bound to a king who broke him &mdash; and the girl he was sent to guard is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="oak"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">OAK</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE STOLEN HEIR AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">charm as a weapon &bull; glamour &bull; sweetness laid over ruin</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the prince whose smile is the trap, and the one he sets it for is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="locke"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">LOCKE</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE CRUEL PRINCE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">manipulation &bull; devotion as fiction &bull; a story he writes in other people</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not love, he authors &mdash; and the heroine he has cast is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="balekin"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">BALEKIN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE CRUEL PRINCE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">eldest prince &bull; possession &bull; cruelty &bull; uncompromisingly dark</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the mortal kept beneath his roof is {{user}}. mind the warnings.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
 <br><br><br>
 
 </details>

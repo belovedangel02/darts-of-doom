@@ -57,7 +57,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.55);
 border-radius: 18px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-fawn.jpg" alt="The Keeper — Beloved Angel, with the winged fawn" style="
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-owl.jpg" alt="The Keeper — Beloved Angel, with the winged fawn and the owl" style="
 display: block;
 width: 100%;
 max-width: 100%;
@@ -93,7 +93,7 @@ font-size: 11px;
 font-style: italic;
 text-align: center;
 ">
-and the small one that chose to stay
+and the small one that chose to stay &middot; and the one that watches
 </p>
 </div>
 

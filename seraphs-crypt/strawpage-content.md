@@ -62,7 +62,7 @@ mind the warnings.
 
 ## [Short panels — the rest of the vault]
 
-XADEN RIORSON — rebellion · shadows · secrets · divided loyalties
+XADEN RIORSON — enemies to lovers · rebellion · shadows · divided loyalties · not Violet, {{user}}
 DAIN AETOS — duty versus devotion · military romance · altered loyalties
 SAM WINCHESTER — demon blood · power · temptation · moral conflict
 YOUNG JOHN WINCHESTER — 1970s · hunter origins · grief · motorcycles

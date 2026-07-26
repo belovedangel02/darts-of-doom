@@ -1632,6 +1632,186 @@ in old meadows and pastures where the vile have not yet gone.
 </p>
 </div>
 
+<div style="
+max-width: 620px;
+margin: 0 auto 22px auto;
+padding: 20px;
+text-align: left;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(112, 14, 26, 0.4);
+border-radius: 16px;
+">
+<p style="
+margin: 0 0 4px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 4px;
+">
+THE SMALL FOLK
+</p>
+<p style="
+margin: 0 0 18px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 2px;
+">
+&#9790; NOT VESSELS. THE THINGS THAT LIVE IN THE CORNERS.
+</p>
+
+<p style="margin: 0 0 12px 0;">
+<span style="
+display: block;
+margin: 0 0 3px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+VILE
+</span>
+<span style="
+display: block;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.75;
+">
+tiny, white, and enormous-eyed. their fallen hair takes root where it lands and flowers.
+</span>
+</p>
+<p style="margin: 0 0 12px 0;">
+<span style="
+display: block;
+margin: 0 0 3px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+COPRNICE
+</span>
+<span style="
+display: block;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.75;
+">
+the witches of Medvednica and the Samobor hills, abroad on the nights the moon does not reach.
+</span>
+</p>
+<p style="margin: 0 0 12px 0;">
+<span style="
+display: block;
+margin: 0 0 3px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+MORE
+</span>
+<span style="
+display: block;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.75;
+">
+they come while you sleep, and you will not be able to move.
+</span>
+</p>
+<p style="margin: 0 0 12px 0;">
+<span style="
+display: block;
+margin: 0 0 3px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+JANKI&#262;I
+</span>
+<span style="
+display: block;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.75;
+">
+small mischief with a small name. whatever you did &mdash; it was them.
+</span>
+</p>
+<p style="margin: 0 0 12px 0;">
+<span style="
+display: block;
+margin: 0 0 3px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+NEVIDIN&#268;I&#262;I
+</span>
+<span style="
+display: block;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.75;
+">
+the invisible ones. you will not see them. that is the whole of it.
+</span>
+</p>
+<p style="margin: 0 0 12px 0;">
+<span style="
+display: block;
+margin: 0 0 3px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+BAUKA&#268;I
+</span>
+<span style="
+display: block;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.75;
+">
+the ones that wait exactly where the light stops.
+</span>
+</p>
+<p style="margin: 0;">
+<span style="
+display: block;
+margin: 0 0 3px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+MRAKI
+</span>
+<span style="
+display: block;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.75;
+">
+the shadows. nothing casts them.
+</span>
+</p>
+
+<p style="
+margin: 18px 0 0 0;
+color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 11px;
+font-style: italic;
+line-height: 1.7;
+">
+a world is not the men in it. it is what moves when they are not looking.
+</p>
+</div>
+
 <div id="zeleni-juraj"></div>
 <table style="
 width: 100%;

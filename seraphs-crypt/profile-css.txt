@@ -367,3 +367,60 @@ body { color: #dedbe1 !important; } /* The Ink of the Living */
   border: 1px solid rgba(112, 14, 26, 0.5) !important;
   padding: 3px !important;
 } /* The Sealed Wax Stamp, Earned */
+
+/* --------------------------------------------------------------------------
+   XI. THE TURNING RECORD (SOUNDCLOUD PLAYER & SPINNING DISC)
+   Janitor's own audio player, dressed for the crypt — and set turning.
+   -------------------------------------------------------------------------- */
+@keyframes cryptSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+/* The player's shell */
+[class*="udioPlayer"],
+[class*="usicPlayer"],
+[class*="oundCloud"],
+[class*="oundcloud"],
+[class*="audio-player"],
+[class*="music-player"] {
+  background-color: #070608 !important;
+  border: 1px solid rgba(112, 14, 26, 0.55) !important;
+  border-radius: 18px !important;
+  color: #c5b8ca !important;
+} /* The Gramophone Cabinet */
+
+/* The record itself, turning without end */
+[class*="udioPlayer"] img,
+[class*="usicPlayer"] img,
+[class*="oundCloud"] img,
+[class*="oundcloud"] img,
+[class*="audio-player"] img,
+[class*="music-player"] img,
+[class*="albumArt"],
+[class*="AlbumArt"],
+[class*="artwork"],
+[class*="Artwork"],
+.crypt-disc {
+  border-radius: 50% !important;
+  border: 1px solid rgba(197, 184, 202, 0.45) !important;
+  box-shadow: 0 0 16px rgba(112, 14, 26, 0.3) !important;
+  animation: cryptSpin 8s linear infinite !important;
+} /* The Record, Turning */
+
+/* Its progress line, drawn in candlelight */
+[class*="udioPlayer"] [class*="progress"],
+[class*="usicPlayer"] [class*="progress"],
+[class*="udioPlayer"] [class*="Progress"],
+[class*="usicPlayer"] [class*="Progress"],
+[class*="udioPlayer"] input[type="range"],
+[class*="usicPlayer"] input[type="range"] {
+  accent-color: #c5b8ca !important;
+  background-color: #1a161e !important;
+} /* The Groove of the Needle */
+
+/* Mercy for those who ask for stillness */
+@media (prefers-reduced-motion: reduce) {
+  [class*="udioPlayer"] img,
+  [class*="usicPlayer"] img,
+  [class*="albumArt"],
+  [class*="AlbumArt"],
+  .crypt-disc { animation: none !important; }
+} /* The Record, Stilled */

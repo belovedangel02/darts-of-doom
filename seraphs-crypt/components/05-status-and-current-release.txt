@@ -67,6 +67,44 @@ letter-spacing: 2px;
 
 <br><br>
 
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 14px;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+text-align: center;
+">
+<span style="
+display: inline-block;
+width: 90%;
+max-width: 560px;
+padding: 10px 20px;
+text-align: left;
+color: rgb(92, 88, 96);
+background-color: rgb(5, 5, 5);
+border: 1px solid rgb(76, 71, 81);
+border-radius: 30px;
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 1px;
+font-style: italic;
+">
+⌕ search the crypt…
+</span>
+<p style="
+margin: 10px 0 0 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+✧ SCROLL DOWN TO WANDER THE VAULT ✧
+</p>
+</div>
+
+<br><br>
+
 <p style="
 margin: 0;
 color: rgb(151, 138, 158);

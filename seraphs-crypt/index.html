@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Seraph's Crypt</title>
+<style>
+
+/* ==========================================================================
+   THE SERAPH'S CRYPT — CSS STYLESHEET & SELECTOR MAP
+   In the Manner of E. A. Poe: Gothic Architecture of the Digital Realm
+   ========================================================================== */
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; }
+a { text-decoration: none; }
+button { font-family: inherit; }
+
+/* --------------------------------------------------------------------------
+   I. THE VISIONS OF MEN & SHADOWS (CHARACTER CARDS)
+   -------------------------------------------------------------------------- */
+.character-card { background: #050505 !important; border: 1px solid rgba(197, 184, 202, 0.14) !important; overflow: hidden; border-radius: 4px; } /* The Tomb of Soul & Shadow */
+.character-card__list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px;
+} /* The Great Vault */
+.character-card__empty-list { color: #5c5860; text-align: center; padding: 60px 20px; grid-column: 1 / -1; } /* The Void Unpeopled */
+.character-card__wrapper { position: relative; overflow: hidden; cursor: pointer; display: block; color: inherit; } /* The Shroud of Binding */
+.character-card__gradient-1 { position: absolute; inset: 0; background: linear-gradient(180deg, transparent, rgba(5,5,5,0.8)); pointer-events: none; } /* The Twilight Creep */
+.character-card__gradient-2 { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5,5,5,0.5), #050505); opacity: 0; transition: opacity 0.3s ease; pointer-events: none; } /* The Midnight Gloom */
+.character-card__wrapper:hover .character-card__gradient-2 { opacity: 1; } /* The Gloom, Descending */
+.character-card__gradient-3 { position: absolute; inset: 0; background: #000000; opacity: 0; transition: opacity 0.5s ease; pointer-events: none; } /* The Pitch-Black Abyss */
+
+.character-card__header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; background: #0a090c !important; border-bottom: 1px solid rgba(197, 184, 202, 0.14) !important; } /* The Lintel of the Crypt Door */
+.character-card__name { font-family: Georgia, serif !important; color: #dedbe1 !important; font-size: 14px; margin: 0; letter-spacing: 1px; } /* The Inscribed Epitaph */
+
+.character-card__image-wrapper { position: relative; width: 100%; aspect-ratio: 3 / 4; overflow: hidden; background: #030303; } /* The Frame of the Vision */
+.character-card__avatar,
+.character-card__thumbnail { display: block; width: 100%; height: 100%; object-fit: cover; filter: grayscale(20%) contrast(105%); transition: transform 0.4s ease, filter 0.4s ease; } /* The Spectral Visage / Captured Likeness */
+.character-card__wrapper:hover .character-card__thumbnail,
+.character-card__wrapper:hover .character-card__avatar { transform: scale(1.04); filter: grayscale(0%) contrast(110%); } /* The Waking of the Portrait */
+
+.character-card__image-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.85) 100%); opacity: 0.85; transition: opacity 0.3s ease; pointer-events: none; } /* The Veil Over the Face */
+.character-card__wrapper:hover .character-card__image-overlay { opacity: 0.55; } /* The Veil Drawn Back */
+
+.character-card__stats-badge-container { position: absolute; top: 10px; left: 10px; display: flex; gap: 6px; z-index: 2; } /* The Tally Nailed to the Door */
+.character-card__stats-badge { display: flex; align-items: center; gap: 4px; padding: 3px 8px; background: rgba(5, 5, 5, 0.75); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; color: #c5b8ca; font-size: 10px; backdrop-filter: blur(2px); } /* The Sealed Wax Stamp */
+.character-card__stats-badge svg { fill: #c5b8ca; width: 11px; height: 11px; } /* The Etched Sigil */
+
+.character-card__ribbon-wrap { position: absolute; top: 0; right: 0; z-index: 2; } /* The Binding Ribbon */
+.character-card__ribbon { background: #5c5860 !important; color: #dedbe1; font-size: 9px; letter-spacing: 1px; padding: 4px 10px; display: inline-block; } /* The Crimson Banner */
+
+.character-card__content { padding: 14px; display: flex; flex-direction: column; gap: 6px; background: #050505; } /* The Chamber Beneath the Portrait */
+.character-card__creator-name { color: #918c95; font-size: 11px; } /* The Architect of Dreams */
+.character-card__description { color: #7d7882; font-size: 12px; line-height: 1.6; margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; } /* The Melancholy Tale */
+
+.character-card__star-line { display: flex; align-items: center; gap: 6px; border-bottom: 1px solid rgba(197, 184, 202, 0.1); padding-bottom: 6px; margin-top: 2px; } /* The Celestial Constellation */
+.character-card__star { color: #c5b8ca !important; font-size: 11px; } /* The Faint Star of Hope */
+
+.character-card__tags-wrap { padding: 6px 0; } /* The Cipher Enclosure */
+.character-card__tags { display: flex; flex-wrap: wrap; gap: 6px; } /* The Cipher of Tropes */
+.character-card__tags-item { background: #121014; color: #6e6972; font-size: 10px; padding: 4px 9px; border-radius: 12px; } /* The Solitary Cipher */
+
+.character-card__chats { display: flex; align-items: center; gap: 4px; color: #8c8791; font-size: 11px; } /* The Whispered Confessions */
+.character-card__chats-count { color: #c5b8ca; } /* The Tally of Haunted Hours */
+.character-card__tokens-count { color: #4c4751; font-size: 10px; } /* The Weight of Words Unspoken */
+
+@media (max-width: 1200px) {
+  .character-card__list-container { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 860px) {
+  .character-card__list-container { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 16px; }
+  .character-card__name { font-size: 13px; }
+}
+@media (max-width: 480px) {
+  .character-card__list-container { grid-template-columns: repeat(2, 1fr); gap: 8px; padding: 10px; }
+  .character-card__content { padding: 10px 8px; gap: 5px; }
+  .character-card__tags-item { font-size: 9px; padding: 3px 7px; }
+  .character-card__description { -webkit-line-clamp: 2; }
+}
+
+/* --------------------------------------------------------------------------
+   II. THE SIFTING OF SHADOWS (FILTERS & NAVIGATION)
+   -------------------------------------------------------------------------- */
+.filters { background: #0a090c !important; display: flex; align-items: center; gap: 12px; padding: 14px 20px; max-width: 1200px; margin: 0 auto; } /* The Grand Sorting Chambers */
+.filters__sorting { border-color: rgba(197, 184, 202, 0.2); min-width: 180px; position: relative; } /* The Order of Devotion */
+.filters__sorting-control { background: #050505 !important; border: 1px solid #4c4751; border-radius: 30px; display: flex; align-items: center; justify-content: space-between; padding: 8px 16px; cursor: pointer; } /* The Lever of Destiny */
+.filters__sorting-value-container { color: #dedbe1; flex: 1; } /* The Vessel of Choice */
+.filters__sorting-single-value { color: #c5b8ca !important; font-size: 13px; } /* The Chosen Path */
+.filters__sorting-indicator-container { opacity: 0.6; display: flex; align-items: center; gap: 6px; } /* The Needle of the Compass */
+.filters__sorting-indicator-separator { background-color: #4c4751; width: 1px; height: 18px; } /* The Dividing Line */
+.filters__sorting-indicator { color: #c5b8ca; } /* The Directional Arrow */
+.filters__sorting-menu { background: #08070a !important; border: 1px solid #4c4751; position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px; z-index: 15; border-radius: 4px; overflow: hidden; } /* The Tome of Options */
+.filters__sorting-menu-list { padding: 4px; } /* The Scroll of Paths */
+.filters__sorting-menu-option { color: #8c8791; padding: 8px 10px; cursor: pointer; font-size: 13px; border-radius: 3px; } /* The Unbidden Choice */
+.filters__sorting-menu-option:hover:not(.filters__sorting-menu-option--selected) { background: #14111a !important; color: #dedbe1 !important; } /* The Unbidden Choice, Considered */
+.filters__sorting-menu-option--selected { background: #1a161e !important; color: #dedbe1 !important; } /* The Chosen Vow */
+
+.filters__button { background: #050505 !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; gap: 8px; border-radius: 30px; color: #c5b8ca; } /* The Gatekeeper's Key */
+.filters__button:hover { border-color: #c5b8ca !important; background: #1a161e !important; } /* The Key, Warmed in the Palm */
+.filters__button-icon { fill: #c5b8ca; width: 14px; height: 14px; } /* The Mark of the Key */
+
+.filters__popup-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.85) !important; z-index: 40; display: flex; align-items: center; justify-content: center; } /* The Shroud of Nightfall */
+.filters__popup { background: #0a090c !important; border: 1px solid #c5b8ca; width: 90%; max-width: 420px; border-radius: 4px; } /* The Hidden Parlor */
+.filters__popup-header { border-bottom: 1px solid #4c4751; display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; } /* The Parlor Canopy */
+.filters__popup-header h3 { margin: 0; color: #dedbe1; font-family: Georgia, serif; font-size: 15px; letter-spacing: 2px; }
+.filters__popup-close-button { color: #918c95; cursor: pointer; background: none; border: none; font-size: 18px; } /* The Banishing Seal */
+.filters__popup-body { padding: 18px; max-height: 60vh; overflow-y: auto; } /* The Heart of the Chamber */
+
+.filters__privacy { margin-bottom: 16px; } /* The Vault of Secrets */
+.filters__privacy-heading { color: #c5b8ca; font-size: 11px; letter-spacing: 2px; display: block; margin-bottom: 10px; } /* The Title of Silence */
+.filters__privacy-radio-group { display: flex; gap: 16px; } /* The Cloistered Circle */
+.filters__privacy-option { color: #7d7882; cursor: pointer; transition: color 0.2s ease; display: flex; align-items: center; gap: 6px; font-size: 13px; } /* The Whispered Secret */
+.filters__privacy-option:hover { color: #c5b8ca; } /* The Secret, Half-Told */
+
+.filters__tags { margin-top: 16px; } /* The Archive of Ciphers */
+.filters__tags-heading { color: #c5b8ca; font-size: 11px; letter-spacing: 2px; display: block; margin-bottom: 10px; } /* The Banner of Ciphers */
+.tag-list { max-height: 200px; } /* The Catacomb of Tags */
+.tag-list__container { padding: 8px 0; position: relative; } /* The Ossuary Wall */
+.tag-list__scroll-wrapper { position: relative; } /* The Winding Passage */
+.tag-list__scroll-area { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0; scroll-behavior: smooth; } /* The Infinite Corridor */
+.tag-list__divider { height: 1px; background: #4c4751; margin: 10px 0; } /* The Iron Grate */
+.tag-list__expand-button { color: #c5b8ca; cursor: pointer; font-size: 11px; background: none; border: none; text-decoration: underline; } /* The Unlocking Latch */
+.tag-list__scroll-left,
+.tag-list__scroll-right { position: absolute; top: 50%; transform: translateY(-50%); background: #0a090c; border: 1px solid #4c4751; color: #c5b8ca; cursor: pointer; width: 22px; height: 22px; border-radius: 50%; z-index: 2; } /* The Way to the Past / Descent into Darkness */
+.tag-list__scroll-left { left: 0; }
+.tag-list__scroll-right { right: 0; }
+
+.tag { display: inline-block; } /* The Inscribed Relic */
+.tag__button { background: #121014; color: #8c8791; border: none; padding: 5px 12px; border-radius: 14px; cursor: pointer; transition: all 0.2s ease; font-size: 12px; white-space: nowrap; } /* The Relic Key */
+.tag__button:hover:not(.tag__selected) { background: #1a161e !important; color: #c5b8ca !important; } /* The Relic, Turned Over in the Light */
+.tag__selected { background: #302a36 !important; color: #dedbe1 !important; } /* The Anointed Relic */
+.custom-tag { border: 1px dashed #5c5860; border-radius: 14px; display: inline-block; } /* The Strange Runes */
+.custom-tag__button { color: #918c95; cursor: pointer; background: none; border: none; padding: 5px 12px; font-size: 12px; } /* The Rune Key */
+.custom-tag__button:hover { color: #c5b8ca !important; } /* The Rune, Traced Again */
+.custom-tag__selected { border-color: #c5b8ca; color: #dedbe1; } /* The Chosen Rune */
+
+.search-input { background: #050505 !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 9px 18px; border-radius: 30px; width: 100%; font-family: Georgia, serif; letter-spacing: 1px; transition: border-color 0.25s ease, box-shadow 0.25s ease; } /* The Glass of Revelation */
+.search-input::placeholder { color: #5c5860; font-style: italic; }
+.search-input:focus { outline: none; border-color: #c5b8ca !important; box-shadow: 0 0 12px rgba(197, 184, 202, 0.2); } /* The Glass, Peered Into */
+
+/* --------------------------------------------------------------------------
+   III. THE MOBILE CORRIDOR (NAVBAR MOBILE)
+   -------------------------------------------------------------------------- */
+.navbar-mobile { display: none; } /* The Narrow Passage */
+.navbar-mobile__container { display: flex; justify-content: space-around; align-items: center; padding: 10px 0; } /* The Cloistered Arc */
+.navbar-mobile__item { color: #6e6972; display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 10px; background: none; border: none; } /* The Waystation */
+.navbar-mobile__item-icon { fill: currentColor; width: 20px; height: 20px; } /* The Sigil of the Waystation */
+.navbar-mobile__item--active { color: #c5b8ca !important; } /* The Lit Hearth */
+.navbar-mobile__user-menu {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding: 16px; background: #0a090c;
+  border-top: 1px solid rgba(197, 184, 202, 0.14);
+  display: flex; flex-direction: column; gap: 10px; z-index: 30;
+} /* The Soul's Sanctuary */
+.navbar-mobile__user-menu-item { color: #8c8791; font-size: 13px; padding: 10px 12px; border-radius: 4px; } /* The Waystation Within the Sanctuary */
+.navbar-mobile__user-menu-item--active { background: #1a161e; color: #c5b8ca; } /* The Hearth Within the Sanctuary */
+
+@media (max-width: 860px) {
+  .navbar-mobile { display: block; position: fixed; bottom: 0; left: 0; right: 0; background: #050505 !important; border-top: 1px solid #4c4751; z-index: 25; }
+  .top-bar__search-bar { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+   IV. THE ETERNAL CANVAS (PAGE & PAGINATION)
+   -------------------------------------------------------------------------- */
+.page { background-color: #000000 !important; color: #dedbe1; min-height: 100vh; } /* The Cryptic Realm */
+.page__background { background: #000000 !important; min-height: 100vh; } /* The Void Beyond */
+
+.pagination { display: flex; gap: 8px; justify-content: center; align-items: center; margin: 24px 0 60px 0; } /* The Passage of Time */
+.pagination__total { color: #5c5860; font-size: 11px; margin-right: 12px; } /* The Tally of Lost Souls */
+.pagination__total-count { color: #c5b8ca; } /* The Number of Mortals */
+.pagination__total-text { letter-spacing: 1px; } /* The Scroll of Souls */
+.pagination__previous-button,
+.pagination__next-button { background: #0a090c; color: #8c8791; padding: 6px 12px; cursor: pointer; transition: all 0.2s ease; border: 1px solid #4c4751; border-radius: 4px; } /* The Turning Back / Pressing Forward */
+.pagination__previous-button:hover:not(:disabled),
+.pagination__next-button:hover:not(:disabled) { background: #1a161e; color: #c5b8ca; } /* The Hand Reaching for the Next Page */
+.pagination__previous-button:disabled,
+.pagination__next-button:disabled { opacity: 0.3; cursor: not-allowed; color: #3a363e; } /* The Sealed Door, No Passage */
+.pagination__page-button { border: 1px solid #4c4751; color: #7d7882; padding: 6px 11px; cursor: pointer; transition: all 0.2s ease; border-radius: 4px; background: transparent; } /* The Stone Marker */
+.pagination__page-button:hover:not(.pagination__page-button--active) { border-color: rgba(197, 184, 202, 0.4); color: #c5b8ca; } /* The Marker, Warmed by a Passing Torch */
+.pagination__page-button--active { border-color: #c5b8ca !important; color: #dedbe1 !important; } /* The Illuminated Marker */
+.pagination__page-button--disabled { opacity: 0.25; cursor: not-allowed; } /* The Crumbled Stone */
+.pagination__dots { color: #4c4751; padding: 0 4px; } /* The Elusive Echoes */
+
+/* --------------------------------------------------------------------------
+   V. THE ALCOVES OF SECRETS (TABS & TOP BAR)
+   -------------------------------------------------------------------------- */
+.tabs { border-bottom: 1px solid #4c4751; max-width: 1200px; margin: 0 auto; padding: 0 20px; } /* The Cloistered Chambers */
+.tabs__container { display: flex; gap: 24px; } /* The Hallway of Doorways */
+.tabs__wrapper { position: relative; } /* The Frame of Thresholds */
+.tabs__button { color: #7d7882; font-family: Georgia, serif; padding: 12px 2px; cursor: pointer; transition: color 0.2s ease; background: none; border: none; font-size: 13px; letter-spacing: 1px; } /* The Threshold Seal */
+.tabs__button:hover:not(.tabs__button--active) { color: #918c95; } /* The Threshold, Considered */
+.tabs__button--active { color: #dedbe1 !important; } /* The Threshold, Crossed */
+.tabs__indicator { background: #c5b8ca !important; height: 2px; position: absolute; bottom: -1px; transition: left 0.25s ease, width 0.25s ease; } /* The Pendulum's Trace */
+.tabs__panels { padding-top: 16px; } /* The Sanctuary Rooms */
+
+.top-bar { background: #050505 !important; border-bottom: 1px solid rgba(197, 184, 202, 0.14) !important; display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; gap: 16px; position: sticky; top: 0; z-index: 20; } /* The High Citadel */
+.top-bar__logo { font-family: Georgia, serif; display: flex; flex-direction: column; line-height: 1.2; } /* The Crest of the Crypt */
+.top-bar__logo-name { color: #dedbe1 !important; letter-spacing: 3px; font-size: 14px; } /* The Sovereign Inscription */
+.top-bar__logo-sub-name { color: #5c5860 !important; letter-spacing: 2px; font-size: 9px; } /* The Subtitle of Shadows */
+.top-bar__search-bar { max-width: 400px; flex: 1; } /* The Looking Glass */
+.top-bar__search-input { background: #0a090c !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 9px 18px; border-radius: 30px; width: 100%; font-family: Georgia, serif; letter-spacing: 1px; transition: border-color 0.25s ease, box-shadow 0.25s ease; } /* The Lens of Inquiry */
+.top-bar__search-input::placeholder { color: #5c5860; font-style: italic; }
+.top-bar__search-input:focus { outline: none; border-color: #c5b8ca !important; box-shadow: 0 0 12px rgba(197, 184, 202, 0.2); } /* The Lens, Lifted to the Eye */
+.top-bar__back-button { color: #c5b8ca; cursor: pointer; background: none; border: none; font-size: 16px; display: none; } /* The Retreating Step */
+.top-bar__title { color: #dedbe1; font-family: Georgia, serif; font-size: 14px; display: none; letter-spacing: 2px; } /* The Citadel Heading */
+.top-bar__create-char-button { background: #1a161e !important; color: #c5b8ca !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; border-radius: 4px; font-size: 12px; letter-spacing: 1px; white-space: nowrap; } /* The Alchemist's Pen */
+.top-bar__create-char-button:hover { background: #302a36 !important; border-color: #c5b8ca !important; }
+.top-bar__discord-button { opacity: 0.7; cursor: pointer; background: none; border: none; display: flex; align-items: center; } /* The Raven's Message */
+.top-bar__discord-button svg { fill: #c5b8ca; width: 18px; height: 18px; }
+
+@media (max-width: 860px) {
+  .top-bar__back-button, .top-bar__title { display: inline-flex; }
+  .top-bar__logo { display: none; }
+}
+
+.notifications { position: relative; } /* The Bell Tower */
+.notifications__button { background: transparent; border: none; cursor: pointer; position: relative; padding: 4px; } /* The Chime Cord */
+.notifications__icon { fill: #8c8791; width: 18px; height: 18px; } /* The Iron Bell */
+.notifications__badge { background: #5c5860 !important; color: #dedbe1; position: absolute; top: -2px; right: -2px; border-radius: 10px; font-size: 9px; padding: 1px 5px; line-height: 1.3; } /* The Crimson Ember */
+.notifications__popover { background: #0a090c !important; border: 1px solid #4c4751 !important; position: absolute; right: 0; top: calc(100% + 8px); width: 320px; z-index: 20; border-radius: 4px; display: none; } /* The Unfolding Scroll */
+.notifications__popover.is-open { display: block; }
+.notifications__popover-header { border-bottom: 1px solid #4c4751; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; } /* The Scroll's Crown */
+.notifications__popover-title { color: #c5b8ca; font-size: 12px; letter-spacing: 1px; margin: 0; } /* The Messenger's Heading */
+.notifications__popover-body { max-height: 320px; overflow-y: auto; padding: 4px; } /* The Body of the Unfolding Scroll */
+.notifications__popover-actions { display: flex; gap: 8px; padding: 8px 14px; } /* The Cleansing Rites */
+.notifications__notification-item { border-bottom: 1px solid #1a161e; padding: 12px; cursor: pointer; transition: background 0.2s ease; } /* The Unwelcome Raven */
+.notifications__notification-item:hover { background: #14111a; } /* The Raven, Startled Into Motion */
+.notifications__notification-item-subject { color: #dedbe1; font-weight: bold; font-size: 12px; } /* The Raven's Cry */
+.notifications__notification-item-body { color: #7d7882; font-size: 11px; margin-top: 3px; } /* The Letter of Dark News */
+.notifications__notification-item-timestamp { color: #4c4751; font-size: 9px; margin-top: 4px; display: block; } /* The Hourglass Grain */
+.notifications__archive-button { color: #6e6972; cursor: pointer; background: none; border: none; font-size: 11px; } /* The Burial Vault */
+.notifications__archive-button:hover { color: #c5b8ca; } /* The Burial Vault, Opened */
+
+.notifications__modal-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.85); z-index: 50; display: none; align-items: center; justify-content: center; } /* The Shroud Cast Over the Living */
+.notifications__modal-overlay.is-open { display: flex; }
+.notifications__modal { background: #0a090c !important; border: 1px solid #c5b8ca; z-index: 51; padding: 20px; border-radius: 4px; width: 90%; max-width: 380px; } /* The Tomb of Judgement */
+.notifications__modal-header { color: #dedbe1; font-family: Georgia, serif; margin-bottom: 12px; font-size: 15px; letter-spacing: 1px; } /* The Tomb Inscription */
+.notifications__modal-body { color: #8c8791; margin-bottom: 16px; font-size: 13px; line-height: 1.6; } /* The Final Confession */
+.notifications__modal-footer { display: flex; justify-content: flex-end; gap: 8px; } /* The Sealed Gate */
+.notifications__modal-confirm-button { background: #302a36 !important; color: #dedbe1 !important; padding: 8px 16px; cursor: pointer; transition: background 0.2s ease; border: none; border-radius: 4px; } /* The Final Amen */
+.notifications__modal-confirm-button:hover { background: #4c4751 !important; } /* The Amen, Spoken Louder */
+.notifications__modal-cancel-button { background: #050505 !important; color: #6e6972 !important; padding: 8px 16px; cursor: pointer; transition: all 0.2s ease; border: 1px solid #4c4751; border-radius: 4px; } /* The Reprieve */
+.notifications__modal-cancel-button:hover { background: #14111a !important; color: #918c95 !important; } /* The Reprieve, Extended */
+
+.app-menu { position: relative; } /* The Master's Ring */
+.app-menu__container { background: #0a090c; border: 1px solid #4c4751; position: absolute; top: calc(100% + 8px); right: 0; z-index: 20; min-width: 180px; border-radius: 4px; overflow: hidden; display: none; } /* The Ring of Keys */
+.app-menu__container.is-open { display: block; }
+.app-menu__container-item { color: #8c8791; padding: 10px 14px; cursor: pointer; transition: all 0.2s ease; font-size: 13px; display: block; } /* The Solitary Key */
+.app-menu__container-item:hover { background: #1a161e; color: #c5b8ca; } /* The Solitary Key, Turned */
+.app-menu__container-item--active { background: #14111a; color: #dedbe1; border-left: 2px solid #c5b8ca; } /* The Key Already Turned */
+
+.auth-buttons { display: flex; gap: 8px; } /* The Gates of Initiation */
+.auth-buttons__login { background: #1a161e !important; color: #c5b8ca !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; transition: all 0.2s ease; border-radius: 4px; font-size: 12px; } /* The Entrance Rite */
+.auth-buttons__login:hover { background: #302a36 !important; border-color: #c5b8ca !important; } /* The Entrance Rite, Repeated */
+.auth-buttons__signup { background: #c5b8ca !important; color: #050505 !important; border: 1px solid #c5b8ca !important; font-weight: 600; padding: 8px 16px; cursor: pointer; transition: background 0.2s ease; border-radius: 4px; font-size: 12px; } /* The First Vow, Newly Spoken */
+.auth-buttons__signup:hover { background: #dedbe1 !important; } /* The First Vow, Illuminated */
+
+/* --------------------------------------------------------------------------
+   VI. THE MONUMENT OF THE AUTHOR (USER CARD)
+   -------------------------------------------------------------------------- */
+.user-card { background: #050505 !important; border: 1px solid rgba(197, 184, 202, 0.14) !important; padding: 24px; max-width: 320px; margin: 24px auto; border-radius: 4px; text-align: center; } /* The Mausoleum of the Seraph */
+.user-card__background { background: linear-gradient(180deg, #121014, #050505) !important; height: 70px; margin: -24px -24px 0 -24px; border-radius: 4px 4px 0 0; } /* The Tapestry of Twilight */
+.user-card__avatar-container { padding: 4px; margin-top: -35px; display: inline-block; background: #050505; border-radius: 50%; } /* The Carved Reliquary */
+.user-card__avatar { border: 1px solid rgba(197, 184, 202, 0.2) !important; border-radius: 50%; width: 70px; height: 70px; object-fit: cover; display: block; } /* The Sacred Likeness */
+.user-card__title { font-family: Georgia, serif !important; color: #dedbe1 !important; letter-spacing: 3px; font-size: 15px; margin: 12px 0 4px 0; } /* The Angelic Title */
+.user-card__followers-count { color: #c5b8ca !important; font-size: 12px; margin: 0; } /* The Choir of Angels */
+.user-card__member-since { color: #5c5860 !important; font-size: 10px; letter-spacing: 2px; margin: 4px 0 12px 0; } /* The Date of Awakening */
+.user-card__about-me { color: #7d7882 !important; line-height: 1.8; font-size: 12px; margin: 0 0 14px 0; } /* The Confessions of the Beloved */
+.user-card__follow-controls { position: relative; display: inline-block; } /* The Vow Mechanisms */
+.user-card__follow-button { background: linear-gradient(180deg, #302a36, #14101a) !important; color: #dedbe1 !important; border: 1px solid #c5b8ca !important; padding: 10px 26px; cursor: pointer; transition: all 0.25s ease; border-radius: 30px; box-shadow: 0 0 12px rgba(197, 184, 202, 0.12); } /* The Pledge of Devotion */
+.user-card__follow-button:hover { background: #302a36 !important; border-color: #dedbe1 !important; box-shadow: 0 0 18px rgba(197, 184, 202, 0.3); transform: translateY(-1px); } /* The Pledge, Renewed */
+.user-card__follow-button-text { font-size: 0 !important; } /* The Words of the Vow, Silenced */
+.user-card__follow-button-text::after { content: "☾ join my angels 🪽"; font-family: Georgia, serif; font-size: 11px; letter-spacing: 3px; color: #dedbe1; } /* The Vow, Rewritten */
+.user-card__follow-button:disabled { opacity: 1; cursor: default; background: #0a090c !important; border-color: #4c4751 !important; box-shadow: none; } /* The Pledge, Already Given */
+.user-card__follow-button:disabled .user-card__follow-button-text::after { content: "☾ angel claimed ♡"; color: #978a9e; } /* The Vow, Sealed */
+.user-card__follow-tooltip { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); margin-bottom: 8px; background: #0a090c; color: #c5b8ca; font-family: Georgia, serif; font-size: 10px; letter-spacing: 2px; padding: 8px 14px; border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 20px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; box-shadow: 0 0 14px rgba(0, 0, 0, 0.8); } /* The Whispered Promise */
+.user-card__follow-controls:hover .user-card__follow-tooltip { opacity: 1; } /* The Whispered Promise, Overheard */
+.user-card__options-menu-button { color: #6e6972; cursor: pointer; background: none; border: none; position: absolute; top: 14px; right: 14px; } /* The Hidden Lever */
+.user-card__options-menu-list { background: #0a090c; border: 1px solid #4c4751; position: absolute; right: 0; top: 40px; z-index: 15; min-width: 160px; border-radius: 4px; display: none; text-align: left; } /* The Unseen Scroll */
+.user-card__options-menu-list.is-open { display: block; }
+.user-card__options-menu-item { color: #8c8791; padding: 8px 12px; cursor: pointer; transition: all 0.2s ease; font-size: 12px; } /* The Dark Decree */
+.user-card__options-menu-item:hover { background: #14111a; color: #dedbe1; } /* The Dark Decree, Read Aloud */
+
+/* --------------------------------------------------------------------------
+   VII. THE WINDING PASSAGE (SCROLLBAR STYLING)
+   -------------------------------------------------------------------------- */
+::-webkit-scrollbar { width: 6px; height: 6px; } /* The Narrow Corridor */
+::-webkit-scrollbar-track { background: #050505; } /* The Stone Passage Wall */
+::-webkit-scrollbar-thumb { background: #4c4751; border-radius: 4px; } /* The Iron Rail */
+::-webkit-scrollbar-thumb:hover { background: #c5b8ca; } /* The Rail, Touched by Candlelight */
+* { scrollbar-width: thin; scrollbar-color: #4c4751 #050505; } /* Firefox Passage */
+
+</style>
+</head>
+<body class="page">
+<div class="page__background">
+
+  <!-- TOP BAR -->
+  <header class="top-bar">
+    <button class="top-bar__back-button" aria-label="Back">←</button>
+    <div class="top-bar__logo">
+      <span class="top-bar__logo-name">THE SERAPH'S CRYPT</span>
+      <span class="top-bar__logo-sub-name">beloved angel</span>
+    </div>
+    <span class="top-bar__title">Character List</span>
+
+    <div class="top-bar__search-bar">
+      <input class="top-bar__search-input" type="text" placeholder="Search the crypt…">
+    </div>
+
+    <button class="top-bar__create-char-button">+ Create</button>
+
+    <button class="top-bar__discord-button" aria-label="Discord">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+    </button>
+
+    <div class="notifications">
+      <button class="notifications__button" onclick="document.getElementById('notifPopover').classList.toggle('is-open')" aria-label="Notifications">
+        <svg class="notifications__icon" viewBox="0 0 24 24"><path d="M12 2a6 6 0 00-6 6v3.586l-1.707 1.707A1 1 0 005 15h14a1 1 0 00.707-1.707L18 11.586V8a6 6 0 00-6-6zM9.5 18a2.5 2.5 0 005 0h-5z"/></svg>
+        <span class="notifications__badge">3</span>
+      </button>
+      <div class="notifications__popover" id="notifPopover">
+        <div class="notifications__popover-header">
+          <p class="notifications__popover-title">NOTIFICATIONS</p>
+        </div>
+        <div class="notifications__popover-body">
+          <div class="notifications__notification-item">
+            <span class="notifications__notification-item-subject">New follower</span>
+            <p class="notifications__notification-item-body">A wandering soul now follows Beloved Angel.</p>
+            <span class="notifications__notification-item-timestamp">2 hours ago</span>
+          </div>
+          <div class="notifications__notification-item">
+            <span class="notifications__notification-item-subject">Comment on Liam Court</span>
+            <p class="notifications__notification-item-body">Someone left a whispered review.</p>
+            <span class="notifications__notification-item-timestamp">1 day ago</span>
+          </div>
+        </div>
+        <div class="notifications__popover-actions">
+          <button class="notifications__archive-button" onclick="document.getElementById('confirmModal').classList.add('is-open')">Clear all</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="app-menu">
+      <button class="notifications__button" onclick="document.getElementById('appMenu').classList.toggle('is-open')" aria-label="Menu">☰</button>
+      <div class="app-menu__container" id="appMenu">
+        <a class="app-menu__container-item app-menu__container-item--active" href="#">Characters</a>
+        <a class="app-menu__container-item" href="#">Chats</a>
+        <a class="app-menu__container-item" href="#">Settings</a>
+      </div>
+    </div>
+
+    <div class="auth-buttons">
+      <button class="auth-buttons__login">Log In</button>
+      <button class="auth-buttons__signup">Sign Up</button>
+    </div>
+  </header>
+
+  <!-- CONFIRM MODAL -->
+  <div class="notifications__modal-overlay" id="confirmModal">
+    <div class="notifications__modal">
+      <p class="notifications__modal-header">Clear all notifications?</p>
+      <p class="notifications__modal-body">This will archive every notification in your bell tower. This cannot be undone.</p>
+      <div class="notifications__modal-footer">
+        <button class="notifications__modal-cancel-button" onclick="document.getElementById('confirmModal').classList.remove('is-open')">Cancel</button>
+        <button class="notifications__modal-confirm-button" onclick="document.getElementById('confirmModal').classList.remove('is-open')">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- USER CARD -->
+  <div class="user-card">
+    <button class="user-card__options-menu-button" onclick="document.getElementById('userOptions').classList.toggle('is-open')">⋮</button>
+    <div class="user-card__background"></div>
+    <div class="user-card__avatar-container">
+      <img class="user-card__avatar" src="images/beloved-angel.jpeg" alt="Beloved Angel">
+    </div>
+    <p class="user-card__title">BELOVED ANGEL</p>
+    <p class="user-card__followers-count">1.2k followers</p>
+    <p class="user-card__member-since">MEMBER SINCE 2024</p>
+    <p class="user-card__about-me">Keeper of dark romance, architect of macabre lore, weaver of visceral truths.</p>
+    <div class="user-card__follow-controls">
+      <button class="user-card__follow-button" onclick="this.disabled = true">
+        <span class="user-card__follow-button-text">FOLLOW</span>
+      </button>
+      <span class="user-card__follow-tooltip">welcome to the crypt, angel ♡</span>
+    </div>
+    <div class="user-card__options-menu-list" id="userOptions">
+      <div class="user-card__options-menu-item">Share profile</div>
+      <div class="user-card__options-menu-item">Report</div>
+      <div class="user-card__options-menu-item">Block</div>
+    </div>
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <div class="tabs__container">
+      <div class="tabs__wrapper">
+        <button class="tabs__button tabs__button--active">Current Release</button>
+        <span class="tabs__indicator" style="width: 130px; left: 0;"></span>
+      </div>
+      <div class="tabs__wrapper">
+        <button class="tabs__button">Future Releases</button>
+      </div>
+      <div class="tabs__wrapper">
+        <button class="tabs__button">About</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <div class="filters__sorting">
+      <div class="filters__sorting-control">
+        <div class="filters__sorting-value-container">
+          <span class="filters__sorting-single-value">Most Recent</span>
+        </div>
+        <div class="filters__sorting-indicator-container">
+          <span class="filters__sorting-indicator-separator"></span>
+          <span class="filters__sorting-indicator">▾</span>
+        </div>
+      </div>
+      <div class="filters__sorting-menu" style="display:none;">
+        <div class="filters__sorting-menu-list">
+          <div class="filters__sorting-menu-option filters__sorting-menu-option--selected">Most Recent</div>
+          <div class="filters__sorting-menu-option">Most Chats</div>
+          <div class="filters__sorting-menu-option">A–Z</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="filters__button" onclick="document.getElementById('filterPopup').classList.add('is-open')">
+      <svg class="filters__button-icon" viewBox="0 0 24 24"><path d="M3 5h18M6 12h12M10 19h4"/></svg>
+      Filters
+    </button>
+  </div>
+
+  <!-- FILTER POPUP -->
+  <div class="filters__popup-overlay" id="filterPopup" style="display:none;">
+    <div class="filters__popup">
+      <div class="filters__popup-header">
+        <h3>FILTERS</h3>
+        <button class="filters__popup-close-button" onclick="document.getElementById('filterPopup').style.display='none'">×</button>
+      </div>
+      <div class="filters__popup-body">
+        <div class="filters__privacy">
+          <span class="filters__privacy-heading">PRIVACY</span>
+          <div class="filters__privacy-radio-group">
+            <label class="filters__privacy-option"><input type="radio" name="privacy" checked> Public</label>
+            <label class="filters__privacy-option"><input type="radio" name="privacy"> Private</label>
+          </div>
+        </div>
+        <div class="filters__tags">
+          <span class="filters__tags-heading">TAGS</span>
+          <div class="tag-list">
+            <div class="tag-list__container">
+              <div class="tag-list__scroll-wrapper">
+                <button class="tag-list__scroll-left">‹</button>
+                <div class="tag-list__scroll-area">
+                  <div class="tag"><button class="tag__button tag__selected">dark romance</button></div>
+                  <div class="tag"><button class="tag__button">fempov</button></div>
+                  <div class="tag"><button class="tag__button">canon au</button></div>
+                  <div class="tag"><button class="tag__button">angst</button></div>
+                  <div class="tag"><button class="tag__button">slow burn</button></div>
+                  <div class="custom-tag"><button class="custom-tag__button">+ custom</button></div>
+                </div>
+                <button class="tag-list__scroll-right">›</button>
+              </div>
+              <div class="tag-list__divider"></div>
+              <button class="tag-list__expand-button">Show more tags</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHARACTER CARD LIST -->
+  <div class="character-card__list-container">
+
+    <!-- Liam Court — current release -->
+    <a class="character-card__wrapper" href="#">
+      <div class="character-card">
+        <div class="character-card__header">
+          <span class="character-card__name">LIAM COURT</span>
+        </div>
+        <div class="character-card__image-wrapper">
+          <img class="character-card__thumbnail" src="images/liam-court.jpeg" alt="Liam Court">
+          <div class="character-card__image-overlay"></div>
+          <div class="character-card__stats-badge-container">
+            <span class="character-card__stats-badge">✦ 4.9</span>
+          </div>
+          <div class="character-card__ribbon-wrap">
+            <span class="character-card__ribbon">current release</span>
+          </div>
+        </div>
+        <div class="character-card__content">
+          <span class="character-card__creator-name">by Beloved Angel</span>
+          <p class="character-card__description">An established childhood-sweethearts AU built on loyalty and recovery — the life he deserved, pulled from the wreckage of what the show took from him.</p>
+          <div class="character-card__star-line">
+            <span class="character-card__star">✦</span>
+            <span>90210 · Seasons 4–5 AU</span>
+          </div>
+          <div class="character-card__tags-wrap">
+            <div class="character-card__tags">
+              <span class="character-card__tags-item">established relationship</span>
+              <span class="character-card__tags-item">hurt / comfort</span>
+              <span class="character-card__tags-item">fempov</span>
+            </div>
+          </div>
+          <div class="character-card__chats">
+            💬 <span class="character-card__chats-count">2.1k</span> chats
+            <span class="character-card__tokens-count">· 3.2k tokens</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Dean Winchester — future release preview -->
+    <a class="character-card__wrapper" href="#">
+      <div class="character-card">
+        <div class="character-card__header">
+          <span class="character-card__name">DEAN WINCHESTER</span>
+        </div>
+        <div class="character-card__image-wrapper">
+          <div class="character-card__image-overlay"></div>
+        </div>
+        <div class="character-card__content">
+          <span class="character-card__creator-name">by Beloved Angel</span>
+          <p class="character-card__description">Hunter romance. The Impala, danger, sacrifice, and a protective devotion that never learned to rest.</p>
+          <div class="character-card__star-line">
+            <span class="character-card__star">✦</span>
+            <span>Supernatural</span>
+          </div>
+          <div class="character-card__tags-wrap">
+            <div class="character-card__tags">
+              <span class="character-card__tags-item">danger</span>
+              <span class="character-card__tags-item">sacrifice</span>
+            </div>
+          </div>
+          <div class="character-card__chats">
+            💬 <span class="character-card__chats-count">—</span> chats
+            <span class="character-card__tokens-count">· coming soon</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Xaden Riorson — future release preview -->
+    <a class="character-card__wrapper" href="#">
+      <div class="character-card">
+        <div class="character-card__header">
+          <span class="character-card__name">XADEN RIORSON</span>
+        </div>
+        <div class="character-card__image-wrapper">
+          <div class="character-card__image-overlay"></div>
+        </div>
+        <div class="character-card__content">
+          <span class="character-card__creator-name">by Beloved Angel</span>
+          <p class="character-card__description">Rebellion, shadows, secrets. A morally grey fantasy romance of divided loyalties.</p>
+          <div class="character-card__star-line">
+            <span class="character-card__star">✦</span>
+            <span>Fourth Wing</span>
+          </div>
+          <div class="character-card__tags-wrap">
+            <div class="character-card__tags">
+              <span class="character-card__tags-item">morally grey</span>
+              <span class="character-card__tags-item">fantasy romance</span>
+            </div>
+          </div>
+          <div class="character-card__chats">
+            💬 <span class="character-card__chats-count">—</span> chats
+            <span class="character-card__tokens-count">· coming soon</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Aaron Warner — future release preview -->
+    <a class="character-card__wrapper" href="#">
+      <div class="character-card">
+        <div class="character-card__header">
+          <span class="character-card__name">AARON WARNER</span>
+        </div>
+        <div class="character-card__image-wrapper">
+          <div class="character-card__image-overlay"></div>
+        </div>
+        <div class="character-card__content">
+          <span class="character-card__creator-name">by Beloved Angel</span>
+          <p class="character-card__description">Dystopian commander. Emotional isolation gives way to a worshipful, unwavering devotion.</p>
+          <div class="character-card__star-line">
+            <span class="character-card__star">✦</span>
+            <span>Shatter Me</span>
+          </div>
+          <div class="character-card__tags-wrap">
+            <div class="character-card__tags">
+              <span class="character-card__tags-item">dystopian</span>
+              <span class="character-card__tags-item">devotion</span>
+            </div>
+          </div>
+          <div class="character-card__chats">
+            💬 <span class="character-card__chats-count">—</span> chats
+            <span class="character-card__tokens-count">· coming soon</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- PAGINATION -->
+  <div class="pagination">
+    <span class="pagination__total">
+      <span class="pagination__total-count">4</span>
+      <span class="pagination__total-text">characters</span>
+    </span>
+    <button class="pagination__previous-button" disabled>‹ Prev</button>
+    <button class="pagination__page-button pagination__page-button--active">1</button>
+    <button class="pagination__page-button">2</button>
+    <button class="pagination__page-button">3</button>
+    <span class="pagination__dots">…</span>
+    <button class="pagination__page-button">8</button>
+    <button class="pagination__next-button">Next ›</button>
+  </div>
+
+  <!-- MOBILE NAVBAR -->
+  <nav class="navbar-mobile">
+    <div class="navbar-mobile__container">
+      <button class="navbar-mobile__item navbar-mobile__item--active">
+        <svg class="navbar-mobile__item-icon" viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-4v-6H10v6H6v-9H3z"/></svg>
+        Home
+      </button>
+      <button class="navbar-mobile__item">
+        <svg class="navbar-mobile__item-icon" viewBox="0 0 24 24"><path d="M12 2a6 6 0 016 6v3l2 3H4l2-3V8a6 6 0 016-6z"/></svg>
+        Chats
+      </button>
+      <button class="navbar-mobile__item" onclick="document.getElementById('mobileUserMenu').classList.toggle('is-open')">
+        <svg class="navbar-mobile__item-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20a8 8 0 0116 0z"/></svg>
+        Profile
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE USER MENU -->
+  <div class="navbar-mobile__user-menu" id="mobileUserMenu" style="display:none;">
+    <div class="navbar-mobile__user-menu-item navbar-mobile__user-menu-item--active">My Profile</div>
+    <div class="navbar-mobile__user-menu-item">Settings</div>
+    <div class="navbar-mobile__user-menu-item">Log Out</div>
+  </div>
+
+</div>
+
+<script>
+  // Minimal interactivity so the demo states are visible/testable
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.notifications')) {
+      document.getElementById('notifPopover').classList.remove('is-open');
+    }
+    if (!e.target.closest('.app-menu')) {
+      document.getElementById('appMenu').classList.remove('is-open');
+    }
+    if (!e.target.closest('.user-card__options-menu-button') && !e.target.closest('.user-card__options-menu-list')) {
+      document.getElementById('userOptions').classList.remove('is-open');
+    }
+  });
+</script>
+
+</body>
+</html>

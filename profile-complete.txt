@@ -2776,7 +2776,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-TWISTED LIES • DARK ROMANCE
+ANA HUANG · TWISTED SERIES • TWISTED LIES AU
 </p>
 
 <p style="
@@ -2806,7 +2806,8 @@ line-height: 1.85;
 ">
 A man whose restraint is calculated and whose devotion becomes surveillance.
 Secrets beneath polished control, dangerous competence, moral compromise,
-and an obsession he refuses to name as love until it is far too late.
+and an obsession he refuses to name as love until it is far too late —
+and the woman beneath his watch is not Stella. It is {{user}}.
 </p>
 
 <br>
@@ -2909,8 +2910,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED LOVE</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • emotional restraint • ruthless devotion</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · TWISTED SERIES • TWISTED LOVE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • emotional restraint • ruthless devotion</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the woman he ruins the world for is not Ava. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -2941,8 +2943,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED GAMES</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">bodyguard romance • royal duty • forbidden love</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · TWISTED SERIES • TWISTED GAMES AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">bodyguard romance • royal duty • forbidden love</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the one he is sworn to guard is not Bridget. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -2973,8 +2976,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF WRATH</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">arranged marriage • high society • controlled intensity</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · KINGS OF SIN • KING OF WRATH AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">arranged marriage • high society • controlled intensity</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the bride bound to him by contract is not Vivian. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -3005,8 +3009,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF PRIDE</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">ambition • restraint • slow-burn longing</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · KINGS OF SIN • KING OF PRIDE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">ambition • restraint • slow-burn longing</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the woman who undoes his composure is not Isabella. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -3093,7 +3098,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-THE HAUNTING OF ADELINE • CAT AND MOUSE DUET
+THE HAUNTING OF ADELINE • CAT AND MOUSE DUET AU
 </p>
 
 <p style="
@@ -3123,7 +3128,8 @@ line-height: 1.85;
 ">
 An uncompromisingly dark dynamic built around pursuit, obsession, power,
 and psychological intensity. A dangerous man whose devotion is inseparable
-from control and whose morality bends beneath the weight of fixation.
+from control and whose morality bends beneath the weight of fixation —
+only this time it is not Adeline he has been watching. It is {{user}}.
 </p>
 
 <br>

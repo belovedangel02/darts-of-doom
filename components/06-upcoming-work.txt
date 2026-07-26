@@ -1588,9 +1588,11 @@ font-size: 11px;
 font-style: italic;
 line-height: 1.7;
 ">
-Perun and Veles are brothers. they quarrelled, and the world froze. when they made peace at last,
-the earth bore a son to each of them &mdash; the green one and the one raised below.
-Zeleni Juraj and Ivan are that pair.
+Svarog fell through the clouds and split in two. where his light landed, Belbog;
+where his shadow fell, Chrnbog &mdash; two clashing brothers who came from the one,
+known to people afterwards as Perun and Veles. they quarrelled, and the world froze.
+when they made peace at last a tree grew from their joined hands, and the earth bore
+a son to each of them &mdash; the green one and the one raised below.
 </p>
 
 <div style="
@@ -1912,7 +1914,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; GOD OF THUNDER &middot; VELES&rsquo;S BROTHER</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; BELBOG &middot; GOD OF THUNDER &middot; VELES&rsquo;S BROTHER</p>
 <p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">thunder &bull; oak &bull; order &bull; an oath that does not bend</p>
 <p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>gods do not swear to mortals. he swore to {{user}}.</em></p>
 </td>
@@ -2178,7 +2180,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; CRNOBOG &middot; LORD OF NAV AND ALL WATER</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; CHRNBOG &middot; LORD OF NAV AND ALL WATER</p>
 <p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">horned &bull; serpent, bear, wolf &bull; shapeshifter &bull; chaos, change, imbalance</p>
 <p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he gives his wisdom freely to anyone who calls him in hardship. the one thing he will not give back is {{user}}.</em></p>
 </td>

@@ -288,6 +288,86 @@ button { font-family: inherit; }
 ::-webkit-scrollbar-thumb { background: #4c4751; border-radius: 4px; } /* The Iron Rail */
 ::-webkit-scrollbar-thumb:hover { background: #c5b8ca; } /* The Rail, Touched by Candlelight */
 * { scrollbar-width: thin; scrollbar-color: #4c4751 #050505; } /* Firefox Passage */
+
+/* --------------------------------------------------------------------------
+   VIII. THE STARLESS SKY (TOTAL BLACK BACKGROUND)
+   Every layer of the page painted out, so no grey of the old world shows.
+   -------------------------------------------------------------------------- */
+html, body, #root, #__next, main,
+[class*="App"], [class*="app"],
+[class*="Layout"], [class*="layout"],
+[class*="Page"], [class*="page"],
+[class*="Container"], [class*="container"],
+[class*="Wrapper"], [class*="wrapper"],
+[class*="Background"], [class*="background"],
+[class*="Profile"], [class*="profile"],
+[class*="Content"], [class*="content"] {
+  background-color: #000000 !important;
+  background-image: none !important;
+} /* The Void, Absolute */
+
+body { color: #dedbe1 !important; } /* The Ink of the Living */
+
+/* --------------------------------------------------------------------------
+   IX. THE SEALED WAX FRAME (CRIMSON REliQUARY BORDERS)
+   The same dried-blood frame the portraits wear, laid upon the site itself.
+   -------------------------------------------------------------------------- */
+.character-card,
+.user-card,
+[class*="CharacterCard"],
+[class*="characterCard"],
+[class*="UserCard"],
+[class*="userCard"] {
+  background-color: #050505 !important;
+  border: 1px solid rgba(112, 14, 26, 0.55) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 0 0 1px rgba(24, 3, 7, 0.9), 0 0 18px rgba(0, 0, 0, 0.85) !important;
+  overflow: hidden !important;
+} /* The Reliquary, Sealed in Wax */
+
+.character-card:hover,
+[class*="CharacterCard"]:hover,
+[class*="characterCard"]:hover {
+  border-color: rgba(150, 30, 45, 0.85) !important;
+  box-shadow: 0 0 0 1px rgba(44, 6, 12, 0.95), 0 0 24px rgba(112, 14, 26, 0.25) !important;
+} /* The Wax, Warmed by a Passing Torch */
+
+/* Portraits within the crypt wear the frame too */
+.character-card__thumbnail,
+.character-card__avatar,
+.user-card__avatar,
+[class*="CharacterCard"] img,
+[class*="characterCard"] img {
+  border-radius: 12px !important;
+} /* The Vision, Rounded in its Setting */
+
+.user-card__avatar {
+  border: 2px solid rgba(112, 14, 26, 0.75) !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 14px rgba(112, 14, 26, 0.35) !important;
+} /* The Sacred Likeness, Ringed in Blood */
+
+/* Header bars and ribbons in the oxblood key */
+.character-card__header {
+  background: #120c15 !important;
+  border-bottom: 1px solid rgba(112, 14, 26, 0.45) !important;
+} /* The Lintel, Stained */
+.character-card__ribbon {
+  background: #700e1a !important;
+  color: #dedbe1 !important;
+} /* The Banner, Truly Crimson */
+
+/* --------------------------------------------------------------------------
+   X. THE TALLY NAILED TO THE DOOR (BADGE ROW)
+   Site-granted badges, set on little sealed discs.
+   -------------------------------------------------------------------------- */
+[class*="badge"] img,
+[class*="Badge"] img {
+  border-radius: 50% !important;
+  background-color: #120c15 !important;
+  border: 1px solid rgba(112, 14, 26, 0.5) !important;
+  padding: 3px !important;
+} /* The Sealed Wax Stamp, Earned */
 </style>
 
 <div style="

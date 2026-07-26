@@ -699,6 +699,7 @@ text-align: center;
 line-height: 2;
 ">
 <span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🪽</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🦌</span>
 <span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🕯️</span>
 <span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🥀</span>
 <span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">⚰️</span>
@@ -976,7 +977,7 @@ border-radius: 40px;
 text-align: left;
 ">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">RULES</span>
-<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🦌</span>
 </summary>
 
 
@@ -1231,7 +1232,7 @@ border-radius: 40px;
 text-align: left;
 ">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">THE WORLDS</span>
-<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🦌</span>
 </summary>
 
 <br>
@@ -1769,7 +1770,7 @@ border-radius: 40px;
 text-align: left;
 ">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">STATUS</span>
-<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🦌</span>
 </summary>
 
 
@@ -4389,7 +4390,7 @@ border-radius: 40px;
 text-align: left;
 ">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">WHAT TO EXPECT</span>
-<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🦌</span>
 </summary>
 
 
@@ -4483,7 +4484,7 @@ border-radius: 40px;
 text-align: left;
 ">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 2px;">REQUESTS FOR NEW INCARNATIONS</span>
-<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🦌</span>
 </summary>
 
 
@@ -4584,7 +4585,7 @@ border-radius: 40px;
 text-align: left;
 ">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">FRIENDS</span>
-<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🦌</span>
 </summary>
 
 

@@ -29,7 +29,7 @@ border-radius: 40px;
 text-align: left;
 ">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">WHAT TO EXPECT</span>
-<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🦌</span>
 </summary>
 
 

@@ -1074,7 +1074,7 @@ devotion that shelters — men who stand between her and the dark
 </a>
 <a href="#zeleni-juraj" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZELENI JURAJ</span>
-<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">spring rite</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">perun’s son</span>
 </a>
 
 </div>
@@ -1144,9 +1144,9 @@ loyalty at war with duty — devotion that must choose, and lose something eithe
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">HYACINTHE</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the stolen heir</span>
 </a>
-<a href="#jarilo" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">JARILO</span>
-<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">slavic pantheon</span>
+<a href="#ivan" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">IVAN</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">veles’s son</span>
 </a>
 <a href="#zmaj-ognjeni-vuk" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZMAJ OGNJENI VUK</span>
@@ -3177,6 +3177,85 @@ line-height: 1.7;
 for the museum in Zagreb that gave them back their names.
 </p>
 
+<p style="
+margin: 0 0 14px 0;
+color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 11px;
+font-style: italic;
+line-height: 1.7;
+">
+two brothers quarrelled, and the world froze. when they made peace at last,
+the earth bore a son to each of them &mdash; the green one and the one raised below.
+Zeleni Juraj and Ivan are that pair.
+</p>
+
+<div id="zeleni-juraj"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">ZELENI JURAJ</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC SPRING RITE &middot; JURJEVO &middot; PERUN&rsquo;S RETURNING SON</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">crowned in leaves &bull; green and living &bull; rebirth &bull; a season long</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he crosses the water every spring for one reason, and her name is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="ivan"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">IVAN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC MIDSUMMER RITE &middot; IVANJE &middot; VELES&rsquo;S SON</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">stolen at birth &bull; raised in the underworld &bull; fire and water &bull; never told whose he is</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he was raised by his father&rsquo;s enemy and loved him anyway. the one thing he chooses for himself is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
 
 <div id="perun"></div>
 <table style="
@@ -3277,71 +3356,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br>
 
-<div id="zeleni-juraj"></div>
-<table style="
-width: 100%;
-max-width: 720px;
-margin: 0 auto;
-border-collapse: collapse;
-background-color: rgb(5, 5, 5);
-border: 1px solid rgba(197, 184, 202, 0.18);
-">
-<tbody>
-<tr>
-<td style="
-padding: 12px 16px;
-text-align: left;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(197, 184, 202, 0.14);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">ZELENI JURAJ</span>
-<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
-</td>
-</tr>
-<tr>
-<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC SPRING RITE &middot; GREEN GEORGE</p>
-<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">crowned in leaves &bull; rebirth &bull; a season long &bull; he cannot stay</p>
-<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he returns every spring for one reason, and her name is {{user}}.</em></p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<br>
-
-<div id="jarilo"></div>
-<table style="
-width: 100%;
-max-width: 720px;
-margin: 0 auto;
-border-collapse: collapse;
-background-color: rgb(5, 5, 5);
-border: 1px solid rgba(197, 184, 202, 0.18);
-">
-<tbody>
-<tr>
-<td style="
-padding: 12px 16px;
-text-align: left;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(197, 184, 202, 0.14);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">JARILO</span>
-<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
-</td>
-</tr>
-<tr>
-<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; THE STOLEN SON</p>
-<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">taken as an infant &bull; raised by his father&rsquo;s enemy &bull; spring and slaughter</p>
-<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not know whose son he is. he knows only that {{user}} is what he comes back for.</em></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<br>
 
 <div id="zmaj-ognjeni-vuk"></div>
 <table style="

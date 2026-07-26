@@ -1566,7 +1566,7 @@ devotion inseparable from control — love that does not ask permission
 </a>
 <a href="#zade-meadows" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZADE MEADOWS</span>
-<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">cat and mouse duet</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">the haunting of adeline</span>
 </a>
 <a href="#aaron-warner" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">AARON WARNER</span>
@@ -3093,7 +3093,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-CAT AND MOUSE DUET • DARK ROMANCE
+THE HAUNTING OF ADELINE • CAT AND MOUSE DUET
 </p>
 
 <p style="

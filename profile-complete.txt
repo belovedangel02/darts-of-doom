@@ -774,6 +774,16 @@ background-color: rgb(5, 5, 5);
 </div>
 
 <p style="
+margin: 10px 0 0 0;
+color: rgb(125, 120, 130);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 11px;
+line-height: 1.6;
+">
+<em>↑ some browsers hush us. press play, and the crypt sings.</em>
+</p>
+
+<p style="
 margin: 14px 0 0 0;
 color: rgb(151, 138, 158);
 font-family: Georgia, 'Times New Roman', serif;

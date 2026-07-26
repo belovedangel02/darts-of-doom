@@ -2502,7 +2502,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-THE HAUNTING OF ADELINE • CAT AND MOUSE DUET
+THE HAUNTING OF ADELINE • CAT AND MOUSE DUET AU
 </p>
 
 <p style="
@@ -2532,7 +2532,8 @@ line-height: 1.85;
 ">
 An uncompromisingly dark dynamic built around pursuit, obsession, power,
 and psychological intensity. A dangerous man whose devotion is inseparable
-from control and whose morality bends beneath the weight of fixation.
+from control and whose morality bends beneath the weight of fixation —
+only this time it is not Adeline he has been watching. It is {{user}}.
 </p>
 
 <br>

@@ -233,7 +233,7 @@ border-bottom: 1px solid rgba(112, 14, 26, 0.35);
 <div style="padding: 16px 18px;">
 <p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN &amp; SLAVIC FOLKLORE</p>
 <p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">old gods &middot; vile and vukodlaks &middot; oaths sworn under oak</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">mountain mist, wax and wheat, a name you must not say aloud after dark.</p>
+<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">the healing waters of Viraj, mountains that are sleeping giants, a name you must not say aloud after dark.</p>
 </div>
 </div>
 </a>

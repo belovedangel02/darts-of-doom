@@ -424,3 +424,144 @@ body { color: #dedbe1 !important; } /* The Ink of the Living */
   [class*="AlbumArt"],
   .crypt-disc { animation: none !important; }
 } /* The Record, Stilled */
+
+/* --------------------------------------------------------------------------
+   XII. THE WAKING OF THE PORTRAIT (GREYSCALE UNTIL TOUCHED)
+   The vessels sleep in black and white; touch one and it draws breath —
+   colour floods back, the name and tale sharpen out of the dark.
+   -------------------------------------------------------------------------- */
+.character-card__thumbnail,
+.character-card__avatar,
+[class*="CharacterCard"] img,
+[class*="characterCard"] img {
+  filter: grayscale(100%) contrast(108%) brightness(0.92) !important;
+  transition: filter 0.55s ease, transform 0.55s ease !important;
+} /* The Vessel, Sleeping */
+
+.character-card__wrapper:hover .character-card__thumbnail,
+.character-card__wrapper:hover .character-card__avatar,
+.character-card__wrapper:active .character-card__thumbnail,
+.character-card__wrapper:focus-within .character-card__thumbnail,
+[class*="CharacterCard"]:hover img,
+[class*="characterCard"]:hover img,
+[class*="CharacterCard"]:active img,
+[class*="characterCard"]:active img,
+[class*="CharacterCard"]:focus-within img,
+[class*="characterCard"]:focus-within img {
+  filter: grayscale(0%) contrast(105%) brightness(1) !important;
+  transform: scale(1.03) !important;
+} /* The Vessel, Waking — Colour Floods Back */
+
+/* The epitaph waits half-lit, then sharpens */
+.character-card__name,
+[class*="CharacterCard"] [class*="name"],
+[class*="characterCard"] [class*="name"] {
+  opacity: 0.35 !important;
+  transition: opacity 0.5s ease, letter-spacing 0.5s ease, color 0.5s ease !important;
+} /* The Epitaph, Half-Read */
+
+.character-card__wrapper:hover .character-card__name,
+.character-card__wrapper:active .character-card__name,
+.character-card__wrapper:focus-within .character-card__name,
+[class*="CharacterCard"]:hover [class*="name"],
+[class*="characterCard"]:hover [class*="name"],
+[class*="CharacterCard"]:active [class*="name"],
+[class*="characterCard"]:active [class*="name"] {
+  opacity: 1 !important;
+  color: #dedbe1 !important;
+  letter-spacing: 2px !important;
+  text-shadow: 0 0 10px rgba(112, 14, 26, 0.5) !important;
+} /* The Epitaph, Read Aloud */
+
+/* The tale beneath clears with it */
+.character-card__description,
+[class*="CharacterCard"] [class*="escription"],
+[class*="characterCard"] [class*="escription"] {
+  color: #6e6972 !important;
+  transition: color 0.5s ease !important;
+} /* The Tale, Whispered */
+
+.character-card__wrapper:hover .character-card__description,
+.character-card__wrapper:active .character-card__description,
+.character-card__wrapper:focus-within .character-card__description,
+[class*="CharacterCard"]:hover [class*="escription"],
+[class*="characterCard"]:hover [class*="escription"] {
+  color: #b8b0bd !important;
+} /* The Tale, Spoken Plainly */
+
+/* --------------------------------------------------------------------------
+   XIII. THE GLASS AND THE STONE MARKERS (LIVE SEARCH & PAGINATION)
+   Janitor's own search, sort and page-turners, dressed for the crypt.
+   -------------------------------------------------------------------------- */
+input[type="text"],
+input[type="search"],
+input[placeholder*="earch"],
+[class*="earchInput"],
+[class*="earch-input"],
+[class*="earchBar"] input {
+  background-color: #050505 !important;
+  color: #dedbe1 !important;
+  border: 1px solid rgba(112, 14, 26, 0.5) !important;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  letter-spacing: 1px !important;
+} /* The Glass of Revelation */
+
+input[placeholder*="earch"]::placeholder,
+[class*="earchInput"]::placeholder {
+  color: #5c5860 !important;
+  font-style: italic !important;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus,
+[class*="earchInput"]:focus {
+  outline: none !important;
+  border-color: #c5b8ca !important;
+  box-shadow: 0 0 12px rgba(197, 184, 202, 0.25) !important;
+} /* The Glass, Peered Into */
+
+/* The sorting lever and the sifting key */
+select,
+[class*="ort"] [class*="control"],
+[class*="ilter"] button,
+[class*="ropdown"] {
+  background-color: #050505 !important;
+  color: #c5b8ca !important;
+  border: 1px solid rgba(112, 14, 26, 0.5) !important;
+  border-radius: 30px !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  letter-spacing: 1px !important;
+} /* The Lever of Destiny */
+
+/* The stone markers that carry you through the vault */
+[class*="agination"] button,
+[class*="ageButton"],
+[class*="age-button"],
+[class*="agination"] a {
+  background-color: #0a090c !important;
+  color: #8c8791 !important;
+  border: 1px solid rgba(112, 14, 26, 0.45) !important;
+  border-radius: 50% !important;
+  min-width: 34px !important;
+  height: 34px !important;
+  transition: all 0.25s ease !important;
+} /* The Stone Marker */
+
+[class*="agination"] button:hover,
+[class*="ageButton"]:hover,
+[class*="agination"] a:hover {
+  background-color: #1a161e !important;
+  color: #dedbe1 !important;
+  border-color: rgba(150, 30, 45, 0.8) !important;
+} /* The Marker, Warmed by a Passing Torch */
+
+[class*="agination"] [class*="ctive"],
+[class*="ageButton"][class*="ctive"],
+[aria-current="page"] {
+  background-color: #302a36 !important;
+  color: #dedbe1 !important;
+  border-color: #c5b8ca !important;
+  box-shadow: 0 0 12px rgba(112, 14, 26, 0.4) !important;
+} /* The Illuminated Marker */

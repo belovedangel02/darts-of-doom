@@ -62,6 +62,7 @@ mind the warnings.
 
 ## [Short panels — the rest of the vault]
 
+BODHI DURRAN — marked one · steady devotion · protective loyalty · xaden’s cousin · the rider he steadies is {{user}}
 XADEN RIORSON — enemies to lovers · rebellion · shadows · divided loyalties · the rider is {{user}}
 DAIN AETOS — best friend, lover x enemy · duty over devotion · possessive protection · the mind is {{user}}’s
 SAM WINCHESTER — demon blood · power · temptation · moral conflict

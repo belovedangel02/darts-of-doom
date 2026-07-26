@@ -3082,6 +3082,45 @@ the earth bore a son to each of them &mdash; the green one and the one raised be
 Zeleni Juraj and Ivan are that pair.
 </p>
 
+<div style="
+max-width: 620px;
+margin: 0 auto 22px auto;
+padding: 18px 20px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(112, 14, 26, 0.4);
+border-radius: 16px;
+">
+<p style="
+margin: 0 0 4px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+">
+OF FAIRY HAIR
+</p>
+<p style="
+margin: 0 0 10px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 2px;
+">
+O VILINSKOJ KOSI
+</p>
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 12px;
+line-height: 1.8;
+">
+a single hair falling from a fairy&rsquo;s head does not die. it takes root
+where it lands and grows as dodder, threading through the grass, and at
+the end of April it blossoms in tiny white flowers. they are still there,
+in old meadows and pastures where the vile have not yet gone.
+</p>
+</div>
+
 <div id="zeleni-juraj"></div>
 <table style="
 width: 100%;

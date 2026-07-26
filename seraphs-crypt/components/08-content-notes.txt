@@ -57,4 +57,6 @@ each bot will have its own accurate warnings and relationship dynamic.
 
 <br><br><br>
 
+<div id="incarnations"></div>
+
 </div>

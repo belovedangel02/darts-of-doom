@@ -62,8 +62,8 @@ mind the warnings.
 
 ## [Short panels — the rest of the vault]
 
-XADEN RIORSON — enemies to lovers · rebellion · shadows · divided loyalties · not Violet, {{user}}
-DAIN AETOS — best friend, lover x enemy · duty over devotion · possessive protection · not Violet, {{user}}
+XADEN RIORSON — enemies to lovers · rebellion · shadows · divided loyalties · the rider is {{user}}
+DAIN AETOS — best friend, lover x enemy · duty over devotion · possessive protection · the mind is {{user}}’s
 SAM WINCHESTER — demon blood · power · temptation · moral conflict
 YOUNG JOHN WINCHESTER — 1970s · hunter origins · grief · motorcycles
 LUKE CASTELLAN — villain-win or redemption · rebellion · betrayal

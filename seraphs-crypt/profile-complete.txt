@@ -2185,7 +2185,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
 <p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING CANON REWRITE</p>
 <p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">best friend / lover x enemy • duty versus devotion • possessive protection</p>
-<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not begin as the enemy. he becomes one — and the mind he was never meant to touch is not Violet’s. it is {{user}}’s.</em></p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not begin as the enemy. he becomes one — and the mind he was never meant to touch is {{user}}’s.</em></p>
 </td>
 </tr>
 </tbody>
@@ -2218,7 +2218,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
 <p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING AU</p>
 <p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">enemies to lovers • rebellion • shadows • secrets • divided loyalties</p>
-<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the rider he was raised to hate, and cannot stop shielding, is not Violet. she is {{user}}.</em></p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the rider he was raised to hate, and cannot stop shielding, is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>

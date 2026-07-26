@@ -861,6 +861,10 @@ devotion that shelters — men who stand between her and the dark
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">LIAM MAIRI</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">fourth wing</span>
 </a>
+<a href="#bodhi-durran" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">BODHI DURRAN</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">fourth wing</span>
+</a>
 <a href="#dean-winchester" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">DEAN WINCHESTER</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">supernatural</span>
@@ -1632,6 +1636,39 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 </tbody>
 </table>
+
+<div id="bodhi-durran"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">BODHI DURRAN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">marked one • steady devotion • protective loyalty • warmth beneath the war</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>xaden’s cousin, and the nearer thing to a brother — same rebellion relic, none of the coldness. the rider he steadies is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
 
 <br><br><br>
 

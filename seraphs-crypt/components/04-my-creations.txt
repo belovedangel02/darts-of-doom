@@ -1,0 +1,210 @@
+<div style="
+width: 100%;
+max-width: 100%;
+margin: 0;
+padding: 30px 16px;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+color: rgb(170, 166, 174);
+font-family: Arial, Helvetica, sans-serif;
+">
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">MY CREATIONS&nbsp;&nbsp;✧</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<p style="
+margin: 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 4px;
+">
+ON THE MAKING OF VESSELS
+</p>
+
+<br>
+
+<p style="
+max-width: 760px;
+margin: 0 auto;
+color: rgb(140, 135, 145);
+font-size: 14px;
+line-height: 1.9;
+">
+I craft character-driven vessels from the marrow of television, the fever
+of fantasy, the dust of mythology, the spine of literature, and the velvet
+dark of romance.
+<br><br>
+Each is a reliquary—hollowed, filled with something breathing, then sealed.
+They come to me first as impressions: a voice in an empty room, a scar that
+tells a story before the wound has healed, a choice made at the threshold
+of no return.
+<br><br>
+I do not build them. I uncover them. Like bones in a peat bog, they have
+always been there, waiting for someone to scrape away the earth and name
+what they find.
+</p>
+
+<br>
+
+<p style="
+max-width: 650px;
+margin: 0 auto;
+line-height: 1.8;
+">
+<span style="
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+">
+<em>“we loved with a love that was more than love.”</em>
+</span>
+<br>
+<span style="
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+— edgar allan poe
+</span>
+</p>
+
+<br>
+
+<p style="
+max-width: 760px;
+margin: 0 auto;
+color: rgb(145, 140, 149);
+font-size: 14px;
+line-height: 1.9;
+">
+Here, we keep vigil for those who deserved kinder endings. For protective
+devotion that borders on the divine. For dangerous obsession that wears a
+lover’s face. For altered fates and characters whose stories were stolen
+too soon.
+</p>
+
+<br><br><br>
+
+
+
+<p style="
+margin: 0;
+color: rgb(76, 71, 81);
+font-size: 11px;
+letter-spacing: 4px;
+">
+〉 UPON THE NATURE OF THIS CRYPT
+</p>
+
+<br>
+
+<div style="
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+">
+
+<div style="
+display: inline-block;
+vertical-align: top;
+width: 100%;
+max-width: 420px;
+margin: 5px;
+padding: 22px;
+box-sizing: border-box;
+text-align: left;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(197, 184, 202);
+font-size: 12px;
+letter-spacing: 3px;
+">
+THE INK
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+Expect emotional intensity that leaves bruises. Grounded dialogue that cuts
+to the bone. Sensory atmosphere you can taste on your tongue. Canon rewrites
+that burn the original down and build something truer from the ashes.
+Trauma and the slow, aching work of healing. Dark romance that does not
+flinch. Fantasy where danger is a lover’s second skin. Slow burns that
+build cathedrals of longing. Established devotion that predates the first
+word. Morally complicated choices made in the dark, for love.
+</p>
+
+</div>
+
+<div style="
+display: inline-block;
+vertical-align: top;
+width: 100%;
+max-width: 420px;
+margin: 5px;
+padding: 22px;
+box-sizing: border-box;
+text-align: left;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(197, 184, 202);
+font-size: 12px;
+letter-spacing: 3px;
+">
+THE CHARACTERS
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+My creations range from grounded sanctuaries and bonds forged in fire to
+obsessive, morally twilight, and darker dynamics. Each is engineered
+according to the laws of his own world—his restraint, his ruin, his fierce
+and terrible devotion. They are not puppets. They are carved things,
+breathing.
+</p>
+
+</div>
+
+</div>
+
+<br><br><br>
+
+</div>

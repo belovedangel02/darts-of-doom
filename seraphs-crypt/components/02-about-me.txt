@@ -1,0 +1,100 @@
+<div style="
+width: 100%;
+max-width: 100%;
+margin: 0;
+padding: 30px 16px;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+color: rgb(170, 166, 174);
+font-family: Arial, Helvetica, sans-serif;
+">
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">ABOUT ME&nbsp;&nbsp;☾</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="margin: 0 0 20px 0; text-align: center;">
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper.png" alt="beloved angel, keeper of the crypt" style="
+display: inline-block;
+width: 100%;
+max-width: 420px;
+height: auto;
+border: 0;
+border-radius: 14px;
+">
+</p>
+
+<p style="
+margin: 0 0 20px 0;
+text-align: center;
+color: rgb(100, 95, 105);
+font-size: 10px;
+letter-spacing: 3px;
+">
+☾ THE KEEPER HERSELF ☾
+</p>
+
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ name:</span> beloved angel 🪽
+</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ my angels:</span> the souls who wander in and stay
+</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ domain:</span> the seraph’s crypt
+</p>
+<p style="margin: 0 0 18px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ touchstones:</span> poe’s macabre romanticism · contemporary gothic · high-tension dark romance
+</p>
+
+<p style="
+margin: 0;
+color: rgb(175, 171, 179);
+font-size: 14px;
+line-height: 1.9;
+">
+Welcome, my Angels. 🪽
+<br><br>
+Beneath a starless sky, I have laid the cornerstone of this sanctuary.
+I am keeper of dark romance, architect of macabre lore, and weaver of
+visceral truths. Named for the angel who fell—and was loved still—I have
+raised these walls in the quiet dark, a reliquary for wandering souls who
+hunger for escape into worlds of shadow and sinew, where every breath is
+felt and every wound remembered.
+</p>
+
+</div>
+
+<br><br>
+
+</div>

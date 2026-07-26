@@ -1,0 +1,250 @@
+<div style="
+width: 100%;
+max-width: 100%;
+margin: 0;
+padding: 30px 16px;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+color: rgb(170, 166, 174);
+font-family: Arial, Helvetica, sans-serif;
+">
+
+<br>
+
+
+
+<p style="
+margin: 0 0 10px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 6px;
+">
+THE SERAPH’S CRYPT
+</p>
+
+<p style="
+margin: 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 30px;
+letter-spacing: 4px;
+">
+BELOVED ANGEL
+</p>
+
+<p style="
+margin: 10px 0 0 0;
+color: rgb(92, 88, 96);
+font-size: 11px;
+letter-spacing: 6px;
+">
+she / her
+</p>
+
+<br>
+
+<p style="
+margin: 0;
+text-align: center;
+line-height: 2;
+">
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🪽</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🕯️</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🥀</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">⚰️</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🌙</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🖤</span>
+</p>
+
+<br>
+
+<p style="
+max-width: 760px;
+margin: 0 auto;
+text-align: center;
+line-height: 2;
+">
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">fempov</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">dark romance</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">canon au</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">angst</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">slow burn</span>
+</p>
+
+<br>
+
+<p style="
+max-width: 720px;
+margin: 0 auto;
+text-align: center;
+line-height: 2.2;
+">
+<a href="PASTE_YOUR_CARRD_URL_HERE" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">♡ CARRD</a>
+<a href="#incarnations" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">☾ REQUESTS FOR NEW INCARNATIONS</a>
+<a href="#guides" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">✧ GUIDES</a>
+<a href="PASTE_YOUR_STRAWPAGE_URL_HERE" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">🥀 PORTFOLIO</a>
+<span style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(222, 219, 225); background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px;">🪽 my beloved Angels</span>
+</p>
+
+<br>
+
+<p style="
+margin: 0;
+text-align: center;
+">
+<a href="PASTE_YOUR_PROFILE_URL_HERE" style="
+display: inline-block;
+padding: 12px 30px;
+color: rgb(222, 219, 225);
+background-color: rgb(48, 42, 54);
+border: 1px solid rgb(197, 184, 202);
+border-radius: 30px;
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+text-decoration: none;
+">
+☾ join my angels 🪽
+</a>
+</p>
+
+<p style="
+margin: 10px 0 0 0;
+text-align: center;
+">
+<span style="
+display: inline-block;
+padding: 7px 16px;
+color: rgb(197, 184, 202);
+background-color: rgb(10, 9, 12);
+border: 1px solid rgba(197, 184, 202, 0.35);
+border-radius: 20px;
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 10px;
+letter-spacing: 2px;
+">
+welcome to the crypt, angel ♡
+</span>
+</p>
+
+<br><br>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+text-align: center;
+">
+☾ NOW PLAYING
+</p>
+
+<a href="https://soundcloud.com/ashleymonroemusic/hands-on-%F0%9F%8F%8D%EF%B8%8F" style="
+display: block;
+max-width: 720px;
+margin: 0 auto;
+text-decoration: none;
+">
+<div style="
+padding: 20px;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 18px;
+text-align: left;
+">
+
+<table style="
+width: 100%;
+border-collapse: collapse;
+background-color: transparent;
+">
+<tbody>
+<tr>
+<td style="width: 78px; vertical-align: middle;">
+<span class="crypt-disc" style="
+display: inline-block;
+width: 62px;
+height: 62px;
+line-height: 62px;
+text-align: center;
+border-radius: 50%;
+background-color: rgb(48, 42, 54);
+border: 1px solid rgba(197, 184, 202, 0.45);
+">
+<span style="
+display: inline-block;
+vertical-align: middle;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background-color: rgb(0, 0, 0);
+border: 1px solid rgba(197, 184, 202, 0.45);
+"></span>
+</span>
+</td>
+<td style="vertical-align: middle; padding-left: 8px;">
+<p style="
+margin: 0 0 4px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 15px;
+letter-spacing: 3px;
+">
+HANDS ON YOU
+</p>
+<p style="
+margin: 0 0 4px 0;
+color: rgb(197, 184, 202);
+font-size: 12px;
+letter-spacing: 1px;
+">
+ashley monroe
+</p>
+<p style="
+margin: 0;
+color: rgb(103, 98, 108);
+font-size: 10px;
+letter-spacing: 1px;
+">
+♪ now haunting the crypt · tap to listen
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<div style="
+margin-top: 14px;
+height: 4px;
+background-color: rgb(26, 22, 30);
+border-radius: 4px;
+">
+<div style="
+width: 30%;
+height: 4px;
+background-color: rgb(197, 184, 202);
+border-radius: 4px;
+"></div>
+</div>
+
+<table style="
+width: 100%;
+border-collapse: collapse;
+margin-top: 6px;
+background-color: transparent;
+">
+<tbody>
+<tr>
+<td style="text-align: left; color: rgb(92, 88, 96); font-size: 10px;">0:00</td>
+<td style="text-align: right; color: rgb(92, 88, 96); font-size: 10px;">3:21</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</a>
+
+<br><br>
+
+</div>

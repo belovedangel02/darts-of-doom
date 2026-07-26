@@ -1,0 +1,56 @@
+<div style="
+width: 100%;
+max-width: 100%;
+margin: 0;
+padding: 30px 16px;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+color: rgb(170, 166, 174);
+font-family: Arial, Helvetica, sans-serif;
+">
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">WHAT TO EXPECT&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<p style="
+max-width: 720px;
+margin: 0 auto;
+padding: 22px;
+text-align: left;
+color: rgb(125, 120, 130);
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+font-size: 13px;
+line-height: 1.85;
+">
+atmospheric dark romance, protective romance, canon-inspired alternate
+universes, established bonds, trauma and recovery, altered endings,
+dangerous obsession, emotional slow burns, morally complicated decisions,
+cinematic settings, and characters who remain recognisable.
+</p>
+
+<br><br><br>
+
+</div>

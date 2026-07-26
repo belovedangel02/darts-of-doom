@@ -1,0 +1,103 @@
+/* ==========================================================================
+   THE SERAPH'S CRYPT — WORKING CSS
+   Only what bites on JanitorAI: no hashed class names, no guesswork.
+   ========================================================================== */
+
+/* THE STARLESS SKY — every layer of the page painted out */
+html, body, #root, #__next, main,
+[class*="App"], [class*="app"],
+[class*="Layout"], [class*="layout"],
+[class*="Page"], [class*="page"],
+[class*="Container"], [class*="container"],
+[class*="Wrapper"], [class*="wrapper"],
+[class*="Background"], [class*="background"],
+[class*="Profile"], [class*="profile"],
+[class*="Content"], [class*="content"] {
+  background-color: #000000 !important;
+  background-image: none !important;
+}
+body { color: #dedbe1 !important; }
+
+/* THE SEALS THAT OPEN — the angel-wing sections */
+summary { list-style: none !important; cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease !important; }
+summary::-webkit-details-marker { display: none !important; }
+summary::marker { content: "" !important; }
+summary:hover { border-color: rgba(150, 30, 45, 0.8) !important; background-color: #1a121e !important; }
+summary span:last-child { transition: transform 0.4s ease, box-shadow 0.4s ease !important; }
+details[open] > summary span:last-child {
+  transform: rotate(-12deg) scale(1.08) !important;
+  box-shadow: 0 0 12px rgba(112, 14, 26, 0.55) !important;
+}
+
+/* THE TURNING RECORD — the SoundCloud disc */
+@keyframes cryptSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+[class*="udioPlayer"] img, [class*="usicPlayer"] img,
+[class*="oundCloud"] img, [class*="oundcloud"] img,
+[class*="albumArt"], [class*="AlbumArt"],
+[class*="artwork"], [class*="Artwork"],
+.crypt-disc {
+  border-radius: 50% !important;
+  border: 1px solid rgba(197, 184, 202, 0.45) !important;
+  box-shadow: 0 0 16px rgba(112, 14, 26, 0.3) !important;
+  animation: cryptSpin 8s linear infinite !important;
+}
+[class*="udioPlayer"], [class*="usicPlayer"],
+[class*="oundCloud"], [class*="oundcloud"] {
+  background-color: #070608 !important;
+  border: 1px solid rgba(112, 14, 26, 0.55) !important;
+  border-radius: 18px !important;
+  color: #c5b8ca !important;
+}
+
+/* THE GLASS OF REVELATION — the live character search */
+input[type="text"], input[type="search"], input[placeholder*="earch"] {
+  background-color: #050505 !important;
+  color: #dedbe1 !important;
+  border: 1px solid rgba(112, 14, 26, 0.5) !important;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  letter-spacing: 1px !important;
+}
+input[placeholder*="earch"]::placeholder { color: #5c5860 !important; font-style: italic !important; }
+input[type="text"]:focus, input[type="search"]:focus {
+  outline: none !important;
+  border-color: #c5b8ca !important;
+  box-shadow: 0 0 12px rgba(197, 184, 202, 0.25) !important;
+}
+select {
+  background-color: #050505 !important;
+  color: #c5b8ca !important;
+  border: 1px solid rgba(112, 14, 26, 0.5) !important;
+  border-radius: 30px !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+}
+
+/* THE STONE MARKERS — pagination */
+[aria-current="page"] {
+  background-color: #302a36 !important;
+  color: #dedbe1 !important;
+  border-color: #c5b8ca !important;
+  box-shadow: 0 0 12px rgba(112, 14, 26, 0.4) !important;
+}
+
+/* THE WAKING OF THE PORTRAIT — cards sleep grey, wake in colour */
+a:has(img) img { filter: grayscale(100%) contrast(108%) brightness(0.92);
+  transition: filter 0.55s ease, transform 0.55s ease; }
+a:has(img):hover img, a:has(img):active img, a:has(img):focus-within img {
+  filter: grayscale(0%) contrast(105%) brightness(1); transform: scale(1.03); }
+#crypt-bio img, #crypt-bio a img { filter: none !important; transform: none !important; }
+
+/* THE WINDING PASSAGE — scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #050505; }
+::-webkit-scrollbar-thumb { background: #4c4751; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #c5b8ca; }
+* { scrollbar-width: thin; scrollbar-color: #4c4751 #050505; }
+
+/* MERCY FOR THOSE WHO ASK FOR STILLNESS */
+@media (prefers-reduced-motion: reduce) {
+  .crypt-disc, [class*="albumArt"], [class*="AlbumArt"],
+  [class*="udioPlayer"] img, [class*="usicPlayer"] img { animation: none !important; }
+}

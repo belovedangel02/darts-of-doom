@@ -307,6 +307,19 @@ html, body, #root, #__next, main,
 
 body { color: #dedbe1 !important; } /* The Ink of the Living */
 
+/* The one exception to the void: the crypt itself, laid behind everything.
+   Declared after the blanket rule so it outlives the `none` above. */
+body {
+  background-color: #000000 !important;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)),
+    url("https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-background.jpg") !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: center top, center top !important;
+  background-size: cover, cover !important;
+  background-attachment: fixed, fixed !important;
+} /* The Crypt Behind the World */
+
 /* --------------------------------------------------------------------------
    IX. THE SEALED WAX FRAME (CRIMSON REliQUARY BORDERS)
    The same dried-blood frame the portraits wear, laid upon the site itself.

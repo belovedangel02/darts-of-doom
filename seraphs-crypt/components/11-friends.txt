@@ -1,0 +1,71 @@
+<div style="
+width: 100%;
+max-width: 100%;
+margin: 0;
+padding: 30px 16px;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+color: rgb(170, 166, 174);
+font-family: Arial, Helvetica, sans-serif;
+">
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">FRIENDS&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: center;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+<p style="
+margin: 0 0 16px 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 2px;
+">
+<em>the dearest souls in the dark</em>
+</p>
+
+<a href="PASTE_FRIEND_PROFILE_URL_HERE" style="display: inline-block; margin: 4px; padding: 7px 18px; color: rgb(184, 176, 189); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.25); border-radius: 20px; font-size: 11px; letter-spacing: 2px; text-decoration: none;">🕯️ friend name</a>
+<a href="PASTE_FRIEND_PROFILE_URL_HERE" style="display: inline-block; margin: 4px; padding: 7px 18px; color: rgb(184, 176, 189); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.25); border-radius: 20px; font-size: 11px; letter-spacing: 2px; text-decoration: none;">🥀 friend name</a>
+<a href="PASTE_FRIEND_PROFILE_URL_HERE" style="display: inline-block; margin: 4px; padding: 7px 18px; color: rgb(184, 176, 189); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.25); border-radius: 20px; font-size: 11px; letter-spacing: 2px; text-decoration: none;">🪽 friend name</a>
+
+<p style="
+margin: 14px 0 0 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+KINDRED CREATORS WILL BE ENSHRINED HERE
+</p>
+</div>
+
+<br><br><br>
+
+</div>

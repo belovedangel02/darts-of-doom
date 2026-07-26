@@ -279,13 +279,39 @@ border: 1px solid rgba(197, 184, 202, 0.45);
 </span>
 </p>
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" style="border: 0; border-radius: 12px;" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fashleymonroemusic%2Fhands-on-%25F0%259F%258F%258D%25EF%25B8%258F&color=%23c5b8ca&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+<div style="
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 12px;
+overflow: hidden;
+background-color: rgb(5, 5, 5);
+">
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" style="display: block; border: 0;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A397204506&color=%23c5b8ca&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+</div>
+
+<p style="
+margin: 14px 0 0 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 3px;
+">
+<a href="https://soundcloud.com/ashleymonroeofficial/hands-on-you" style="color: rgb(197, 184, 202); text-decoration: none;">HANDS ON YOU</a>
+</p>
+
+<p style="
+margin: 4px 0 0 0;
+color: rgb(125, 120, 130);
+font-size: 11px;
+letter-spacing: 2px;
+">
+<a href="https://soundcloud.com/ashleymonroeofficial" style="color: rgb(125, 120, 130); text-decoration: none;">ashley monroe</a>
+</p>
 
 <p style="
 margin: 12px 0 0 0;
-color: rgb(103, 98, 108);
+color: rgb(76, 71, 81);
 font-size: 10px;
-letter-spacing: 2px;
+letter-spacing: 3px;
 ">
 ♪ NOW HAUNTING THE CRYPT
 </p>

@@ -88,7 +88,7 @@ button { font-family: inherit; }
    -------------------------------------------------------------------------- */
 .filters { background: #0a090c !important; display: flex; align-items: center; gap: 12px; padding: 14px 20px; max-width: 1200px; margin: 0 auto; } /* The Grand Sorting Chambers */
 .filters__sorting { border-color: rgba(197, 184, 202, 0.2); min-width: 180px; position: relative; } /* The Order of Devotion */
-.filters__sorting-control { background: #050505 !important; border: 1px solid #4c4751; border-radius: 4px; display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; cursor: pointer; } /* The Lever of Destiny */
+.filters__sorting-control { background: #050505 !important; border: 1px solid #4c4751; border-radius: 30px; display: flex; align-items: center; justify-content: space-between; padding: 8px 16px; cursor: pointer; } /* The Lever of Destiny */
 .filters__sorting-value-container { color: #dedbe1; flex: 1; } /* The Vessel of Choice */
 .filters__sorting-single-value { color: #c5b8ca !important; font-size: 13px; } /* The Chosen Path */
 .filters__sorting-indicator-container { opacity: 0.6; display: flex; align-items: center; gap: 6px; } /* The Needle of the Compass */
@@ -100,7 +100,7 @@ button { font-family: inherit; }
 .filters__sorting-menu-option:hover:not(.filters__sorting-menu-option--selected) { background: #14111a !important; color: #dedbe1 !important; } /* The Unbidden Choice, Considered */
 .filters__sorting-menu-option--selected { background: #1a161e !important; color: #dedbe1 !important; } /* The Chosen Vow */
 
-.filters__button { background: #050505 !important; border: 1px solid #4c4751 !important; padding: 8px 14px; cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; gap: 8px; border-radius: 4px; color: #c5b8ca; } /* The Gatekeeper's Key */
+.filters__button { background: #050505 !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; gap: 8px; border-radius: 30px; color: #c5b8ca; } /* The Gatekeeper's Key */
 .filters__button:hover { border-color: #c5b8ca !important; background: #1a161e !important; } /* The Key, Warmed in the Palm */
 .filters__button-icon { fill: #c5b8ca; width: 14px; height: 14px; } /* The Mark of the Key */
 
@@ -139,8 +139,9 @@ button { font-family: inherit; }
 .custom-tag__button:hover { color: #c5b8ca !important; } /* The Rune, Traced Again */
 .custom-tag__selected { border-color: #c5b8ca; color: #dedbe1; } /* The Chosen Rune */
 
-.search-input { background: #050505 !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 8px 12px; border-radius: 4px; width: 100%; } /* The Glass of Revelation */
-.search-input::placeholder { color: #5c5860; }
+.search-input { background: #050505 !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 9px 18px; border-radius: 30px; width: 100%; font-family: Georgia, serif; letter-spacing: 1px; transition: border-color 0.25s ease, box-shadow 0.25s ease; } /* The Glass of Revelation */
+.search-input::placeholder { color: #5c5860; font-style: italic; }
+.search-input:focus { outline: none; border-color: #c5b8ca !important; box-shadow: 0 0 12px rgba(197, 184, 202, 0.2); } /* The Glass, Peered Into */
 
 /* --------------------------------------------------------------------------
    III. THE MOBILE CORRIDOR (NAVBAR MOBILE)
@@ -203,7 +204,9 @@ button { font-family: inherit; }
 .top-bar__logo-name { color: #dedbe1 !important; letter-spacing: 3px; font-size: 14px; } /* The Sovereign Inscription */
 .top-bar__logo-sub-name { color: #5c5860 !important; letter-spacing: 2px; font-size: 9px; } /* The Subtitle of Shadows */
 .top-bar__search-bar { max-width: 400px; flex: 1; } /* The Looking Glass */
-.top-bar__search-input { background: #0a090c !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 8px 12px; border-radius: 4px; width: 100%; } /* The Lens of Inquiry */
+.top-bar__search-input { background: #0a090c !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 9px 18px; border-radius: 30px; width: 100%; font-family: Georgia, serif; letter-spacing: 1px; transition: border-color 0.25s ease, box-shadow 0.25s ease; } /* The Lens of Inquiry */
+.top-bar__search-input::placeholder { color: #5c5860; font-style: italic; }
+.top-bar__search-input:focus { outline: none; border-color: #c5b8ca !important; box-shadow: 0 0 12px rgba(197, 184, 202, 0.2); } /* The Lens, Lifted to the Eye */
 .top-bar__back-button { color: #c5b8ca; cursor: pointer; background: none; border: none; font-size: 16px; display: none; } /* The Retreating Step */
 .top-bar__title { color: #dedbe1; font-family: Georgia, serif; font-size: 14px; display: none; letter-spacing: 2px; } /* The Citadel Heading */
 .top-bar__create-char-button { background: #1a161e !important; color: #c5b8ca !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; border-radius: 4px; font-size: 12px; letter-spacing: 1px; white-space: nowrap; } /* The Alchemist's Pen */
@@ -270,11 +273,13 @@ button { font-family: inherit; }
 .user-card__member-since { color: #5c5860 !important; font-size: 10px; letter-spacing: 2px; margin: 4px 0 12px 0; } /* The Date of Awakening */
 .user-card__about-me { color: #7d7882 !important; line-height: 1.8; font-size: 12px; margin: 0 0 14px 0; } /* The Confessions of the Beloved */
 .user-card__follow-controls { position: relative; display: inline-block; } /* The Vow Mechanisms */
-.user-card__follow-button { background: #1a161e !important; color: #c5b8ca !important; border: 1px solid #4c4751 !important; padding: 8px 18px; cursor: pointer; transition: all 0.2s ease; border-radius: 4px; } /* The Pledge of Devotion */
-.user-card__follow-button:hover { background: #302a36 !important; border-color: #c5b8ca !important; } /* The Pledge, Renewed */
-.user-card__follow-button:disabled { opacity: 0.4; cursor: not-allowed; } /* The Pledge, Already Given */
-.user-card__follow-button-text { letter-spacing: 2px; font-size: 11px; } /* The Words of the Vow */
-.user-card__follow-tooltip { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); margin-bottom: 6px; background: #0a090c; color: #918c95; font-size: 10px; padding: 6px 10px; border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 4px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 0.2s ease; } /* The Whispered Promise */
+.user-card__follow-button { background: linear-gradient(180deg, #302a36, #14101a) !important; color: #dedbe1 !important; border: 1px solid #c5b8ca !important; padding: 10px 26px; cursor: pointer; transition: all 0.25s ease; border-radius: 30px; box-shadow: 0 0 12px rgba(197, 184, 202, 0.12); } /* The Pledge of Devotion */
+.user-card__follow-button:hover { background: #302a36 !important; border-color: #dedbe1 !important; box-shadow: 0 0 18px rgba(197, 184, 202, 0.3); transform: translateY(-1px); } /* The Pledge, Renewed */
+.user-card__follow-button-text { font-size: 0 !important; } /* The Words of the Vow, Silenced */
+.user-card__follow-button-text::after { content: "☾ join my angels 🪽"; font-family: Georgia, serif; font-size: 11px; letter-spacing: 3px; color: #dedbe1; } /* The Vow, Rewritten */
+.user-card__follow-button:disabled { opacity: 1; cursor: default; background: #0a090c !important; border-color: #4c4751 !important; box-shadow: none; } /* The Pledge, Already Given */
+.user-card__follow-button:disabled .user-card__follow-button-text::after { content: "☾ angel claimed ♡"; color: #978a9e; } /* The Vow, Sealed */
+.user-card__follow-tooltip { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); margin-bottom: 8px; background: #0a090c; color: #c5b8ca; font-family: Georgia, serif; font-size: 10px; letter-spacing: 2px; padding: 8px 14px; border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 20px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; box-shadow: 0 0 14px rgba(0, 0, 0, 0.8); } /* The Whispered Promise */
 .user-card__follow-controls:hover .user-card__follow-tooltip { opacity: 1; } /* The Whispered Promise, Overheard */
 .user-card__options-menu-button { color: #6e6972; cursor: pointer; background: none; border: none; position: absolute; top: 14px; right: 14px; } /* The Hidden Lever */
 .user-card__options-menu-list { background: #0a090c; border: 1px solid #4c4751; position: absolute; right: 0; top: 40px; z-index: 15; min-width: 160px; border-radius: 4px; display: none; text-align: left; } /* The Unseen Scroll */
@@ -381,10 +386,10 @@ button { font-family: inherit; }
     <p class="user-card__member-since">MEMBER SINCE 2024</p>
     <p class="user-card__about-me">Keeper of dark romance, architect of macabre lore, weaver of visceral truths.</p>
     <div class="user-card__follow-controls">
-      <button class="user-card__follow-button">
+      <button class="user-card__follow-button" onclick="this.disabled = true">
         <span class="user-card__follow-button-text">FOLLOW</span>
       </button>
-      <span class="user-card__follow-tooltip">Follow for new releases</span>
+      <span class="user-card__follow-tooltip">welcome to the crypt, angel ♡</span>
     </div>
     <div class="user-card__options-menu-list" id="userOptions">
       <div class="user-card__options-menu-item">Share profile</div>

@@ -71,8 +71,8 @@ ALEX VOLKOV — revenge · emotional restraint · ruthless devotion
 RHYS LARSEN — bodyguard romance · royal duty · forbidden love
 DANTE RUSSO — arranged marriage · high society · controlled intensity
 KAI YOUNG — ambition · restraint · slow-burn longing
-AARON WARNER — dystopian commander · emotional isolation · worship
-DAMON TORRANCE — revenge · psychological darkness · chaos
+AARON WARNER — shatter me AU · dystopian commander · worshipful devotion · not Juliette, {{user}}
+DAMON TORRANCE — devil’s night AU · revenge · psychological darkness · not Winter, {{user}}
 
 ---
 

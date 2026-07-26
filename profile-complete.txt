@@ -2050,7 +2050,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-FOURTH WING • LIAM LIVES AU
+REBECCA YARROS · THE EMPYREAN • FOURTH WING, LIAM LIVES AU
 </p>
 
 <p style="
@@ -2183,7 +2183,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • CANON REWRITE</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING CANON REWRITE</p>
 <p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">duty versus devotion • military romance • altered loyalties</p>
 </td>
 </tr>
@@ -2215,7 +2215,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • MORALLY GREY FANTASY ROMANCE</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING AU</p>
 <p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • shadows • secrets • divided loyalties</p>
 </td>
 </tr>
@@ -2555,7 +2555,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-PERCY JACKSON • MYTHOLOGY AU
+RICK RIORDAN · PERCY JACKSON AND THE OLYMPIANS • MYTHOLOGY AU
 </p>
 
 <p style="
@@ -2585,7 +2585,8 @@ line-height: 1.85;
 ">
 A son of the sea whose greatest strength has always been the people he
 refuses to abandon. Prophecy, monsters, ancient gods, impossible choices,
-and a loyalty powerful enough to challenge fate itself.
+and a loyalty powerful enough to challenge fate itself — and the one he
+would raze Olympus for is not Annabeth. It is {{user}}.
 </p>
 
 <br>
@@ -2688,7 +2689,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">PERCY JACKSON • VILLAIN-WIN OR REDEMPTION AU</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">RICK RIORDAN · PERCY JACKSON AND THE OLYMPIANS • VILLAIN-WIN OR REDEMPTION AU</p>
 <p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • betrayal • morally grey romance</p>
 </td>
 </tr>
@@ -3098,7 +3099,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-THE HAUNTING OF ADELINE • CAT AND MOUSE DUET AU
+H.D. CARLTON · CAT AND MOUSE DUET • THE HAUNTING OF ADELINE AU
 </p>
 
 <p style="
@@ -3232,8 +3233,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SHATTER ME</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">dystopian commander • emotional isolation • worshipful devotion</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TAHEREH MAFI · SHATTER ME AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">dystopian commander • emotional isolation • worshipful devotion</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the girl whose touch could kill him is not Juliette. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -3264,8 +3266,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">DEVIL’S NIGHT</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • psychological darkness • chaos • dark romance</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">PENELOPE DOUGLAS · DEVIL’S NIGHT AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • psychological darkness • chaos • dark romance</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the girl he could never stop circling back to is not Winter. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>

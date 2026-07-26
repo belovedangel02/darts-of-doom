@@ -43,6 +43,16 @@ border: 1px solid rgba(197, 184, 202, 0.14);
 border-radius: 18px;
 ">
 <p style="
+margin: 0 0 14px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 15px;
+letter-spacing: 4px;
+">
+PRETTY &amp; PROBLEMATIC
+</p>
+
+<p style="
 margin: 0 0 6px 0;
 color: rgb(151, 138, 158);
 font-family: Georgia, 'Times New Roman', serif;

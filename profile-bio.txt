@@ -906,47 +906,65 @@ in development
 
 
 
-<p style="
+<table style="
+width: 100%;
 max-width: 720px;
 margin: 0 auto;
-padding: 0 14px;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
 text-align: left;
-line-height: 1.9;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 ">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">DAIN AETOS</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • CANON REWRITE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">duty versus devotion • military romance • altered loyalties</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<span style="
-color: rgb(184, 176, 189);
-font-family: Georgia, 'Times New Roman', serif;
-letter-spacing: 2px;
-">
-DAIN AETOS
-</span>
 <br>
-<span style="
-color: rgb(99, 94, 104);
-font-size: 12px;
-">
-canon rewrite • duty versus devotion • military romance • altered loyalties
-</span>
 
-<br><br>
-
-<span style="
-color: rgb(184, 176, 189);
-font-family: Georgia, 'Times New Roman', serif;
-letter-spacing: 2px;
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
 ">
-XADEN RIORSON
-</span>
-<br>
-<span style="
-color: rgb(99, 94, 104);
-font-size: 12px;
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 ">
-rebellion • shadows • secrets • divided loyalties • morally grey fantasy romance
-</span>
-
-</p>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">XADEN RIORSON</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • MORALLY GREY FANTASY ROMANCE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • shadows • secrets • divided loyalties</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br><br><br>
 
@@ -1136,41 +1154,65 @@ in development
 
 
 
-<p style="
+<table style="
+width: 100%;
 max-width: 720px;
 margin: 0 auto;
-padding: 0 14px;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
 text-align: left;
-line-height: 1.9;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 ">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">SAM WINCHESTER</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SUPERNATURAL • DEMON BLOOD / SOULLESS AU</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">power • temptation • moral conflict</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<span style="
-color: rgb(184, 176, 189);
-font-family: Georgia, 'Times New Roman', serif;
-letter-spacing: 2px;
-">
-SAM WINCHESTER
-</span>
 <br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-demon blood • soulless au • power • temptation • moral conflict
-</span>
 
-<br><br>
-
-<span style="
-color: rgb(184, 176, 189);
-font-family: Georgia, 'Times New Roman', serif;
-letter-spacing: 2px;
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
 ">
-YOUNG JOHN WINCHESTER
-</span>
-<br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-1970s au • hunter origins • grief • motorcycles • raw angst
-</span>
-
-</p>
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">YOUNG JOHN WINCHESTER</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SUPERNATURAL • 1970s AU</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">hunter origins • grief • motorcycles • raw angst</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br><br><br>
 
@@ -1360,25 +1402,34 @@ in development
 
 
 
-<p style="
+<table style="
+width: 100%;
 max-width: 720px;
 margin: 0 auto;
-padding: 0 14px;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
 text-align: left;
-line-height: 1.9;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 ">
-<span style="
-color: rgb(184, 176, 189);
-font-family: Georgia, 'Times New Roman', serif;
-letter-spacing: 2px;
-">
-LUKE CASTELLAN
-</span>
-<br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-villain-win or redemption au • rebellion • betrayal • morally grey romance
-</span>
-</p>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">LUKE CASTELLAN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">PERCY JACKSON • VILLAIN-WIN OR REDEMPTION AU</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • betrayal • morally grey romance</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br><br><br>
 
@@ -1568,45 +1619,127 @@ in development
 
 
 
-<p style="
+<table style="
+width: 100%;
 max-width: 720px;
 margin: 0 auto;
-padding: 0 14px;
-text-align: left;
-line-height: 1.9;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
 ">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">ALEX VOLKOV</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED LOVE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • emotional restraint • ruthless devotion</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<span style="color: rgb(184, 176, 189);">ALEX VOLKOV</span>
 <br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-twisted love • revenge • emotional restraint • ruthless devotion
-</span>
 
-<br><br>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">RHYS LARSEN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED GAMES</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">bodyguard romance • royal duty • forbidden love</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<span style="color: rgb(184, 176, 189);">RHYS LARSEN</span>
 <br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-twisted games • bodyguard romance • royal duty • forbidden love
-</span>
 
-<br><br>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">DANTE RUSSO</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF WRATH</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">arranged marriage • high society • controlled intensity</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<span style="color: rgb(184, 176, 189);">DANTE RUSSO</span>
 <br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-king of wrath • arranged marriage • high society • controlled intensity
-</span>
 
-<br><br>
-
-<span style="color: rgb(184, 176, 189);">KAI YOUNG</span>
-<br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-king of pride • ambition • restraint • slow-burn longing
-</span>
-
-</p>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">KAI YOUNG</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF PRIDE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">ambition • restraint • slow-burn longing</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br><br><br>
 
@@ -1796,29 +1929,65 @@ later project
 
 
 
-<p style="
+<table style="
+width: 100%;
 max-width: 720px;
 margin: 0 auto;
-padding: 0 14px;
-text-align: left;
-line-height: 1.9;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
 ">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">AARON WARNER</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SHATTER ME</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">dystopian commander • emotional isolation • worshipful devotion</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<span style="color: rgb(184, 176, 189);">AARON WARNER</span>
 <br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-shatter me • dystopian commander • emotional isolation • worshipful devotion
-</span>
 
-<br><br>
-
-<span style="color: rgb(184, 176, 189);">DAMON TORRANCE</span>
-<br>
-<span style="color: rgb(99, 94, 104); font-size: 12px;">
-devil’s night • revenge • psychological darkness • chaos • dark romance
-</span>
-
-</p>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">DAMON TORRANCE</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">DEVIL’S NIGHT</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • psychological darkness • chaos • dark romance</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br><br><br>
 

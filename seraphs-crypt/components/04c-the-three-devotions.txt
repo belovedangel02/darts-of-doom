@@ -123,6 +123,14 @@ devotion that shelters — men who stand between her and the dark
 <span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">ZELENI JURAJ</span>
 <span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">perun’s son</span>
 </a>
+<a href="#nemri" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">NEMRI</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">giants of velebit</span>
+</a>
+<a href="#haydes" style="display: block; margin: 0 0 8px 0; padding: 9px 16px; background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.35); border-radius: 22px; text-decoration: none; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 2px;">HAYDES</span>
+<span style="float: right; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 1px;">giants of samobor</span>
+</a>
 
 </div>
 

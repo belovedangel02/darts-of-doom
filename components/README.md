@@ -15,7 +15,7 @@ like in any order — they share the same black wrapper so they blend seamlessly
 | `06-upcoming-work.txt` | Upcoming Work ✦ + all future release cards |
 | `07-what-to-expect.txt` | What to Expect ✦ |
 | `08-content-notes.txt` | Content Notes ♡ |
-| `09-bot-requests.txt` | Bot Requests ☾ |
+| `09-requests-for-new-incarnations.txt` | Requests for New Incarnations ☾ |
 | `10-guides.txt` | Guides ✧ |
 | `11-friends.txt` | Friends ✦ |
 | `12-extra.txt` | Extra ♡ closing |

@@ -81,8 +81,8 @@ text-align: center;
 line-height: 2.2;
 ">
 <a href="PASTE_YOUR_CARRD_URL_HERE" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">♡ CARRD</a>
-<a href="#" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">☾ BOT REQUESTS</a>
-<a href="#" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">✧ GUIDES</a>
+<a href="#incarnations" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">☾ REQUESTS FOR NEW INCARNATIONS</a>
+<a href="#guides" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">✧ GUIDES</a>
 <span style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(222, 219, 225); background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px;">🪽 my beloved Angels</span>
 </p>
 

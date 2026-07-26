@@ -5,6 +5,11 @@ margin: 0;
 padding: 30px 16px;
 box-sizing: border-box;
 background-color: rgb(0, 0, 0);
+background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)), url('https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-background.jpg');
+background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+background-attachment: fixed;
 color: rgb(170, 166, 174);
 font-family: Arial, Helvetica, sans-serif;
 ">
@@ -115,6 +120,110 @@ letter-spacing: 4px;
 ">
 stay awhile.
 </p>
+
+<br><br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 20px 14px;
+text-align: center;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(112, 14, 26, 0.4);
+border-radius: 18px;
+">
+<p style="
+margin: 0 0 4px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 4px;
+">
+THE KEEPER&rsquo;S GALLERY
+</p>
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+&#9790; PORTRAITS OF THE ONE WHO TENDS THE CRYPT
+</p>
+
+<span style="
+display: inline-block;
+width: 46%;
+max-width: 240px;
+margin: 6px 4px;
+padding: 8px;
+vertical-align: top;
+background-color: rgb(12, 2, 4);
+border: 1px solid rgba(112, 14, 26, 0.5);
+border-radius: 16px;
+">
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-01.jpg" alt="The Keeper, by candlelight" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 1px solid rgba(112, 14, 26, 0.4);
+border-radius: 10px;
+">
+<span style="
+display: block;
+margin: 8px 0 0 0;
+color: rgb(103, 98, 108);
+font-size: 9px;
+letter-spacing: 2px;
+text-align: center;
+">
+BY CANDLELIGHT
+</span>
+</span>
+<span style="
+display: inline-block;
+width: 46%;
+max-width: 240px;
+margin: 6px 4px;
+padding: 8px;
+vertical-align: top;
+background-color: rgb(12, 2, 4);
+border: 1px solid rgba(112, 14, 26, 0.5);
+border-radius: 16px;
+">
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-02.jpg" alt="The Keeper, among the letters" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 1px solid rgba(112, 14, 26, 0.4);
+border-radius: 10px;
+">
+<span style="
+display: block;
+margin: 8px 0 0 0;
+color: rgb(103, 98, 108);
+font-size: 9px;
+letter-spacing: 2px;
+text-align: center;
+">
+AMONG THE LETTERS
+</span>
+</span>
+
+<p style="
+margin: 14px 0 0 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+line-height: 1.8;
+">
+<em>&ldquo;pretty &amp; problematic.&rdquo;</em>
+</p>
+</div>
+
 </div>
 
 </details>

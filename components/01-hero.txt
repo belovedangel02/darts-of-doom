@@ -57,7 +57,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.55);
 border-radius: 18px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-hero.jpg" alt="The Keeper — Beloved Angel" style="
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-fawn.jpg" alt="The Keeper — Beloved Angel, with the winged fawn" style="
 display: block;
 width: 100%;
 max-width: 100%;
@@ -84,6 +84,16 @@ letter-spacing: 3px;
 text-align: center;
 ">
 BELOVED ANGEL &middot; SHE WHO TENDS THE CRYPT
+</p>
+<p style="
+margin: 6px 0 0 0;
+color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 11px;
+font-style: italic;
+text-align: center;
+">
+and the small one that chose to stay
 </p>
 </div>
 

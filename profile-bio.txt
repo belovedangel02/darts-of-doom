@@ -247,27 +247,24 @@ background-color: transparent;
 
 <br><br>
 
-<table style="
-width: 100%;
+<details open style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">ABOUT ME&nbsp;&nbsp;☾</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">ABOUT ME</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -335,29 +332,27 @@ felt and every wound remembered.
 
 <br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">RULES&nbsp;&nbsp;✦</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">RULES</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -394,29 +389,27 @@ border-radius: 18px;
 
 <br><br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">MY CREATIONS&nbsp;&nbsp;✧</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">MY CREATIONS</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -594,29 +587,89 @@ breathing.
 
 <br><br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">STATUS&nbsp;&nbsp;✦</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">THE WORLDS</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: center;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="
+margin: 0 0 18px 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 2px;
+">
+<em>step through, and choose your haunting.</em>
+</p>
+
+<a href="#" style="display: block; max-width: 460px; margin: 8px auto; padding: 12px 22px; color: rgb(197, 184, 202); background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.5); border-radius: 30px; font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px; text-decoration: none;">90210 · THE LIFE HE DESERVED</a>
+<a href="#fourth-wing" style="display: block; max-width: 460px; margin: 8px auto; padding: 12px 22px; color: rgb(197, 184, 202); background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.5); border-radius: 30px; font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px; text-decoration: none;">FOURTH WING</a>
+<a href="#supernatural" style="display: block; max-width: 460px; margin: 8px auto; padding: 12px 22px; color: rgb(197, 184, 202); background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.5); border-radius: 30px; font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px; text-decoration: none;">SUPERNATURAL</a>
+<a href="#percy-jackson" style="display: block; max-width: 460px; margin: 8px auto; padding: 12px 22px; color: rgb(197, 184, 202); background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.5); border-radius: 30px; font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px; text-decoration: none;">PERCY JACKSON</a>
+<a href="#ana-huang" style="display: block; max-width: 460px; margin: 8px auto; padding: 12px 22px; color: rgb(197, 184, 202); background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.5); border-radius: 30px; font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px; text-decoration: none;">ANA HUANG</a>
+<a href="#dark-dystopian" style="display: block; max-width: 460px; margin: 8px auto; padding: 12px 22px; color: rgb(197, 184, 202); background-color: rgb(18, 16, 20); border: 1px solid rgba(112, 14, 26, 0.5); border-radius: 30px; font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px; text-decoration: none;">DARK ROMANCE &amp; DYSTOPIAN</a>
+
+<p style="
+margin: 16px 0 0 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+MORE WORLDS WILL OPEN AS THEY ARE WRITTEN
+</p>
+
+</div>
+
+</details>
+
+<br><br>
+
+<details style="
+max-width: 720px;
+margin: 0 auto;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+text-align: left;
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">STATUS</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -912,33 +965,33 @@ current release
 
 <br><br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">UPCOMING WORK&nbsp;&nbsp;✦</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">UPCOMING WORK</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br><br>
 
 
+
+<div id="fourth-wing"></div>
 
 <p style="
 margin: 0 0 14px 0;
@@ -1191,6 +1244,8 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 
 
+<div id="supernatural"></div>
+
 <p style="
 margin: 0 0 14px 0;
 color: rgb(76, 71, 81);
@@ -1439,6 +1494,8 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 
 
+<div id="percy-jackson"></div>
+
 <p style="
 margin: 0 0 14px 0;
 color: rgb(76, 71, 81);
@@ -1655,6 +1712,8 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 <br><br><br>
 
 
+
+<div id="ana-huang"></div>
 
 <p style="
 margin: 0 0 14px 0;
@@ -1966,6 +2025,8 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 
 
+<div id="dark-dystopian"></div>
+
 <p style="
 margin: 0 0 14px 0;
 color: rgb(76, 71, 81);
@@ -2212,29 +2273,27 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br><br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">WHAT TO EXPECT&nbsp;&nbsp;✦</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">WHAT TO EXPECT</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -2258,29 +2317,27 @@ cinematic settings, and characters who remain recognisable.
 
 <br><br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">CONTENT NOTES&nbsp;&nbsp;♡</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">CONTENT NOTES</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -2310,29 +2367,27 @@ each bot will have its own accurate warnings and relationship dynamic.
 
 <div id="incarnations"></div>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 2px;">REQUESTS FOR NEW INCARNATIONS&nbsp;&nbsp;☾</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 2px;">REQUESTS FOR NEW INCARNATIONS</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -2367,29 +2422,27 @@ character suggestions, reviews, and constructive feedback are welcome ♡
 
 <div id="guides"></div>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">GUIDES&nbsp;&nbsp;✧</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">GUIDES</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -2415,29 +2468,27 @@ more scrolls will be shelved here as they are written.
 
 <br><br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">FRIENDS&nbsp;&nbsp;✦</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">FRIENDS</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -2476,29 +2527,27 @@ KINDRED CREATORS WILL BE ENSHRINED HERE
 
 <br><br><br>
 
+</details>
 
-
-<table style="
-width: 100%;
+<br><br>
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">EXTRA&nbsp;&nbsp;♡</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">EXTRA</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -2588,6 +2637,10 @@ letter-spacing: 4px;
 stay awhile.
 </p>
 </div>
+
+</details>
+
+<br><br>
 
 <br><br>
 

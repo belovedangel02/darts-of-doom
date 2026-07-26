@@ -565,3 +565,24 @@ select,
   border-color: #c5b8ca !important;
   box-shadow: 0 0 12px rgba(112, 14, 26, 0.4) !important;
 } /* The Illuminated Marker */
+
+/* --------------------------------------------------------------------------
+   XIV. THE SEALS THAT OPEN (COLLAPSIBLE SECTIONS)
+   Each section rests sealed behind an angel's wing until it is pressed.
+   -------------------------------------------------------------------------- */
+summary { list-style: none !important; }
+summary::-webkit-details-marker { display: none !important; }
+summary::marker { content: "" !important; }
+
+summary { transition: border-color 0.3s ease, background-color 0.3s ease !important; }
+summary:hover {
+  border-color: rgba(150, 30, 45, 0.8) !important;
+  background-color: #1a121e !important;
+} /* The Seal, Warmed Beneath the Thumb */
+
+/* The wing lifts when the seal is broken */
+summary span:last-child { transition: transform 0.4s ease, box-shadow 0.4s ease !important; }
+details[open] > summary span:last-child {
+  transform: rotate(-12deg) scale(1.08) !important;
+  box-shadow: 0 0 12px rgba(112, 14, 26, 0.55) !important;
+} /* The Wing, Lifted */

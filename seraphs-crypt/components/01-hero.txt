@@ -162,7 +162,7 @@ background-color: transparent;
 <tbody>
 <tr>
 <td style="width: 78px; vertical-align: middle;">
-<span style="
+<span class="crypt-disc" style="
 display: inline-block;
 width: 62px;
 height: 62px;

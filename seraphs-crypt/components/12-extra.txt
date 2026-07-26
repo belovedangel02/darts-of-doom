@@ -43,6 +43,43 @@ border: 1px solid rgba(197, 184, 202, 0.14);
 border-radius: 18px;
 ">
 <p style="
+margin: 0 0 6px 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 14px;
+line-height: 1.8;
+">
+<em>“stay weird — your weird is somebody’s perfect.”</em>
+</p>
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(112, 14, 26);
+font-size: 12px;
+">
+♡
+</p>
+
+<p style="
+margin: 0 0 6px 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 14px;
+line-height: 1.8;
+">
+<em>“i wanna be treated like a princess!”</em>
+</p>
+
+<p style="
+margin: 0 0 18px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+— KUROMI SAID IT BEST 🖤
+</p>
+
+<p style="
 margin: 0;
 color: rgb(125, 120, 130);
 font-size: 13px;

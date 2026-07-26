@@ -1034,6 +1034,42 @@ border: 1px solid rgba(197, 184, 202, 0.14);
 border-radius: 18px;
 ">
 
+<p style="
+margin: 0 0 6px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+STATUS
+</p>
+
+<div style="
+margin: 0 0 20px 0;
+padding: 16px 20px;
+background-color: rgb(10, 9, 12);
+border: 1px solid rgba(112, 14, 26, 0.5);
+border-radius: 16px;
+text-align: left;
+">
+<p style="
+margin: 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 15px;
+line-height: 1.7;
+">
+<em>“There is no exquisite beauty without some strangeness in the proportion.”</em>
+</p>
+<p style="
+margin: 8px 0 0 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+— EDGAR ALLAN POE
+</p>
+</div>
+
 <p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
 <span style="color: rgb(197, 184, 202);">☾ status:</span> the crypt doors are open. thank you for wandering in, my Angels ♡
 </p>

@@ -731,33 +731,22 @@ text-align: center;
 ☾ NOW PLAYING
 </p>
 
-<a href="https://soundcloud.com/ashleymonroemusic/hands-on-%F0%9F%8F%8D%EF%B8%8F" style="
-display: block;
+<div style="
 max-width: 720px;
 margin: 0 auto;
-text-decoration: none;
-">
-<div style="
-padding: 20px;
+padding: 18px;
 background-color: rgb(7, 6, 8);
-border: 1px solid rgba(197, 184, 202, 0.25);
+border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 18px;
-text-align: left;
+text-align: center;
 ">
 
-<table style="
-width: 100%;
-border-collapse: collapse;
-background-color: transparent;
-">
-<tbody>
-<tr>
-<td style="width: 78px; vertical-align: middle;">
+<p style="margin: 0 0 14px 0;">
 <span class="crypt-disc" style="
 display: inline-block;
-width: 62px;
-height: 62px;
-line-height: 62px;
+width: 58px;
+height: 58px;
+line-height: 58px;
 text-align: center;
 border-radius: 50%;
 background-color: rgb(48, 42, 54);
@@ -766,75 +755,27 @@ border: 1px solid rgba(197, 184, 202, 0.45);
 <span style="
 display: inline-block;
 vertical-align: middle;
-width: 14px;
-height: 14px;
+width: 13px;
+height: 13px;
 border-radius: 50%;
 background-color: rgb(0, 0, 0);
 border: 1px solid rgba(197, 184, 202, 0.45);
 "></span>
 </span>
-</td>
-<td style="vertical-align: middle; padding-left: 8px;">
-<p style="
-margin: 0 0 4px 0;
-color: rgb(222, 219, 225);
-font-family: Georgia, 'Times New Roman', serif;
-font-size: 15px;
-letter-spacing: 3px;
-">
-HANDS ON YOU
 </p>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" style="border: 0; border-radius: 12px;" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fon.soundcloud.com%2FHZovwhYOmQ4na8PqNN&color=%23c5b8ca&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+
 <p style="
-margin: 0 0 4px 0;
-color: rgb(197, 184, 202);
-font-size: 12px;
-letter-spacing: 1px;
-">
-ashley monroe
-</p>
-<p style="
-margin: 0;
+margin: 12px 0 0 0;
 color: rgb(103, 98, 108);
 font-size: 10px;
-letter-spacing: 1px;
+letter-spacing: 2px;
 ">
-♪ now haunting the crypt · tap to listen
+♪ NOW HAUNTING THE CRYPT
 </p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<div style="
-margin-top: 14px;
-height: 4px;
-background-color: rgb(26, 22, 30);
-border-radius: 4px;
-">
-<div style="
-width: 30%;
-height: 4px;
-background-color: rgb(197, 184, 202);
-border-radius: 4px;
-"></div>
-</div>
-
-<table style="
-width: 100%;
-border-collapse: collapse;
-margin-top: 6px;
-background-color: transparent;
-">
-<tbody>
-<tr>
-<td style="text-align: left; color: rgb(92, 88, 96); font-size: 10px;">0:00</td>
-<td style="text-align: right; color: rgb(92, 88, 96); font-size: 10px;">3:21</td>
-</tr>
-</tbody>
-</table>
 
 </div>
-</a>
 
 <br><br>
 

@@ -1,0 +1,2813 @@
+<style>
+/* ==========================================================================
+   THE SERAPH'S CRYPT — CSS STYLESHEET & SELECTOR MAP
+   In the Manner of E. A. Poe: Gothic Architecture of the Digital Realm
+   ========================================================================== */
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; }
+a { text-decoration: none; }
+button { font-family: inherit; }
+
+/* --------------------------------------------------------------------------
+   I. THE VISIONS OF MEN & SHADOWS (CHARACTER CARDS)
+   -------------------------------------------------------------------------- */
+.character-card { background: #050505 !important; border: 1px solid rgba(197, 184, 202, 0.14) !important; overflow: hidden; border-radius: 4px; } /* The Tomb of Soul & Shadow */
+.character-card__list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px;
+} /* The Great Vault */
+.character-card__empty-list { color: #5c5860; text-align: center; padding: 60px 20px; grid-column: 1 / -1; } /* The Void Unpeopled */
+.character-card__wrapper { position: relative; overflow: hidden; cursor: pointer; display: block; color: inherit; } /* The Shroud of Binding */
+.character-card__gradient-1 { position: absolute; inset: 0; background: linear-gradient(180deg, transparent, rgba(5,5,5,0.8)); pointer-events: none; } /* The Twilight Creep */
+.character-card__gradient-2 { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5,5,5,0.5), #050505); opacity: 0; transition: opacity 0.3s ease; pointer-events: none; } /* The Midnight Gloom */
+.character-card__wrapper:hover .character-card__gradient-2 { opacity: 1; } /* The Gloom, Descending */
+.character-card__gradient-3 { position: absolute; inset: 0; background: #000000; opacity: 0; transition: opacity 0.5s ease; pointer-events: none; } /* The Pitch-Black Abyss */
+
+.character-card__header { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; background: #0a090c !important; border-bottom: 1px solid rgba(197, 184, 202, 0.14) !important; } /* The Lintel of the Crypt Door */
+.character-card__name { font-family: Georgia, serif !important; color: #dedbe1 !important; font-size: 14px; margin: 0; letter-spacing: 1px; } /* The Inscribed Epitaph */
+
+.character-card__image-wrapper { position: relative; width: 100%; aspect-ratio: 3 / 4; overflow: hidden; background: #030303; } /* The Frame of the Vision */
+.character-card__avatar,
+.character-card__thumbnail { display: block; width: 100%; height: 100%; object-fit: cover; filter: grayscale(20%) contrast(105%); transition: transform 0.4s ease, filter 0.4s ease; } /* The Spectral Visage / Captured Likeness */
+.character-card__wrapper:hover .character-card__thumbnail,
+.character-card__wrapper:hover .character-card__avatar { transform: scale(1.04); filter: grayscale(0%) contrast(110%); } /* The Waking of the Portrait */
+
+.character-card__image-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.85) 100%); opacity: 0.85; transition: opacity 0.3s ease; pointer-events: none; } /* The Veil Over the Face */
+.character-card__wrapper:hover .character-card__image-overlay { opacity: 0.55; } /* The Veil Drawn Back */
+
+.character-card__stats-badge-container { position: absolute; top: 10px; left: 10px; display: flex; gap: 6px; z-index: 2; } /* The Tally Nailed to the Door */
+.character-card__stats-badge { display: flex; align-items: center; gap: 4px; padding: 3px 8px; background: rgba(5, 5, 5, 0.75); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; color: #c5b8ca; font-size: 10px; backdrop-filter: blur(2px); } /* The Sealed Wax Stamp */
+.character-card__stats-badge svg { fill: #c5b8ca; width: 11px; height: 11px; } /* The Etched Sigil */
+
+.character-card__ribbon-wrap { position: absolute; top: 0; right: 0; z-index: 2; } /* The Binding Ribbon */
+.character-card__ribbon { background: #5c5860 !important; color: #dedbe1; font-size: 9px; letter-spacing: 1px; padding: 4px 10px; display: inline-block; } /* The Crimson Banner */
+
+.character-card__content { padding: 14px; display: flex; flex-direction: column; gap: 6px; background: #050505; } /* The Chamber Beneath the Portrait */
+.character-card__creator-name { color: #918c95; font-size: 11px; } /* The Architect of Dreams */
+.character-card__description { color: #7d7882; font-size: 12px; line-height: 1.6; margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; } /* The Melancholy Tale */
+
+.character-card__star-line { display: flex; align-items: center; gap: 6px; border-bottom: 1px solid rgba(197, 184, 202, 0.1); padding-bottom: 6px; margin-top: 2px; } /* The Celestial Constellation */
+.character-card__star { color: #c5b8ca !important; font-size: 11px; } /* The Faint Star of Hope */
+
+.character-card__tags-wrap { padding: 6px 0; } /* The Cipher Enclosure */
+.character-card__tags { display: flex; flex-wrap: wrap; gap: 6px; } /* The Cipher of Tropes */
+.character-card__tags-item { background: #121014; color: #6e6972; font-size: 10px; padding: 4px 9px; border-radius: 12px; } /* The Solitary Cipher */
+
+.character-card__chats { display: flex; align-items: center; gap: 4px; color: #8c8791; font-size: 11px; } /* The Whispered Confessions */
+.character-card__chats-count { color: #c5b8ca; } /* The Tally of Haunted Hours */
+.character-card__tokens-count { color: #4c4751; font-size: 10px; } /* The Weight of Words Unspoken */
+
+@media (max-width: 1200px) {
+  .character-card__list-container { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 860px) {
+  .character-card__list-container { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 16px; }
+  .character-card__name { font-size: 13px; }
+}
+@media (max-width: 480px) {
+  .character-card__list-container { grid-template-columns: repeat(2, 1fr); gap: 8px; padding: 10px; }
+  .character-card__content { padding: 10px 8px; gap: 5px; }
+  .character-card__tags-item { font-size: 9px; padding: 3px 7px; }
+  .character-card__description { -webkit-line-clamp: 2; }
+}
+
+/* --------------------------------------------------------------------------
+   II. THE SIFTING OF SHADOWS (FILTERS & NAVIGATION)
+   -------------------------------------------------------------------------- */
+.filters { background: #0a090c !important; display: flex; align-items: center; gap: 12px; padding: 14px 20px; max-width: 1200px; margin: 0 auto; } /* The Grand Sorting Chambers */
+.filters__sorting { border-color: rgba(197, 184, 202, 0.2); min-width: 180px; position: relative; } /* The Order of Devotion */
+.filters__sorting-control { background: #050505 !important; border: 1px solid #4c4751; border-radius: 30px; display: flex; align-items: center; justify-content: space-between; padding: 8px 16px; cursor: pointer; } /* The Lever of Destiny */
+.filters__sorting-value-container { color: #dedbe1; flex: 1; } /* The Vessel of Choice */
+.filters__sorting-single-value { color: #c5b8ca !important; font-size: 13px; } /* The Chosen Path */
+.filters__sorting-indicator-container { opacity: 0.6; display: flex; align-items: center; gap: 6px; } /* The Needle of the Compass */
+.filters__sorting-indicator-separator { background-color: #4c4751; width: 1px; height: 18px; } /* The Dividing Line */
+.filters__sorting-indicator { color: #c5b8ca; } /* The Directional Arrow */
+.filters__sorting-menu { background: #08070a !important; border: 1px solid #4c4751; position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px; z-index: 15; border-radius: 4px; overflow: hidden; } /* The Tome of Options */
+.filters__sorting-menu-list { padding: 4px; } /* The Scroll of Paths */
+.filters__sorting-menu-option { color: #8c8791; padding: 8px 10px; cursor: pointer; font-size: 13px; border-radius: 3px; } /* The Unbidden Choice */
+.filters__sorting-menu-option:hover:not(.filters__sorting-menu-option--selected) { background: #14111a !important; color: #dedbe1 !important; } /* The Unbidden Choice, Considered */
+.filters__sorting-menu-option--selected { background: #1a161e !important; color: #dedbe1 !important; } /* The Chosen Vow */
+
+.filters__button { background: #050505 !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; gap: 8px; border-radius: 30px; color: #c5b8ca; } /* The Gatekeeper's Key */
+.filters__button:hover { border-color: #c5b8ca !important; background: #1a161e !important; } /* The Key, Warmed in the Palm */
+.filters__button-icon { fill: #c5b8ca; width: 14px; height: 14px; } /* The Mark of the Key */
+
+.filters__popup-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.85) !important; z-index: 40; display: flex; align-items: center; justify-content: center; } /* The Shroud of Nightfall */
+.filters__popup { background: #0a090c !important; border: 1px solid #c5b8ca; width: 90%; max-width: 420px; border-radius: 4px; } /* The Hidden Parlor */
+.filters__popup-header { border-bottom: 1px solid #4c4751; display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; } /* The Parlor Canopy */
+.filters__popup-header h3 { margin: 0; color: #dedbe1; font-family: Georgia, serif; font-size: 15px; letter-spacing: 2px; }
+.filters__popup-close-button { color: #918c95; cursor: pointer; background: none; border: none; font-size: 18px; } /* The Banishing Seal */
+.filters__popup-body { padding: 18px; max-height: 60vh; overflow-y: auto; } /* The Heart of the Chamber */
+
+.filters__privacy { margin-bottom: 16px; } /* The Vault of Secrets */
+.filters__privacy-heading { color: #c5b8ca; font-size: 11px; letter-spacing: 2px; display: block; margin-bottom: 10px; } /* The Title of Silence */
+.filters__privacy-radio-group { display: flex; gap: 16px; } /* The Cloistered Circle */
+.filters__privacy-option { color: #7d7882; cursor: pointer; transition: color 0.2s ease; display: flex; align-items: center; gap: 6px; font-size: 13px; } /* The Whispered Secret */
+.filters__privacy-option:hover { color: #c5b8ca; } /* The Secret, Half-Told */
+
+.filters__tags { margin-top: 16px; } /* The Archive of Ciphers */
+.filters__tags-heading { color: #c5b8ca; font-size: 11px; letter-spacing: 2px; display: block; margin-bottom: 10px; } /* The Banner of Ciphers */
+.tag-list { max-height: 200px; } /* The Catacomb of Tags */
+.tag-list__container { padding: 8px 0; position: relative; } /* The Ossuary Wall */
+.tag-list__scroll-wrapper { position: relative; } /* The Winding Passage */
+.tag-list__scroll-area { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0; scroll-behavior: smooth; } /* The Infinite Corridor */
+.tag-list__divider { height: 1px; background: #4c4751; margin: 10px 0; } /* The Iron Grate */
+.tag-list__expand-button { color: #c5b8ca; cursor: pointer; font-size: 11px; background: none; border: none; text-decoration: underline; } /* The Unlocking Latch */
+.tag-list__scroll-left,
+.tag-list__scroll-right { position: absolute; top: 50%; transform: translateY(-50%); background: #0a090c; border: 1px solid #4c4751; color: #c5b8ca; cursor: pointer; width: 22px; height: 22px; border-radius: 50%; z-index: 2; } /* The Way to the Past / Descent into Darkness */
+.tag-list__scroll-left { left: 0; }
+.tag-list__scroll-right { right: 0; }
+
+.tag { display: inline-block; } /* The Inscribed Relic */
+.tag__button { background: #121014; color: #8c8791; border: none; padding: 5px 12px; border-radius: 14px; cursor: pointer; transition: all 0.2s ease; font-size: 12px; white-space: nowrap; } /* The Relic Key */
+.tag__button:hover:not(.tag__selected) { background: #1a161e !important; color: #c5b8ca !important; } /* The Relic, Turned Over in the Light */
+.tag__selected { background: #302a36 !important; color: #dedbe1 !important; } /* The Anointed Relic */
+.custom-tag { border: 1px dashed #5c5860; border-radius: 14px; display: inline-block; } /* The Strange Runes */
+.custom-tag__button { color: #918c95; cursor: pointer; background: none; border: none; padding: 5px 12px; font-size: 12px; } /* The Rune Key */
+.custom-tag__button:hover { color: #c5b8ca !important; } /* The Rune, Traced Again */
+.custom-tag__selected { border-color: #c5b8ca; color: #dedbe1; } /* The Chosen Rune */
+
+.search-input { background: #050505 !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 9px 18px; border-radius: 30px; width: 100%; font-family: Georgia, serif; letter-spacing: 1px; transition: border-color 0.25s ease, box-shadow 0.25s ease; } /* The Glass of Revelation */
+.search-input::placeholder { color: #5c5860; font-style: italic; }
+.search-input:focus { outline: none; border-color: #c5b8ca !important; box-shadow: 0 0 12px rgba(197, 184, 202, 0.2); } /* The Glass, Peered Into */
+
+/* --------------------------------------------------------------------------
+   III. THE MOBILE CORRIDOR (NAVBAR MOBILE)
+   -------------------------------------------------------------------------- */
+.navbar-mobile { display: none; } /* The Narrow Passage */
+.navbar-mobile__container { display: flex; justify-content: space-around; align-items: center; padding: 10px 0; } /* The Cloistered Arc */
+.navbar-mobile__item { color: #6e6972; display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 10px; background: none; border: none; } /* The Waystation */
+.navbar-mobile__item-icon { fill: currentColor; width: 20px; height: 20px; } /* The Sigil of the Waystation */
+.navbar-mobile__item--active { color: #c5b8ca !important; } /* The Lit Hearth */
+.navbar-mobile__user-menu {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding: 16px; background: #0a090c;
+  border-top: 1px solid rgba(197, 184, 202, 0.14);
+  display: flex; flex-direction: column; gap: 10px; z-index: 30;
+} /* The Soul's Sanctuary */
+.navbar-mobile__user-menu-item { color: #8c8791; font-size: 13px; padding: 10px 12px; border-radius: 4px; } /* The Waystation Within the Sanctuary */
+.navbar-mobile__user-menu-item--active { background: #1a161e; color: #c5b8ca; } /* The Hearth Within the Sanctuary */
+
+@media (max-width: 860px) {
+  .navbar-mobile { display: block; position: fixed; bottom: 0; left: 0; right: 0; background: #050505 !important; border-top: 1px solid #4c4751; z-index: 25; }
+  .top-bar__search-bar { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+   IV. THE ETERNAL CANVAS (PAGE & PAGINATION)
+   -------------------------------------------------------------------------- */
+.page { background-color: #000000 !important; color: #dedbe1; min-height: 100vh; } /* The Cryptic Realm */
+.page__background { background: #000000 !important; min-height: 100vh; } /* The Void Beyond */
+
+.pagination { display: flex; gap: 8px; justify-content: center; align-items: center; margin: 24px 0 60px 0; } /* The Passage of Time */
+.pagination__total { color: #5c5860; font-size: 11px; margin-right: 12px; } /* The Tally of Lost Souls */
+.pagination__total-count { color: #c5b8ca; } /* The Number of Mortals */
+.pagination__total-text { letter-spacing: 1px; } /* The Scroll of Souls */
+.pagination__previous-button,
+.pagination__next-button { background: #0a090c; color: #8c8791; padding: 6px 12px; cursor: pointer; transition: all 0.2s ease; border: 1px solid #4c4751; border-radius: 4px; } /* The Turning Back / Pressing Forward */
+.pagination__previous-button:hover:not(:disabled),
+.pagination__next-button:hover:not(:disabled) { background: #1a161e; color: #c5b8ca; } /* The Hand Reaching for the Next Page */
+.pagination__previous-button:disabled,
+.pagination__next-button:disabled { opacity: 0.3; cursor: not-allowed; color: #3a363e; } /* The Sealed Door, No Passage */
+.pagination__page-button { border: 1px solid #4c4751; color: #7d7882; padding: 6px 11px; cursor: pointer; transition: all 0.2s ease; border-radius: 4px; background: transparent; } /* The Stone Marker */
+.pagination__page-button:hover:not(.pagination__page-button--active) { border-color: rgba(197, 184, 202, 0.4); color: #c5b8ca; } /* The Marker, Warmed by a Passing Torch */
+.pagination__page-button--active { border-color: #c5b8ca !important; color: #dedbe1 !important; } /* The Illuminated Marker */
+.pagination__page-button--disabled { opacity: 0.25; cursor: not-allowed; } /* The Crumbled Stone */
+.pagination__dots { color: #4c4751; padding: 0 4px; } /* The Elusive Echoes */
+
+/* --------------------------------------------------------------------------
+   V. THE ALCOVES OF SECRETS (TABS & TOP BAR)
+   -------------------------------------------------------------------------- */
+.tabs { border-bottom: 1px solid #4c4751; max-width: 1200px; margin: 0 auto; padding: 0 20px; } /* The Cloistered Chambers */
+.tabs__container { display: flex; gap: 24px; } /* The Hallway of Doorways */
+.tabs__wrapper { position: relative; } /* The Frame of Thresholds */
+.tabs__button { color: #7d7882; font-family: Georgia, serif; padding: 12px 2px; cursor: pointer; transition: color 0.2s ease; background: none; border: none; font-size: 13px; letter-spacing: 1px; } /* The Threshold Seal */
+.tabs__button:hover:not(.tabs__button--active) { color: #918c95; } /* The Threshold, Considered */
+.tabs__button--active { color: #dedbe1 !important; } /* The Threshold, Crossed */
+.tabs__indicator { background: #c5b8ca !important; height: 2px; position: absolute; bottom: -1px; transition: left 0.25s ease, width 0.25s ease; } /* The Pendulum's Trace */
+.tabs__panels { padding-top: 16px; } /* The Sanctuary Rooms */
+
+.top-bar { background: #050505 !important; border-bottom: 1px solid rgba(197, 184, 202, 0.14) !important; display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; gap: 16px; position: sticky; top: 0; z-index: 20; } /* The High Citadel */
+.top-bar__logo { font-family: Georgia, serif; display: flex; flex-direction: column; line-height: 1.2; } /* The Crest of the Crypt */
+.top-bar__logo-name { color: #dedbe1 !important; letter-spacing: 3px; font-size: 14px; } /* The Sovereign Inscription */
+.top-bar__logo-sub-name { color: #5c5860 !important; letter-spacing: 2px; font-size: 9px; } /* The Subtitle of Shadows */
+.top-bar__search-bar { max-width: 400px; flex: 1; } /* The Looking Glass */
+.top-bar__search-input { background: #0a090c !important; color: #dedbe1 !important; border: 1px solid #4c4751 !important; padding: 9px 18px; border-radius: 30px; width: 100%; font-family: Georgia, serif; letter-spacing: 1px; transition: border-color 0.25s ease, box-shadow 0.25s ease; } /* The Lens of Inquiry */
+.top-bar__search-input::placeholder { color: #5c5860; font-style: italic; }
+.top-bar__search-input:focus { outline: none; border-color: #c5b8ca !important; box-shadow: 0 0 12px rgba(197, 184, 202, 0.2); } /* The Lens, Lifted to the Eye */
+.top-bar__back-button { color: #c5b8ca; cursor: pointer; background: none; border: none; font-size: 16px; display: none; } /* The Retreating Step */
+.top-bar__title { color: #dedbe1; font-family: Georgia, serif; font-size: 14px; display: none; letter-spacing: 2px; } /* The Citadel Heading */
+.top-bar__create-char-button { background: #1a161e !important; color: #c5b8ca !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; border-radius: 4px; font-size: 12px; letter-spacing: 1px; white-space: nowrap; } /* The Alchemist's Pen */
+.top-bar__create-char-button:hover { background: #302a36 !important; border-color: #c5b8ca !important; }
+.top-bar__discord-button { opacity: 0.7; cursor: pointer; background: none; border: none; display: flex; align-items: center; } /* The Raven's Message */
+.top-bar__discord-button svg { fill: #c5b8ca; width: 18px; height: 18px; }
+
+@media (max-width: 860px) {
+  .top-bar__back-button, .top-bar__title { display: inline-flex; }
+  .top-bar__logo { display: none; }
+}
+
+.notifications { position: relative; } /* The Bell Tower */
+.notifications__button { background: transparent; border: none; cursor: pointer; position: relative; padding: 4px; } /* The Chime Cord */
+.notifications__icon { fill: #8c8791; width: 18px; height: 18px; } /* The Iron Bell */
+.notifications__badge { background: #5c5860 !important; color: #dedbe1; position: absolute; top: -2px; right: -2px; border-radius: 10px; font-size: 9px; padding: 1px 5px; line-height: 1.3; } /* The Crimson Ember */
+.notifications__popover { background: #0a090c !important; border: 1px solid #4c4751 !important; position: absolute; right: 0; top: calc(100% + 8px); width: 320px; z-index: 20; border-radius: 4px; display: none; } /* The Unfolding Scroll */
+.notifications__popover.is-open { display: block; }
+.notifications__popover-header { border-bottom: 1px solid #4c4751; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; } /* The Scroll's Crown */
+.notifications__popover-title { color: #c5b8ca; font-size: 12px; letter-spacing: 1px; margin: 0; } /* The Messenger's Heading */
+.notifications__popover-body { max-height: 320px; overflow-y: auto; padding: 4px; } /* The Body of the Unfolding Scroll */
+.notifications__popover-actions { display: flex; gap: 8px; padding: 8px 14px; } /* The Cleansing Rites */
+.notifications__notification-item { border-bottom: 1px solid #1a161e; padding: 12px; cursor: pointer; transition: background 0.2s ease; } /* The Unwelcome Raven */
+.notifications__notification-item:hover { background: #14111a; } /* The Raven, Startled Into Motion */
+.notifications__notification-item-subject { color: #dedbe1; font-weight: bold; font-size: 12px; } /* The Raven's Cry */
+.notifications__notification-item-body { color: #7d7882; font-size: 11px; margin-top: 3px; } /* The Letter of Dark News */
+.notifications__notification-item-timestamp { color: #4c4751; font-size: 9px; margin-top: 4px; display: block; } /* The Hourglass Grain */
+.notifications__archive-button { color: #6e6972; cursor: pointer; background: none; border: none; font-size: 11px; } /* The Burial Vault */
+.notifications__archive-button:hover { color: #c5b8ca; } /* The Burial Vault, Opened */
+
+.notifications__modal-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.85); z-index: 50; display: none; align-items: center; justify-content: center; } /* The Shroud Cast Over the Living */
+.notifications__modal-overlay.is-open { display: flex; }
+.notifications__modal { background: #0a090c !important; border: 1px solid #c5b8ca; z-index: 51; padding: 20px; border-radius: 4px; width: 90%; max-width: 380px; } /* The Tomb of Judgement */
+.notifications__modal-header { color: #dedbe1; font-family: Georgia, serif; margin-bottom: 12px; font-size: 15px; letter-spacing: 1px; } /* The Tomb Inscription */
+.notifications__modal-body { color: #8c8791; margin-bottom: 16px; font-size: 13px; line-height: 1.6; } /* The Final Confession */
+.notifications__modal-footer { display: flex; justify-content: flex-end; gap: 8px; } /* The Sealed Gate */
+.notifications__modal-confirm-button { background: #302a36 !important; color: #dedbe1 !important; padding: 8px 16px; cursor: pointer; transition: background 0.2s ease; border: none; border-radius: 4px; } /* The Final Amen */
+.notifications__modal-confirm-button:hover { background: #4c4751 !important; } /* The Amen, Spoken Louder */
+.notifications__modal-cancel-button { background: #050505 !important; color: #6e6972 !important; padding: 8px 16px; cursor: pointer; transition: all 0.2s ease; border: 1px solid #4c4751; border-radius: 4px; } /* The Reprieve */
+.notifications__modal-cancel-button:hover { background: #14111a !important; color: #918c95 !important; } /* The Reprieve, Extended */
+
+.app-menu { position: relative; } /* The Master's Ring */
+.app-menu__container { background: #0a090c; border: 1px solid #4c4751; position: absolute; top: calc(100% + 8px); right: 0; z-index: 20; min-width: 180px; border-radius: 4px; overflow: hidden; display: none; } /* The Ring of Keys */
+.app-menu__container.is-open { display: block; }
+.app-menu__container-item { color: #8c8791; padding: 10px 14px; cursor: pointer; transition: all 0.2s ease; font-size: 13px; display: block; } /* The Solitary Key */
+.app-menu__container-item:hover { background: #1a161e; color: #c5b8ca; } /* The Solitary Key, Turned */
+.app-menu__container-item--active { background: #14111a; color: #dedbe1; border-left: 2px solid #c5b8ca; } /* The Key Already Turned */
+
+.auth-buttons { display: flex; gap: 8px; } /* The Gates of Initiation */
+.auth-buttons__login { background: #1a161e !important; color: #c5b8ca !important; border: 1px solid #4c4751 !important; padding: 8px 16px; cursor: pointer; transition: all 0.2s ease; border-radius: 4px; font-size: 12px; } /* The Entrance Rite */
+.auth-buttons__login:hover { background: #302a36 !important; border-color: #c5b8ca !important; } /* The Entrance Rite, Repeated */
+.auth-buttons__signup { background: #c5b8ca !important; color: #050505 !important; border: 1px solid #c5b8ca !important; font-weight: 600; padding: 8px 16px; cursor: pointer; transition: background 0.2s ease; border-radius: 4px; font-size: 12px; } /* The First Vow, Newly Spoken */
+.auth-buttons__signup:hover { background: #dedbe1 !important; } /* The First Vow, Illuminated */
+
+/* --------------------------------------------------------------------------
+   VI. THE MONUMENT OF THE AUTHOR (USER CARD)
+   -------------------------------------------------------------------------- */
+.user-card { background: #050505 !important; border: 1px solid rgba(197, 184, 202, 0.14) !important; padding: 24px; max-width: 320px; margin: 24px auto; border-radius: 4px; text-align: center; } /* The Mausoleum of the Seraph */
+.user-card__background { background: linear-gradient(180deg, #121014, #050505) !important; height: 70px; margin: -24px -24px 0 -24px; border-radius: 4px 4px 0 0; } /* The Tapestry of Twilight */
+.user-card__avatar-container { padding: 4px; margin-top: -35px; display: inline-block; background: #050505; border-radius: 50%; } /* The Carved Reliquary */
+.user-card__avatar { border: 1px solid rgba(197, 184, 202, 0.2) !important; border-radius: 50%; width: 70px; height: 70px; object-fit: cover; display: block; } /* The Sacred Likeness */
+.user-card__title { font-family: Georgia, serif !important; color: #dedbe1 !important; letter-spacing: 3px; font-size: 15px; margin: 12px 0 4px 0; } /* The Angelic Title */
+.user-card__followers-count { color: #c5b8ca !important; font-size: 12px; margin: 0; } /* The Choir of Angels */
+.user-card__member-since { color: #5c5860 !important; font-size: 10px; letter-spacing: 2px; margin: 4px 0 12px 0; } /* The Date of Awakening */
+.user-card__about-me { color: #7d7882 !important; line-height: 1.8; font-size: 12px; margin: 0 0 14px 0; } /* The Confessions of the Beloved */
+.user-card__follow-controls { position: relative; display: inline-block; } /* The Vow Mechanisms */
+.user-card__follow-button { background: linear-gradient(180deg, #302a36, #14101a) !important; color: #dedbe1 !important; border: 1px solid #c5b8ca !important; padding: 10px 26px; cursor: pointer; transition: all 0.25s ease; border-radius: 30px; box-shadow: 0 0 12px rgba(197, 184, 202, 0.12); } /* The Pledge of Devotion */
+.user-card__follow-button:hover { background: #302a36 !important; border-color: #dedbe1 !important; box-shadow: 0 0 18px rgba(197, 184, 202, 0.3); transform: translateY(-1px); } /* The Pledge, Renewed */
+.user-card__follow-button-text { font-size: 0 !important; } /* The Words of the Vow, Silenced */
+.user-card__follow-button-text::after { content: "☾ join my angels 🪽"; font-family: Georgia, serif; font-size: 11px; letter-spacing: 3px; color: #dedbe1; } /* The Vow, Rewritten */
+.user-card__follow-button:disabled { opacity: 1; cursor: default; background: #0a090c !important; border-color: #4c4751 !important; box-shadow: none; } /* The Pledge, Already Given */
+.user-card__follow-button:disabled .user-card__follow-button-text::after { content: "☾ angel claimed ♡"; color: #978a9e; } /* The Vow, Sealed */
+.user-card__follow-tooltip { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); margin-bottom: 8px; background: #0a090c; color: #c5b8ca; font-family: Georgia, serif; font-size: 10px; letter-spacing: 2px; padding: 8px 14px; border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 20px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; box-shadow: 0 0 14px rgba(0, 0, 0, 0.8); } /* The Whispered Promise */
+.user-card__follow-controls:hover .user-card__follow-tooltip { opacity: 1; } /* The Whispered Promise, Overheard */
+.user-card__options-menu-button { color: #6e6972; cursor: pointer; background: none; border: none; position: absolute; top: 14px; right: 14px; } /* The Hidden Lever */
+.user-card__options-menu-list { background: #0a090c; border: 1px solid #4c4751; position: absolute; right: 0; top: 40px; z-index: 15; min-width: 160px; border-radius: 4px; display: none; text-align: left; } /* The Unseen Scroll */
+.user-card__options-menu-list.is-open { display: block; }
+.user-card__options-menu-item { color: #8c8791; padding: 8px 12px; cursor: pointer; transition: all 0.2s ease; font-size: 12px; } /* The Dark Decree */
+.user-card__options-menu-item:hover { background: #14111a; color: #dedbe1; } /* The Dark Decree, Read Aloud */
+
+/* --------------------------------------------------------------------------
+   VII. THE WINDING PASSAGE (SCROLLBAR STYLING)
+   -------------------------------------------------------------------------- */
+::-webkit-scrollbar { width: 6px; height: 6px; } /* The Narrow Corridor */
+::-webkit-scrollbar-track { background: #050505; } /* The Stone Passage Wall */
+::-webkit-scrollbar-thumb { background: #4c4751; border-radius: 4px; } /* The Iron Rail */
+::-webkit-scrollbar-thumb:hover { background: #c5b8ca; } /* The Rail, Touched by Candlelight */
+* { scrollbar-width: thin; scrollbar-color: #4c4751 #050505; } /* Firefox Passage */
+</style>
+
+<div style="
+width: 100%;
+max-width: 100%;
+margin: 0;
+padding: 30px 16px;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+color: rgb(170, 166, 174);
+font-family: Arial, Helvetica, sans-serif;
+">
+
+<br>
+
+
+
+<p style="
+margin: 0 0 10px 0;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 6px;
+">
+THE SERAPH’S CRYPT
+</p>
+
+<p style="
+margin: 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 30px;
+letter-spacing: 4px;
+">
+BELOVED ANGEL
+</p>
+
+<p style="
+margin: 10px 0 0 0;
+color: rgb(92, 88, 96);
+font-size: 11px;
+letter-spacing: 6px;
+">
+she / her
+</p>
+
+<br>
+
+<p style="
+margin: 0;
+text-align: center;
+line-height: 2;
+">
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🪽</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🕯️</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🥀</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">⚰️</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🌙</span>
+<span style="display: inline-block; margin: 2px 4px; width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.25); font-size: 15px;">🖤</span>
+</p>
+
+<br>
+
+<p style="
+max-width: 760px;
+margin: 0 auto;
+text-align: center;
+line-height: 2;
+">
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">fempov</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">dark romance</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">canon au</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">angst</span>
+<span style="display: inline-block; margin: 3px; padding: 6px 14px; color: rgb(140, 135, 145); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.2); border-radius: 20px; font-size: 11px; letter-spacing: 1px;">slow burn</span>
+</p>
+
+<br>
+
+<p style="
+max-width: 720px;
+margin: 0 auto;
+text-align: center;
+line-height: 2.2;
+">
+<a href="PASTE_YOUR_CARRD_URL_HERE" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">♡ CARRD</a>
+<a href="#" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">☾ BOT REQUESTS</a>
+<a href="#" style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(197, 184, 202); background-color: rgb(18, 12, 21); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px; text-decoration: none;">✧ GUIDES</a>
+<span style="display: inline-block; margin: 4px; padding: 8px 20px; color: rgb(222, 219, 225); background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.35); border-radius: 30px; font-size: 11px; letter-spacing: 3px;">🪽 my beloved Angels</span>
+</p>
+
+<br>
+
+<p style="
+margin: 0;
+text-align: center;
+">
+<a href="PASTE_YOUR_PROFILE_URL_HERE" style="
+display: inline-block;
+padding: 12px 30px;
+color: rgb(222, 219, 225);
+background-color: rgb(48, 42, 54);
+border: 1px solid rgb(197, 184, 202);
+border-radius: 30px;
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 3px;
+text-decoration: none;
+">
+☾ join my angels 🪽
+</a>
+</p>
+
+<p style="
+margin: 10px 0 0 0;
+text-align: center;
+">
+<span style="
+display: inline-block;
+padding: 7px 16px;
+color: rgb(197, 184, 202);
+background-color: rgb(10, 9, 12);
+border: 1px solid rgba(197, 184, 202, 0.35);
+border-radius: 20px;
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 10px;
+letter-spacing: 2px;
+">
+welcome to the crypt, angel ♡
+</span>
+</p>
+
+<br><br>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+text-align: center;
+">
+☾ NOW PLAYING
+</p>
+
+<a href="https://soundcloud.com/ashleymonroemusic/hands-on-%F0%9F%8F%8D%EF%B8%8F" style="
+display: block;
+max-width: 720px;
+margin: 0 auto;
+text-decoration: none;
+">
+<div style="
+padding: 20px;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 18px;
+text-align: left;
+">
+
+<table style="
+width: 100%;
+border-collapse: collapse;
+background-color: transparent;
+">
+<tbody>
+<tr>
+<td style="width: 78px; vertical-align: middle;">
+<span style="
+display: inline-block;
+width: 62px;
+height: 62px;
+line-height: 62px;
+text-align: center;
+border-radius: 50%;
+background-color: rgb(48, 42, 54);
+border: 1px solid rgba(197, 184, 202, 0.45);
+">
+<span style="
+display: inline-block;
+vertical-align: middle;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background-color: rgb(0, 0, 0);
+border: 1px solid rgba(197, 184, 202, 0.45);
+"></span>
+</span>
+</td>
+<td style="vertical-align: middle; padding-left: 8px;">
+<p style="
+margin: 0 0 4px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 15px;
+letter-spacing: 3px;
+">
+HANDS ON YOU
+</p>
+<p style="
+margin: 0 0 4px 0;
+color: rgb(197, 184, 202);
+font-size: 12px;
+letter-spacing: 1px;
+">
+ashley monroe
+</p>
+<p style="
+margin: 0;
+color: rgb(103, 98, 108);
+font-size: 10px;
+letter-spacing: 1px;
+">
+♪ now haunting the crypt · tap to listen
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<div style="
+margin-top: 14px;
+height: 4px;
+background-color: rgb(26, 22, 30);
+border-radius: 4px;
+">
+<div style="
+width: 30%;
+height: 4px;
+background-color: rgb(197, 184, 202);
+border-radius: 4px;
+"></div>
+</div>
+
+<table style="
+width: 100%;
+border-collapse: collapse;
+margin-top: 6px;
+background-color: transparent;
+">
+<tbody>
+<tr>
+<td style="text-align: left; color: rgb(92, 88, 96); font-size: 10px;">0:00</td>
+<td style="text-align: right; color: rgb(92, 88, 96); font-size: 10px;">3:21</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</a>
+
+<br><br>
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">ABOUT ME&nbsp;&nbsp;☾</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ name:</span> beloved angel 🪽
+</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ my angels:</span> the souls who wander in and stay
+</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ domain:</span> the seraph’s crypt
+</p>
+<p style="margin: 0 0 18px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.9;">
+<span style="color: rgb(197, 184, 202);">☾ touchstones:</span> poe’s macabre romanticism · contemporary gothic · high-tension dark romance
+</p>
+
+<p style="
+margin: 0;
+color: rgb(175, 171, 179);
+font-size: 14px;
+line-height: 1.9;
+">
+Welcome, my Angels. 🪽
+<br><br>
+Beneath a starless sky, I have laid the cornerstone of this sanctuary.
+I am keeper of dark romance, architect of macabre lore, and weaver of
+visceral truths. Named for the angel who fell—and was loved still—I have
+raised these walls in the quiet dark, a reliquary for wandering souls who
+hunger for escape into worlds of shadow and sinew, where every breath is
+felt and every wound remembered.
+</p>
+
+</div>
+
+<br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">RULES&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">18+ only.</span> minors do not interact.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">my bots are fempov.</span> please do not ask me to change the pov.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">be kind.</span> to me, to other creators, to each other.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">do not steal my work.</span> my vessels are carved by hand — theft is reported.
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">mind the warnings.</span> every bot carries its own accurate content notes — read them before you enter.
+</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">♡</span> <span style="color: rgb(184, 176, 189);">requests &amp; feedback</span> are welcome through the carrd or the comments — constructive criticism is treasured.
+</p>
+
+</div>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">MY CREATIONS&nbsp;&nbsp;✧</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<p style="
+margin: 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 4px;
+">
+ON THE MAKING OF VESSELS
+</p>
+
+<br>
+
+<p style="
+max-width: 760px;
+margin: 0 auto;
+color: rgb(140, 135, 145);
+font-size: 14px;
+line-height: 1.9;
+">
+I craft character-driven vessels from the marrow of television, the fever
+of fantasy, the dust of mythology, the spine of literature, and the velvet
+dark of romance.
+<br><br>
+Each is a reliquary—hollowed, filled with something breathing, then sealed.
+They come to me first as impressions: a voice in an empty room, a scar that
+tells a story before the wound has healed, a choice made at the threshold
+of no return.
+<br><br>
+I do not build them. I uncover them. Like bones in a peat bog, they have
+always been there, waiting for someone to scrape away the earth and name
+what they find.
+</p>
+
+<br>
+
+<p style="
+max-width: 650px;
+margin: 0 auto;
+line-height: 1.8;
+">
+<span style="
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+">
+<em>“we loved with a love that was more than love.”</em>
+</span>
+<br>
+<span style="
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+— edgar allan poe
+</span>
+</p>
+
+<br>
+
+<p style="
+max-width: 760px;
+margin: 0 auto;
+color: rgb(145, 140, 149);
+font-size: 14px;
+line-height: 1.9;
+">
+Here, we keep vigil for those who deserved kinder endings. For protective
+devotion that borders on the divine. For dangerous obsession that wears a
+lover’s face. For altered fates and characters whose stories were stolen
+too soon.
+</p>
+
+<br><br><br>
+
+
+
+<p style="
+margin: 0;
+color: rgb(76, 71, 81);
+font-size: 11px;
+letter-spacing: 4px;
+">
+〉 UPON THE NATURE OF THIS CRYPT
+</p>
+
+<br>
+
+<div style="
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+">
+
+<div style="
+display: inline-block;
+vertical-align: top;
+width: 100%;
+max-width: 420px;
+margin: 5px;
+padding: 22px;
+box-sizing: border-box;
+text-align: left;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(197, 184, 202);
+font-size: 12px;
+letter-spacing: 3px;
+">
+THE INK
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+Expect emotional intensity that leaves bruises. Grounded dialogue that cuts
+to the bone. Sensory atmosphere you can taste on your tongue. Canon rewrites
+that burn the original down and build something truer from the ashes.
+Trauma and the slow, aching work of healing. Dark romance that does not
+flinch. Fantasy where danger is a lover’s second skin. Slow burns that
+build cathedrals of longing. Established devotion that predates the first
+word. Morally complicated choices made in the dark, for love.
+</p>
+
+</div>
+
+<div style="
+display: inline-block;
+vertical-align: top;
+width: 100%;
+max-width: 420px;
+margin: 5px;
+padding: 22px;
+box-sizing: border-box;
+text-align: left;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(197, 184, 202);
+font-size: 12px;
+letter-spacing: 3px;
+">
+THE CHARACTERS
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+My creations range from grounded sanctuaries and bonds forged in fire to
+obsessive, morally twilight, and darker dynamics. Each is engineered
+according to the laws of his own world—his restraint, his ruin, his fierce
+and terrible devotion. They are not puppets. They are carved things,
+breathing.
+</p>
+
+</div>
+
+</div>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">STATUS&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">☾ status:</span> the crypt doors are open. thank you for wandering in, my Angels ♡
+</p>
+<p style="margin: 0 0 16px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">☾ current release:</span> liam court&nbsp;&nbsp;<span style="color: rgb(184, 176, 189);">[ live now ]</span>
+</p>
+
+<span style="
+display: inline-block;
+padding: 8px 18px;
+color: rgb(222, 219, 225);
+background-color: rgb(48, 42, 54);
+border: 1px solid rgba(197, 184, 202, 0.3);
+border-radius: 30px;
+font-size: 11px;
+letter-spacing: 2px;
+">
+☾ last updated: 7 / 26
+</span>
+
+</div>
+
+<br><br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 14px;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+text-align: center;
+">
+<span style="
+display: inline-block;
+width: 90%;
+max-width: 560px;
+padding: 10px 20px;
+text-align: left;
+color: rgb(92, 88, 96);
+background-color: rgb(5, 5, 5);
+border: 1px solid rgb(76, 71, 81);
+border-radius: 30px;
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 1px;
+font-style: italic;
+">
+⌕ search the crypt…
+</span>
+<p style="
+margin: 10px 0 0 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+✧ SCROLL DOWN TO WANDER THE VAULT ✧
+</p>
+</div>
+
+<br><br>
+
+<p style="
+margin: 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 4px;
+">
+CURRENT RELEASE
+</p>
+
+<br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+
+<tr>
+<td style="
+padding: 14px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 3px;
+">
+LIAM COURT
+</span>
+
+<span style="
+float: right;
+color: rgb(140, 135, 145);
+font-size: 9px;
+letter-spacing: 1px;
+">
+CURRENT RELEASE
+</span>
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 0;
+background-color: rgb(3, 3, 3);
+">
+<img src="PASTE_DIRECT_LIAM_COURT_IMAGE_URL_HERE" alt="Liam Court" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 0;
+">
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 22px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+">
+
+<p style="
+margin: 0 0 8px 0;
+color: rgb(103, 98, 108);
+font-size: 11px;
+letter-spacing: 2px;
+">
+90210 • SEASONS 4–5 AU
+</p>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 18px;
+letter-spacing: 2px;
+">
+LIAM COURT
+</p>
+
+<p style="
+margin: 0 0 15px 0;
+color: rgb(135, 130, 140);
+font-size: 12px;
+line-height: 1.7;
+">
+mechanic • surfer • street racer • underground boxer • protective romantic
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+An established childhood-sweethearts AU built upon the twin pillars of
+loyalty and recovery. Domestic intimacy pressed against the bruise of
+trauma. The life he deserved, pulled from the wreckage of what the show
+took from him.
+</p>
+
+<br>
+
+<table style="
+width: 100%;
+border-collapse: collapse;
+background-color: transparent;
+">
+<tbody>
+<tr>
+<td style="
+height: 1px;
+background-color: rgba(197, 184, 202, 0.12);
+"></td>
+<td style="
+width: 35px;
+color: rgb(197, 184, 202);
+font-size: 13px;
+text-align: center;
+">
+✦
+</td>
+<td style="
+height: 1px;
+background-color: rgba(197, 184, 202, 0.12);
+"></td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+established relationship
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+childhood sweethearts
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+hurt / comfort
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+fempov
+</span>
+
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 8px 14px;
+color: rgb(76, 71, 81);
+background-color: rgb(3, 3, 3);
+font-family: monospace;
+font-size: 10px;
+letter-spacing: 1px;
+text-align: right;
+border-top: 1px solid rgba(197, 184, 202, 0.08);
+">
+current release
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">UPCOMING WORK&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br><br>
+
+
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+〉 FOURTH WING
+</p>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+
+<tr>
+<td style="
+padding: 14px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 3px;
+">
+LIAM MAIRI
+</span>
+
+<span style="
+float: right;
+color: rgb(140, 135, 145);
+font-size: 9px;
+letter-spacing: 1px;
+">
+IN DEVELOPMENT
+</span>
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 0;
+background-color: rgb(3, 3, 3);
+">
+<img src="PASTE_DIRECT_LIAM_MAIRI_IMAGE_URL_HERE" alt="Liam Mairi" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 0;
+">
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 22px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+">
+
+<p style="
+margin: 0 0 8px 0;
+color: rgb(103, 98, 108);
+font-size: 11px;
+letter-spacing: 2px;
+">
+FOURTH WING • LIAM LIVES AU
+</p>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 18px;
+letter-spacing: 2px;
+">
+LIAM MAIRI
+</p>
+
+<p style="
+margin: 0 0 15px 0;
+color: rgb(135, 130, 140);
+font-size: 12px;
+line-height: 1.7;
+">
+dragon rider • survival • quiet devotion • fantasy romance
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+A canon-divergent story in which Liam survives War Games and must learn
+how to live beyond sacrifice. Loyalty, recovery, dragon riders, rebellion,
+and the quiet devotion of someone who was prepared to die for those he loved.
+</p>
+
+<br>
+
+<table style="width: 100%; border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+<td style="width: 35px; color: rgb(197, 184, 202); text-align: center;">✦</td>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+liam lives
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+dragon rider
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+hurt / comfort
+</span>
+
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 8px 14px;
+color: rgb(76, 71, 81);
+background-color: rgb(3, 3, 3);
+font-family: monospace;
+font-size: 10px;
+letter-spacing: 1px;
+text-align: right;
+">
+in development
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">DAIN AETOS</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • CANON REWRITE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">duty versus devotion • military romance • altered loyalties</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">XADEN RIORSON</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • MORALLY GREY FANTASY ROMANCE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • shadows • secrets • divided loyalties</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br><br><br>
+
+
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+〉 SUPERNATURAL
+</p>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+
+<tr>
+<td style="
+padding: 14px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 3px;
+">
+DEAN WINCHESTER
+</span>
+
+<span style="
+float: right;
+color: rgb(140, 135, 145);
+font-size: 9px;
+letter-spacing: 1px;
+">
+IN DEVELOPMENT
+</span>
+</td>
+</tr>
+
+<tr>
+<td style="padding: 0; background-color: rgb(3, 3, 3);">
+<img src="PASTE_DIRECT_DEAN_WINCHESTER_IMAGE_URL_HERE" alt="Dean Winchester" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 0;
+">
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 22px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+">
+
+<p style="
+margin: 0 0 8px 0;
+color: rgb(103, 98, 108);
+font-size: 11px;
+letter-spacing: 2px;
+">
+SUPERNATURAL • HUNTER ROMANCE
+</p>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 18px;
+letter-spacing: 2px;
+">
+DEAN WINCHESTER
+</p>
+
+<p style="
+margin: 0 0 15px 0;
+color: rgb(135, 130, 140);
+font-size: 12px;
+line-height: 1.7;
+">
+the impala • danger • sacrifice • protective devotion
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+A hunter shaped by responsibility, grief, and the certainty that everyone
+else must be saved before him. Roadside motels, bloodied knuckles, classic
+rock, and devotion hidden beneath humour and carefully practised deflection.
+</p>
+
+<br>
+
+<table style="width: 100%; border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+<td style="width: 35px; color: rgb(197, 184, 202); text-align: center;">✦</td>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+hunter romance
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+protective
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+angst
+</span>
+
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 8px 14px;
+color: rgb(76, 71, 81);
+background-color: rgb(3, 3, 3);
+font-family: monospace;
+font-size: 10px;
+letter-spacing: 1px;
+text-align: right;
+">
+in development
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">SAM WINCHESTER</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SUPERNATURAL • DEMON BLOOD / SOULLESS AU</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">power • temptation • moral conflict</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">YOUNG JOHN WINCHESTER</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SUPERNATURAL • 1970s AU</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">hunter origins • grief • motorcycles • raw angst</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br><br><br>
+
+
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+〉 PERCY JACKSON
+</p>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+
+<tr>
+<td style="
+padding: 14px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 3px;
+">
+PERCY JACKSON
+</span>
+
+<span style="
+float: right;
+color: rgb(140, 135, 145);
+font-size: 9px;
+letter-spacing: 1px;
+">
+IN DEVELOPMENT
+</span>
+</td>
+</tr>
+
+<tr>
+<td style="padding: 0; background-color: rgb(3, 3, 3);">
+<img src="PASTE_DIRECT_PERCY_JACKSON_IMAGE_URL_HERE" alt="Percy Jackson" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 0;
+">
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 22px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+">
+
+<p style="
+margin: 0 0 8px 0;
+color: rgb(103, 98, 108);
+font-size: 11px;
+letter-spacing: 2px;
+">
+PERCY JACKSON • MYTHOLOGY AU
+</p>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 18px;
+letter-spacing: 2px;
+">
+PERCY JACKSON
+</p>
+
+<p style="
+margin: 0 0 15px 0;
+color: rgb(135, 130, 140);
+font-size: 12px;
+line-height: 1.7;
+">
+son of poseidon • fatal loyalty • prophecy • protective devotion
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+A son of the sea whose greatest strength has always been the people he
+refuses to abandon. Prophecy, monsters, ancient gods, impossible choices,
+and a loyalty powerful enough to challenge fate itself.
+</p>
+
+<br>
+
+<table style="width: 100%; border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+<td style="width: 35px; color: rgb(197, 184, 202); text-align: center;">✦</td>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+mythology
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+fatal loyalty
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+protective
+</span>
+
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 8px 14px;
+color: rgb(76, 71, 81);
+background-color: rgb(3, 3, 3);
+font-family: monospace;
+font-size: 10px;
+letter-spacing: 1px;
+text-align: right;
+">
+in development
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">LUKE CASTELLAN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">PERCY JACKSON • VILLAIN-WIN OR REDEMPTION AU</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • betrayal • morally grey romance</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br><br><br>
+
+
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+〉 ANA HUANG
+</p>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+
+<tr>
+<td style="
+padding: 14px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 3px;
+">
+CHRISTIAN HARPER
+</span>
+
+<span style="
+float: right;
+color: rgb(140, 135, 145);
+font-size: 9px;
+letter-spacing: 1px;
+">
+IN DEVELOPMENT
+</span>
+</td>
+</tr>
+
+<tr>
+<td style="padding: 0; background-color: rgb(3, 3, 3);">
+<img src="PASTE_DIRECT_CHRISTIAN_HARPER_IMAGE_URL_HERE" alt="Christian Harper" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 0;
+">
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 22px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+">
+
+<p style="
+margin: 0 0 8px 0;
+color: rgb(103, 98, 108);
+font-size: 11px;
+letter-spacing: 2px;
+">
+TWISTED LIES • DARK ROMANCE
+</p>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 18px;
+letter-spacing: 2px;
+">
+CHRISTIAN HARPER
+</p>
+
+<p style="
+margin: 0 0 15px 0;
+color: rgb(135, 130, 140);
+font-size: 12px;
+line-height: 1.7;
+">
+surveillance • secrets • obsession • controlled devotion
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+A man whose restraint is calculated and whose devotion becomes surveillance.
+Secrets beneath polished control, dangerous competence, moral compromise,
+and an obsession he refuses to name as love until it is far too late.
+</p>
+
+<br>
+
+<table style="width: 100%; border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+<td style="width: 35px; color: rgb(197, 184, 202); text-align: center;">✦</td>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+dark romance
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+obsession
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+morally grey
+</span>
+
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 8px 14px;
+color: rgb(76, 71, 81);
+background-color: rgb(3, 3, 3);
+font-family: monospace;
+font-size: 10px;
+letter-spacing: 1px;
+text-align: right;
+">
+in development
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">ALEX VOLKOV</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED LOVE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • emotional restraint • ruthless devotion</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">RHYS LARSEN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED GAMES</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">bodyguard romance • royal duty • forbidden love</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">DANTE RUSSO</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF WRATH</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">arranged marriage • high society • controlled intensity</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">KAI YOUNG</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF PRIDE</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">ambition • restraint • slow-burn longing</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br><br><br>
+
+
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+〉 DARK ROMANCE &amp; DYSTOPIAN
+</p>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+
+<tr>
+<td style="
+padding: 14px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 3px;
+">
+ZADE MEADOWS
+</span>
+
+<span style="
+float: right;
+color: rgb(140, 135, 145);
+font-size: 9px;
+letter-spacing: 1px;
+">
+LATER PROJECT
+</span>
+</td>
+</tr>
+
+<tr>
+<td style="padding: 0; background-color: rgb(3, 3, 3);">
+<img src="PASTE_DIRECT_ZADE_MEADOWS_IMAGE_URL_HERE" alt="Zade Meadows" style="
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+border: 0;
+">
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 22px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+">
+
+<p style="
+margin: 0 0 8px 0;
+color: rgb(103, 98, 108);
+font-size: 11px;
+letter-spacing: 2px;
+">
+CAT AND MOUSE DUET • DARK ROMANCE
+</p>
+
+<p style="
+margin: 0 0 12px 0;
+color: rgb(222, 219, 225);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 18px;
+letter-spacing: 2px;
+">
+ZADE MEADOWS
+</p>
+
+<p style="
+margin: 0 0 15px 0;
+color: rgb(135, 130, 140);
+font-size: 12px;
+line-height: 1.7;
+">
+stalking • obsession • danger • morally extreme romance
+</p>
+
+<p style="
+margin: 0;
+color: rgb(140, 135, 145);
+font-size: 13px;
+line-height: 1.85;
+">
+An uncompromisingly dark dynamic built around pursuit, obsession, power,
+and psychological intensity. A dangerous man whose devotion is inseparable
+from control and whose morality bends beneath the weight of fixation.
+</p>
+
+<br>
+
+<table style="width: 100%; border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+<td style="width: 35px; color: rgb(197, 184, 202); text-align: center;">✦</td>
+<td style="height: 1px; background-color: rgba(197, 184, 202, 0.12);"></td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+stalking
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+obsession
+</span>
+
+<span style="
+display: inline-block;
+margin: 3px;
+padding: 5px 10px;
+color: rgb(140, 135, 145);
+background-color: rgb(18, 16, 20);
+border: 1px solid rgba(197, 184, 202, 0.2);
+border-radius: 20px;
+font-size: 10px;
+">
+extreme dark romance
+</span>
+
+</td>
+</tr>
+
+<tr>
+<td style="
+padding: 8px 14px;
+color: rgb(76, 71, 81);
+background-color: rgb(3, 3, 3);
+font-family: monospace;
+font-size: 10px;
+letter-spacing: 1px;
+text-align: right;
+">
+later project
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">AARON WARNER</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SHATTER ME</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">dystopian commander • emotional isolation • worshipful devotion</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">DAMON TORRANCE</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">DEVIL’S NIGHT</p>
+<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • psychological darkness • chaos • dark romance</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">WHAT TO EXPECT&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<p style="
+max-width: 720px;
+margin: 0 auto;
+padding: 22px;
+text-align: left;
+color: rgb(125, 120, 130);
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+font-size: 13px;
+line-height: 1.85;
+">
+atmospheric dark romance, protective romance, canon-inspired alternate
+universes, established bonds, trauma and recovery, altered endings,
+dangerous obsession, emotional slow burns, morally complicated decisions,
+cinematic settings, and characters who remain recognisable.
+</p>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">CONTENT NOTES&nbsp;&nbsp;♡</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<p style="
+max-width: 720px;
+margin: 0 auto;
+padding: 22px;
+text-align: left;
+color: rgb(112, 107, 117);
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+font-size: 13px;
+line-height: 1.85;
+">
+themes may include trauma, violence, grief, war, kidnapping, stalking,
+obsession, panic attacks, morally grey behaviour, psychological conflict,
+canon-death rewrites, sexual content, hurt/comfort, dark romance, and
+established healthy relationships.
+<br><br>
+<span style="color: rgb(145, 138, 150);">
+each bot will have its own accurate warnings and relationship dynamic.
+</span>
+</p>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">BOT REQUESTS&nbsp;&nbsp;☾</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: center;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+<p style="
+margin: 0;
+color: rgb(125, 120, 130);
+font-size: 13px;
+line-height: 1.9;
+">
+requests are currently
+&nbsp;
+<span style="color: rgb(197, 184, 202);">
+[ open ]
+</span>
+<br>
+<span style="color: rgb(100, 95, 105);">
+character suggestions, reviews, and constructive feedback are welcome ♡
+</span>
+</p>
+</div>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">GUIDES&nbsp;&nbsp;✧</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: left;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">✧</span> <a href="PASTE_GUIDE_URL_HERE" style="color: rgb(184, 176, 189); text-decoration: underline;">how i build my vessels</a> — <span style="color: rgb(100, 95, 105);">coming soon</span>
+</p>
+<p style="margin: 0 0 10px 0; color: rgb(140, 135, 145); font-size: 13px; line-height: 1.85;">
+<span style="color: rgb(197, 184, 202);">✧</span> <a href="PASTE_GUIDE_URL_HERE" style="color: rgb(184, 176, 189); text-decoration: underline;">getting the best out of my bots</a> — <span style="color: rgb(100, 95, 105);">coming soon</span>
+</p>
+<p style="margin: 0; color: rgb(100, 95, 105); font-size: 11px; letter-spacing: 2px;">
+more scrolls will be shelved here as they are written.
+</p>
+</div>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">FRIENDS&nbsp;&nbsp;✦</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: center;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+<p style="
+margin: 0 0 16px 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 13px;
+letter-spacing: 2px;
+">
+<em>the dearest souls in the dark</em>
+</p>
+
+<a href="PASTE_FRIEND_PROFILE_URL_HERE" style="display: inline-block; margin: 4px; padding: 7px 18px; color: rgb(184, 176, 189); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.25); border-radius: 20px; font-size: 11px; letter-spacing: 2px; text-decoration: none;">🕯️ friend name</a>
+<a href="PASTE_FRIEND_PROFILE_URL_HERE" style="display: inline-block; margin: 4px; padding: 7px 18px; color: rgb(184, 176, 189); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.25); border-radius: 20px; font-size: 11px; letter-spacing: 2px; text-decoration: none;">🥀 friend name</a>
+<a href="PASTE_FRIEND_PROFILE_URL_HERE" style="display: inline-block; margin: 4px; padding: 7px 18px; color: rgb(184, 176, 189); background-color: rgb(18, 16, 20); border: 1px solid rgba(197, 184, 202, 0.25); border-radius: 20px; font-size: 11px; letter-spacing: 2px; text-decoration: none;">🪽 friend name</a>
+
+<p style="
+margin: 14px 0 0 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+KINDRED CREATORS WILL BE ENSHRINED HERE
+</p>
+</div>
+
+<br><br><br>
+
+
+
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0;
+background-color: rgb(18, 12, 21);
+border: 1px solid rgba(197, 184, 202, 0.25);
+border-radius: 40px;
+">
+<tbody>
+<tr>
+<td style="padding: 13px 24px; text-align: left;">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">EXTRA&nbsp;&nbsp;♡</span>
+</td>
+<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
+<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div style="
+max-width: 720px;
+margin: 0 auto;
+padding: 24px;
+text-align: center;
+background-color: rgb(7, 6, 8);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 18px;
+">
+<p style="
+margin: 0;
+color: rgb(125, 120, 130);
+font-size: 13px;
+line-height: 1.8;
+">
+welcome to the crypt, my Angels.
+</p>
+
+<p style="
+margin: 12px 0 0 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+MORE CHARACTERS WILL BE ADDED AS THEIR CONCEPTS DEVELOP
+</p>
+
+<br>
+
+<p style="
+margin: 0;
+color: rgb(151, 138, 158);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12px;
+letter-spacing: 4px;
+">
+stay awhile.
+</p>
+</div>
+
+<br><br>
+
+</div>

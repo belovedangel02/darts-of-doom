@@ -831,7 +831,7 @@ border-bottom: 1px solid rgba(112, 14, 26, 0.35);
 <div style="padding: 16px 18px;">
 <p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN &amp; SLAVIC FOLKLORE</p>
 <p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">old gods &middot; vile and vukodlaks &middot; oaths sworn under oak</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">mountain mist, wax and wheat, a name you must not say aloud after dark.</p>
+<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">the healing waters of Viraj, mountains that are sleeping giants, a name you must not say aloud after dark.</p>
 </div>
 </div>
 </a>
@@ -3069,7 +3069,7 @@ font-size: 11px;
 font-style: italic;
 line-height: 1.7;
 ">
-two brothers quarrelled, and the world froze. when they made peace at last,
+Perun and Veles are brothers. they quarrelled, and the world froze. when they made peace at last,
 the earth bore a son to each of them &mdash; the green one and the one raised below.
 Zeleni Juraj and Ivan are that pair.
 </p>
@@ -3164,7 +3164,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; GOD OF THUNDER</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; GOD OF THUNDER &middot; VELES&rsquo;S BROTHER</p>
 <p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">thunder &bull; oak &bull; order &bull; an oath that does not bend</p>
 <p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>gods do not swear to mortals. he swore to {{user}}.</em></p>
 </td>
@@ -3230,9 +3230,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN LEGEND &middot; THE GIANTS OF THE HILLS</p>
-<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">immense &bull; solitary &bull; gentle to exactly one person</p>
-<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the whole valley runs from him. {{user}} did not.</em></p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN LEGEND &middot; THE GOROSTASI &middot; THE SLEEPING GIANTS</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">immense &bull; solitary &bull; older than the mountains &bull; gentle to exactly one person</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>his brothers were sung to sleep and woke as mountain ranges. he stayed awake for {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -3364,9 +3364,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; GOD OF THE UNDERWORLD</p>
-<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">serpent &bull; shapeshifter &bull; magic and lies &bull; takes, and does not give back</p>
-<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he has stolen from a storm god and kept it. what he wants now is {{user}}.</em></p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SLAVIC PANTHEON &middot; CRNOBOG &middot; LORD OF NAV AND ALL WATER</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">horned &bull; serpent, bear, wolf &bull; shapeshifter &bull; chaos, change, imbalance</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he gives his wisdom freely to anyone who calls him in hardship. the one thing he will not give back is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>

@@ -54,7 +54,7 @@ Mood board ingredients: a shadow at the treeline · candlelight through
 old glass · footsteps matched to hers · devotion inseparable from
 control · the thrill of being found
 Blurb: pursuit, obsession, power, and psychological intensity.
-cat and mouse duet. uncompromisingly dark — mind the warnings.
+the haunting of adeline (cat and mouse duet). uncompromisingly dark — mind the warnings.
 
 ---
 

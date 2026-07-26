@@ -161,7 +161,7 @@ CURRENT RELEASE
 padding: 0;
 background-color: rgb(3, 3, 3);
 ">
-<img src="PASTE_DIRECT_LIAM_COURT_IMAGE_URL_HERE" alt="Liam Court" style="
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/liam-court.png" alt="Liam Court" style="
 display: block;
 width: 100%;
 max-width: 100%;

@@ -1,4 +1,4 @@
-<div style="
+<div id="crypt-bio" style="
 width: 100%;
 max-width: 100%;
 margin: 0;
@@ -9,27 +9,24 @@ color: rgb(170, 166, 174);
 font-family: Arial, Helvetica, sans-serif;
 ">
 
-<table style="
-width: 100%;
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">EXTRA&nbsp;&nbsp;♡</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">♡</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">EXTRA</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br>
 
@@ -119,6 +116,10 @@ letter-spacing: 4px;
 stay awhile.
 </p>
 </div>
+
+</details>
+
+<br><br>
 
 <br><br>
 

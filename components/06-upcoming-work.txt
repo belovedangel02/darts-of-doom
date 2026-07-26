@@ -1,4 +1,4 @@
-<div style="
+<div id="crypt-bio" style="
 width: 100%;
 max-width: 100%;
 margin: 0;
@@ -9,31 +9,30 @@ color: rgb(170, 166, 174);
 font-family: Arial, Helvetica, sans-serif;
 ">
 
-<table style="
-width: 100%;
+<details style="
 max-width: 720px;
 margin: 0 auto;
-border-collapse: separate;
-border-spacing: 0;
+">
+<summary style="
+list-style: none;
+cursor: pointer;
+display: block;
+padding: 13px 24px;
 background-color: rgb(18, 12, 21);
 border: 1px solid rgba(197, 184, 202, 0.25);
 border-radius: 40px;
+text-align: left;
 ">
-<tbody>
-<tr>
-<td style="padding: 13px 24px; text-align: left;">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">UPCOMING WORK&nbsp;&nbsp;✦</span>
-</td>
-<td style="width: 52px; padding: 6px 12px 6px 0; text-align: right;">
-<span style="display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); color: rgb(222, 219, 225); font-size: 12px;">✦</span>
-</td>
-</tr>
-</tbody>
-</table>
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 4px;">UPCOMING WORK</span>
+<span style="float: right; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius: 50%; background-color: rgb(48, 42, 54); border: 1px solid rgba(197, 184, 202, 0.3); font-size: 13px;">🪽</span>
+</summary>
+
 
 <br><br>
 
 
+
+<div id="fourth-wing"></div>
 
 <p style="
 margin: 0 0 14px 0;
@@ -46,6 +45,7 @@ letter-spacing: 4px;
 
 
 
+<div id="liam-mairi"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -112,7 +112,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-FOURTH WING • LIAM LIVES AU
+REBECCA YARROS · THE EMPYREAN • FOURTH WING, LIAM LIVES AU
 </p>
 
 <p style="
@@ -222,6 +222,7 @@ in development
 
 
 
+<div id="dain-aetos"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -244,8 +245,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • CANON REWRITE</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">duty versus devotion • military romance • altered loyalties</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING CANON REWRITE</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">best friend / lover x enemy • duty versus devotion • possessive protection</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not begin as the enemy. he becomes one — and the mind he was never meant to touch is {{user}}’s.</em></p>
 </td>
 </tr>
 </tbody>
@@ -253,6 +255,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br>
 
+<div id="xaden-riorson"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -275,16 +278,52 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FOURTH WING • MORALLY GREY FANTASY ROMANCE</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • shadows • secrets • divided loyalties</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">enemies to lovers • rebellion • shadows • secrets • divided loyalties</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the rider he was raised to hate, and cannot stop shielding, is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<div id="bodhi-durran"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">BODHI DURRAN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">REBECCA YARROS · THE EMPYREAN • FOURTH WING AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">marked one • steady devotion • protective loyalty • warmth beneath the war</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>xaden’s cousin, and the nearer thing to a brother — same rebellion relic, none of the coldness. the rider he steadies is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
 <br><br><br>
 
 
+
+<div id="supernatural"></div>
 
 <p style="
 margin: 0 0 14px 0;
@@ -297,6 +336,7 @@ letter-spacing: 4px;
 
 
 
+<div id="dean-winchester"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -470,6 +510,7 @@ in development
 
 
 
+<div id="sam-winchester"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -501,6 +542,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br>
 
+<div id="young-john-winchester"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -534,17 +576,20 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 
 
+<div id="camp-half-blood"></div>
+
 <p style="
 margin: 0 0 14px 0;
 color: rgb(76, 71, 81);
 font-size: 10px;
 letter-spacing: 4px;
 ">
-〉 PERCY JACKSON
+〉 CAMP HALF-BLOOD
 </p>
 
 
 
+<div id="percy-jackson"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -608,7 +653,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-PERCY JACKSON • MYTHOLOGY AU
+RICK RIORDAN · PERCY JACKSON AND THE OLYMPIANS • MYTHOLOGY AU
 </p>
 
 <p style="
@@ -638,7 +683,8 @@ line-height: 1.85;
 ">
 A son of the sea whose greatest strength has always been the people he
 refuses to abandon. Prophecy, monsters, ancient gods, impossible choices,
-and a loyalty powerful enough to challenge fate itself.
+and a loyalty powerful enough to challenge fate itself — and the one he
+would raze Olympus for is not Annabeth. It is {{user}}.
 </p>
 
 <br>
@@ -718,6 +764,7 @@ in development
 
 
 
+<div id="luke-castellan"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -740,8 +787,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">PERCY JACKSON • VILLAIN-WIN OR REDEMPTION AU</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">rebellion • betrayal • morally grey romance</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">RICK RIORDAN · PERCY JACKSON AND THE OLYMPIANS • VILLAIN-WIN OR REDEMPTION AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">enemies to lovers • rebellion • betrayal • morally grey romance</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he was never meant to love the girl on the other side of the war. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -750,6 +798,8 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 <br><br><br>
 
 
+
+<div id="ana-huang"></div>
 
 <p style="
 margin: 0 0 14px 0;
@@ -762,6 +812,7 @@ letter-spacing: 4px;
 
 
 
+<div id="christian-harper"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -825,7 +876,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-TWISTED LIES • DARK ROMANCE
+ANA HUANG · TWISTED SERIES • TWISTED LIES AU
 </p>
 
 <p style="
@@ -855,7 +906,8 @@ line-height: 1.85;
 ">
 A man whose restraint is calculated and whose devotion becomes surveillance.
 Secrets beneath polished control, dangerous competence, moral compromise,
-and an obsession he refuses to name as love until it is far too late.
+and an obsession he refuses to name as love until it is far too late —
+and the woman beneath his watch is not Stella. It is {{user}}.
 </p>
 
 <br>
@@ -935,6 +987,7 @@ in development
 
 
 
+<div id="alex-volkov"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -957,8 +1010,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED LOVE</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • emotional restraint • ruthless devotion</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · TWISTED SERIES • TWISTED LOVE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • emotional restraint • ruthless devotion</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the woman he ruins the world for is not Ava. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -966,6 +1020,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br>
 
+<div id="rhys-larsen"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -988,8 +1043,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TWISTED GAMES</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">bodyguard romance • royal duty • forbidden love</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · TWISTED SERIES • TWISTED GAMES AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">bodyguard romance • royal duty • forbidden love</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the one he is sworn to guard is not Bridget. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -997,6 +1053,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br>
 
+<div id="dante-russo"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -1019,8 +1076,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF WRATH</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">arranged marriage • high society • controlled intensity</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · KINGS OF SIN • KING OF WRATH AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">arranged marriage • high society • controlled intensity</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the bride bound to him by contract is not Vivian. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -1028,6 +1086,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br>
 
+<div id="kai-young"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -1050,8 +1109,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">KING OF PRIDE</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">ambition • restraint • slow-burn longing</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">ANA HUANG · KINGS OF SIN • KING OF PRIDE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">ambition • restraint • slow-burn longing</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the woman who undoes his composure is not Isabella. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -1060,6 +1120,8 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 <br><br><br>
 
 
+
+<div id="dark-dystopian"></div>
 
 <p style="
 margin: 0 0 14px 0;
@@ -1072,6 +1134,7 @@ letter-spacing: 4px;
 
 
 
+<div id="zade-meadows"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -1135,7 +1198,7 @@ color: rgb(103, 98, 108);
 font-size: 11px;
 letter-spacing: 2px;
 ">
-CAT AND MOUSE DUET • DARK ROMANCE
+H.D. CARLTON · CAT AND MOUSE DUET • THE HAUNTING OF ADELINE AU
 </p>
 
 <p style="
@@ -1165,7 +1228,8 @@ line-height: 1.85;
 ">
 An uncompromisingly dark dynamic built around pursuit, obsession, power,
 and psychological intensity. A dangerous man whose devotion is inseparable
-from control and whose morality bends beneath the weight of fixation.
+from control and whose morality bends beneath the weight of fixation —
+only this time it is not Adeline he has been watching. It is {{user}}.
 </p>
 
 <br>
@@ -1245,6 +1309,7 @@ later project
 
 
 
+<div id="aaron-warner"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -1267,8 +1332,9 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SHATTER ME</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">dystopian commander • emotional isolation • worshipful devotion</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">TAHEREH MAFI · SHATTER ME AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">dystopian commander • emotional isolation • worshipful devotion</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the girl whose touch could kill him is not Juliette. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
@@ -1276,6 +1342,7 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 
 <br>
 
+<div id="damon-torrance"></div>
 <table style="
 width: 100%;
 max-width: 720px;
@@ -1298,13 +1365,196 @@ border-bottom: 1px solid rgba(197, 184, 202, 0.14);
 </tr>
 <tr>
 <td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
-<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">DEVIL’S NIGHT</p>
-<p style="margin: 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • psychological darkness • chaos • dark romance</p>
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">PENELOPE DOUGLAS · DEVIL’S NIGHT AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">revenge • psychological darkness • chaos • dark romance</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the girl he could never stop circling back to is not Winter. she is {{user}}.</em></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<br><br>
+
+<div id="elfhame"></div>
+
+<p style="
+margin: 0 0 14px 0;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 4px;
+">
+&#12297; ELFHAME
+</p>
+
+
+<div id="cardan-greenbriar"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">CARDAN GREENBRIAR</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE CRUEL PRINCE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">enemies to lovers &bull; cruelty as courtship &bull; a crown he never wanted</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the mortal girl he torments because he cannot admit he wants her is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="hyacinthe"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">HYACINTHE</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE STOLEN HEIR AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">cursed knight &bull; divided loyalty &bull; bitterness softening into devotion</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>bound to a king who broke him &mdash; and the girl he was sent to guard is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="oak"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">OAK</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">IN DEVELOPMENT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE STOLEN HEIR AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">charm as a weapon &bull; glamour &bull; sweetness laid over ruin</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the prince whose smile is the trap, and the one he sets it for is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="locke"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">LOCKE</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE CRUEL PRINCE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">manipulation &bull; devotion as fiction &bull; a story he writes in other people</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>he does not love, he authors &mdash; and the heroine he has cast is {{user}}.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<div id="balekin"></div>
+<table style="
+width: 100%;
+max-width: 720px;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.18);
+">
+<tbody>
+<tr>
+<td style="
+padding: 12px 16px;
+text-align: left;
+background-color: rgb(18, 12, 21);
+border-bottom: 1px solid rgba(197, 184, 202, 0.14);
+">
+<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 13px; letter-spacing: 3px;">BALEKIN</span>
+<span style="float: right; color: rgb(140, 135, 145); font-size: 9px; letter-spacing: 1px;">LATER PROJECT</span>
+</td>
+</tr>
+<tr>
+<td style="padding: 16px; text-align: left; background-color: rgb(7, 6, 8);">
+<p style="margin: 0 0 6px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR &bull; THE CRUEL PRINCE AU</p>
+<p style="margin: 0 0 8px 0; color: rgb(140, 135, 145); font-size: 12px; line-height: 1.7;">eldest prince &bull; possession &bull; cruelty &bull; uncompromisingly dark</p>
+<p style="margin: 0; color: rgb(151, 138, 158); font-size: 12px; line-height: 1.7;"><em>the mortal kept beneath his roof is {{user}}. mind the warnings.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
 <br><br><br>
+
+</details>
+
+<br><br>
 
 </div>

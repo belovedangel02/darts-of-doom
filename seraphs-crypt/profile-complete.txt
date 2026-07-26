@@ -589,7 +589,7 @@ details[open] > summary span:last-child {
 } /* The Wing, Lifted */
 </style>
 
-<div style="
+<div id="crypt-bio" style="
 width: 100%;
 max-width: 100%;
 margin: 0;
@@ -819,7 +819,6 @@ border-radius: 4px;
 "></div>
 </div>
 
-<div id="percy-jackson"></div>
 <table style="
 width: 100%;
 border-collapse: collapse;
@@ -2531,6 +2530,7 @@ letter-spacing: 4px;
 
 
 
+<div id="percy-jackson"></div>
 <table style="
 width: 100%;
 max-width: 720px;

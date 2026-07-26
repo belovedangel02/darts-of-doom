@@ -334,7 +334,6 @@ border-radius: 4px;
 "></div>
 </div>
 
-<div id="percy-jackson"></div>
 <table style="
 width: 100%;
 border-collapse: collapse;
@@ -2046,6 +2045,7 @@ letter-spacing: 4px;
 
 
 
+<div id="percy-jackson"></div>
 <table style="
 width: 100%;
 max-width: 720px;

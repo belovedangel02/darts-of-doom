@@ -33,6 +33,29 @@ All three embody the archetype of the "child born with power, feared by the vill
 
 ---
 
+## Panel 2: Nemri i Hajdi
+
+**Date encountered:** 15 July, 17:42  
+**Reference image:** `museum-of-lost-tales-nemri-i-hajdi.png`
+
+### Visual Description
+
+Two antlered figures (stag-headed beings) surrounded by divine lightning/storm energy. Beautifully illustrated as powerful, mythological entities connected to sky and thunder domains.
+
+### Mythology
+
+**NEMRI** and **HAJDI** — the antlered brothers/figures from Slavic pantheon. Connected to:
+- Storm and divine power (lightning imagery)
+- Perun's domain (sky, thunder, raw force)
+- Stag/deer-headed transformation or divine aspect
+- Potentially related to seasonal cycles or brother-duality theme
+
+### Character Potential
+
+This is a documented mythological reference for stag/antler-based characters — far more authentic than etymology-based naming. Either figure could anchor a stag deity or antlered companion character in the crypt.
+
+---
+
 ## Mother's Phone (Pending)
 
 Additional museum panel photograph on mother's phone:

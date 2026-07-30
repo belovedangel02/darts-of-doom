@@ -111,6 +111,69 @@ Additional museum panel photograph on mother's phone:
 
 ---
 
+## Panel 4-6: Babaroga, Morana & Beheading Day
+
+**Reference images:** Four museum photographs showing interconnected panels  
+**Transcribed via:** User photograph + transcription
+
+### Panel 4: BABAROGA (The Child-Eating Hag)
+
+Morana, the goddess of death, still seeking her stolen heart and womb, yearns for that which she can never again have—her own children. This insatiable longing develops in her a gluttonous hunger and she begins devouring all children she comes across. These horrid acts rob her of her fair and beautiful appearance, turning her ugly, depraved, dry and shriveled as a single horn starts growing on her head. The more children she eats, the bigger the horn grows. Her body grows fatter the more she eats, only to shrivel again in her ravenous hunger.
+
+She is notoriously known by the name **Babaroga**—a bloodlusting, crooked hag who stalks and preys upon children, eating them alive in the dark. Should she attack at midday, she will strike the child with nettles on the back of their head, causing them to faint, only to return in the night with her renewed strength to drag the children to her lair, where she will roast them in their sleep.
+
+**Key Details:**
+- Born from Morana's grief and theft (stolen heart, stolen womb)
+- Horn grows with each child consumed
+- Transformation from fair/beautiful to ugly/shriveled
+- Dual-strike attack: nettles at midday to weaken, abduction at night to finish
+- Roasts children while they sleep
+
+### Panel 5: MORANA (The Death Goddess)
+
+The young and deceived Mara, cheated and robbed, without her heart and with her womb stolen, falls to darkness and becomes the heartless vengeful goddess of death—**Morana**. She gallops unrestrained around the earth in a wild effort to avenge herself by seeking the one who robbed her of her soul.
+
+Once she finds him, there is no more mercy in her or any trace of her former love for John. So she beheads her force spouse and tears his body into pieces, burying his remains in all four corners of the world. This marks the end of the old Year and the beginning of the reign of winter.
+
+**Key Details:**
+- Originally Mara: young, deceived, robbed of heart and womb
+- Becomes Morana: vengeful death goddess
+- Seeks the one who stole from her (John/her former lover)
+- Beheads and dismembers him, buries remains in four corners of earth
+- Marks seasonal threshold: end of summer, beginning of winter
+
+### Panel 6: BEHEADING DAY (Headless St. John's Day)
+
+The day on which Morana catches and cuts John's head off is known as **Beheading Day**. His buried head and desecrated corpse mark the final end of summer. Nothing green and living in the world is safe anymore. The cold winds may freeze animals and children alike, bringing death to all living beings. From the summer pastures, cattle leave and take shelter in their winter retreats. 
+
+Morana gallops frantically through the world in the form of a **wild black mare**, storming with blizzards, carrying death to all. In this blind sprint she seeks her heart in an attempt to heal, but brings nothing but death around her. As a form of revenge, she seduces all the young men she meets. The entranced men give her their own hearts, which she takes and continues her gallop, leaving them hopelessly longing for her affection. But there is no heart but her own that can satisfy her.
+
+**Key Details:**
+- Seasonal marker: end of summer, beginning of winter
+- Morana transforms into a wild black mare
+- Carries blizzards and death with her
+- Seduces young men to steal their hearts (compulsive replacement for her own stolen heart)
+- Can never be satisfied—only her own heart would heal her
+- Eternal, cyclical vengeance
+
+### Thematic Connections
+
+**The Morana Arc: Loss → Transformation → Eternal Vengeance**
+1. **Mara** (young, loved): something precious stolen (heart, womb, children)
+2. **Babaroga** (corrupted hunger): attempts to replace what's lost through consumption, becomes monster
+3. **Morana** (death goddess): seeks vengeance on perpetrator, marks seasonal cycle, becomes force of winter itself
+4. **Beheading Day** (eternal recurrence): annually beheads her betrayer, eternally seeks her stolen heart through seduction
+
+**Crypt Implications:**
+- Theft and replacement as core mythology (heart theft, womb theft, soul theft)
+- Seasonal mythology as punishment cycle
+- Beauty destroyed by grief and hunger
+- Seduction as desperate substitute for lost connection
+- Death as feminine power born from betrayal
+- Winter itself as embodied vengeance
+
+---
+
 ## To Add
 
 - [ ] Transcription of brothers/Mother Nature panel (when retrieved from mother's phone)

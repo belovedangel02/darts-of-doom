@@ -142,6 +142,23 @@ Once she finds him, there is no more mercy in her or any trace of her former lov
 - Beheads and dismembers him, buries remains in four corners of earth
 - Marks seasonal threshold: end of summer, beginning of winter
 
+## Panel 5b: MIDSUMMER'S DAY (The Betrayal)
+
+**Reference image:** `museum-midsummers-day.jpg`  
+**Key mythology:** Zeleni Juraj → Ivan transformation and the Great Theft
+
+### The Transformation: Juraj becomes Ivan
+
+When young Zeleni Juraj finds his Mara, they betrothal on Juraj's Eve, but marry on Midsummer's Night (summer solstice, June 21). During this sacred marriage, young Juraj enters adulthood and becomes known as **Ivan (St. John)**. Allmother Mokosh transfers her seed into Mara's golden apple—her womb. Mara continues to carry the unborn New Year: the new divine children who will be born on Christmas Eve to bring the New Year.
+
+### The Treachery: Ivan's Theft
+
+However, as Veles's son, Ivan does not forget his old promise to his stepfather—to return what rightfully belongs to the underworld. In a treacherous act, Ivan steals Mara's golden apple from her body and carries it to Veles in the underworld. With the apple, he steals the seeds, the unborn divine children—a New Year that Veles was denied long ago.
+
+### The Consequence: The Sun Begins to Wane
+
+Ivan's treachery causes the very Sun to start waning. At Midsummer's dawn (June 24), the Sun begins to fall toward its winter position, falling further each day, bringing autumn, until it reaches the winter solstice. The height of summer is the moment of betrayal. The subsequent waning is Ivan's theft stealing life from the world.
+
 ### Panel 6: BEHEADING DAY (Headless St. John's Day)
 
 The day on which Morana catches and cuts John's head off is known as **Beheading Day**. His buried head and desecrated corpse mark the final end of summer. Nothing green and living in the world is safe anymore. The cold winds may freeze animals and children alike, bringing death to all living beings. From the summer pastures, cattle leave and take shelter in their winter retreats. 
@@ -156,21 +173,39 @@ Morana gallops frantically through the world in the form of a **wild black mare*
 - Can never be satisfied—only her own heart would heal her
 - Eternal, cyclical vengeance
 
-### Thematic Connections
+### The Complete Seasonal Cycle: Juraj → Ivan → Morana
 
-**The Morana Arc: Loss → Transformation → Eternal Vengeance**
-1. **Mara** (young, loved): something precious stolen (heart, womb, children)
-2. **Babaroga** (corrupted hunger): attempts to replace what's lost through consumption, becomes monster
-3. **Morana** (death goddess): seeks vengeance on perpetrator, marks seasonal cycle, becomes force of winter itself
-4. **Beheading Day** (eternal recurrence): annually beheads her betrayer, eternally seeks her stolen heart through seduction
+This is **one unified mythology**, not separate stories:
+
+**SPRING (Greenness):** Zeleni Juraj emerges, seeks his Mara, betroths on Juraj's Eve
+
+**MIDSUMMER (June 21, Summer Solstice):** Marriage. Juraj transforms into Ivan. Mokosh seeds Mara's golden apple (womb) with divine children (the New Year)
+
+**MIDSUMMER'S DAWN (June 24):** TREACHERY. Ivan—serving his father Veles—steals the golden apple from Mara's body and carries it to the underworld. The unborn divine children are lost to the surface world.
+
+**CONSEQUENCE:** The Sun begins to wane. Every day it falls further toward winter. Autumn comes.
+
+**WINTER (Vengeance):** Morana hunts Ivan for stealing from her (stealing Mara's womb/children). She finds him, beheads him, dismembers him, buries his remains in four corners of the earth. She becomes the wild black mare of winter, carrying blizzards and death. The stolen divine children gestate in Veles's underworld until Christmas Eve, when they will be reborn as the New Year.
+
+### Thematic Connections: The Divine Theft Cycle
+
+**Ivan's Crime:** Steals the golden apple (unborn divine children, New Year) from the surface world for Veles's underworld
+
+**Morana's Vengeance:** Hunts and beheads the thief, marks the boundary between seasons, becomes winter itself
+
+**The System:**
+- Light (Perun/Summer) vs. Dark (Veles/Winter) is not static opposition—it's a **cycle of theft and vengeance**
+- Ivan represents the moment when summer fertility serves underworld hunger
+- Morana enforces the cost: loss, grief, death, winter
+- The New Year can only be reborn after passing through Veles's realm and Morana's judgment
+- Beheading Day is the annual renewal of this cosmic crime and punishment
 
 **Crypt Implications:**
-- Theft and replacement as core mythology (heart theft, womb theft, soul theft)
-- Seasonal mythology as punishment cycle
-- Beauty destroyed by grief and hunger
-- Seduction as desperate substitute for lost connection
-- Death as feminine power born from betrayal
-- Winter itself as embodied vengeance
+- Seasonal cycles as mythological narrative, not just natural phenomenon
+- Theft as the fundamental violation (heart theft, womb theft, soul theft, divine children theft)
+- Vengeance as justice and natural law
+- Winter as the embodied grief of what was stolen
+- Death goddesses as enforcers of cosmic balance, not mere darkness
 
 ---
 

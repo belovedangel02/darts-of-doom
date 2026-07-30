@@ -78,9 +78,43 @@ Additional museum panel photograph on mother's phone:
 
 ---
 
+## Panel 3: About Death (O SMRTI)
+
+**Reference image:** Museum display, bilingual (Czech/English)  
+**Transcribed via:** Google Lens deblur + manual reading
+
+### Key Content: Death (Smrt) Manifestation & Rituals
+
+**Physical Appearance:**
+- Always walks alone, faceless, shrouded in hood
+- **Scythe** = sign of mass death coming
+- **Knife** = single soul will be taken
+- **White robes** = claiming a child
+- **Grey cloak** = brings plague
+
+**Household Rituals:**
+- All water in house must be thrown out and replaced (Death washes her limbs in water, contaminating it)
+- Witches collect the spoiled water in private pots
+- All mirrors in room with corpse must be covered with sheets (Death lingers; people feared seeing another corpse's reflection)
+
+**Animal Signs:**
+- Dogs and animals can see Death; they howl in unison when she passes
+- Owls hoot beside her through the night when she stands before a house
+- **Cats are the exception:** unafraid of Death. When their time comes, they go and seek Death out willingly.
+
+### Crypt Connections
+- **Veles/Nav underworld lore** — Death as documented figure with specific mechanics
+- **Water contamination magic** — ties to Veles's domain (water, underworld, magic)
+- **Jure Grando parallel** — Death's lingering in houses; the need to ward against seeing the dead again
+- **Animal familiars** — especially cats as willing death-seekers; owls as death's companions
+- **Ritual protection** — water/mirror practices show how communities defend against death's intrusion
+
+---
+
 ## To Add
 
 - [ ] Transcription of brothers/Mother Nature panel (when retrieved from mother's phone)
 - [ ] Additional panel photographs from museum visit
 - [ ] Detailed etymology notes for each figure
 - [ ] Connection map: which mythology figures appear in which museum rooms
+- [ ] Cipher/rune alphabet key from bottom of Death panel (visitor game alphabet)

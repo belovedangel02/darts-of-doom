@@ -8,6 +8,11 @@ redeploy. Class *names* are facts about the platform, not anyone's design — th
 techniques below are noted so the crypt can use them without copying anyone's
 stylesheet.
 
+Most of the map below is read off Hime's **Dark Red** template, which she
+released free for public use and modification. Credit where it is due: without
+it, half of these selectors would still be guesswork. Her rule is the sensible
+one — take the ideas, don't take a layout wholesale and call it yours.
+
 ## Two kinds of class name
 
 **Semantic, stable — use these.** They read like names a developer chose, and
@@ -40,7 +45,96 @@ Only the hash changes; the readable part usually stays.
 **Not real:** `.character-card__name`, `.character-card__wrapper` and the rest
 of the `.character-card__*` family. JanitorAI does not ship those. Our
 `profile-css.txt` is built almost entirely on them, which is why it appears to
-do nothing — see PASTE-HERE.md.
+do nothing — see PASTE-HERE.md. The real bot-card names are all `pp-cc-*`,
+listed below.
+
+## The bot cards
+
+The part `profile-css.txt` was guessing at. These are real.
+
+| Selector | What it is |
+|---|---|
+| `.profile-character-card-stack` | the card itself — make this the grid |
+| `.pp-cc-wrapper` | outer wrapper, the hook for per-card variants |
+| `.pp-cc-name` | character name |
+| `.pp-cc-avatar` | the portrait |
+| `.profile-character-card-avatar-aspect-ratio` | portrait's aspect box |
+| `.pp-cc-description` | the blurb |
+| `.profile-character-card-description-box` | blurb's container |
+| `.pp-cc-tags`, `.pp-cc-tags-wrap` | tag row and its pills |
+| `.pp-cc-tags-regular`, `.pp-tag-<tagname>` | one class per tag, lowercased |
+| `.pp-cc-chats-count`, `.pp-cc-public-chats-count` | the counts |
+| `.profile-character-card-stats-box` | stats cluster |
+| `.pp-cc-ribbon`, `.pp-cc-ribbon-wrap` | the corner ribbon |
+| `.pp-cc-creator-name`, `.pp-cc-star-line` | usually hidden on a themed profile |
+
+**The article-card layout** is a grid on the card with named areas — portrait
+left, name across the top, blurb and tags right, a series label along the foot:
+
+```css
+.profile-character-card-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "name  name"
+    "pfp   desc"
+    "pfp   tags"
+    "serie serie";
+}
+.pp-cc-name { grid-area: name; }
+.profile-character-card-avatar-aspect-ratio { grid-area: pfp; }
+.profile-character-card-description-box { grid-area: desc; }
+.pp-cc-tags { grid-area: tags; }
+```
+
+**Label a card by its tag.** Every tag on a bot becomes a class, so a card can
+be labelled with the series it belongs to — this is how the crypt could stamp
+each vessel with its world:
+
+```css
+.profile-character-card-stack::after { content: 'standalone'; grid-area: serie; }
+.pp-cc-wrapper:has(.pp-tag-losttales) .profile-character-card-stack::after {
+  content: 'THE LOST TALES';
+}
+```
+
+**Rename a tag** the same way — zero the text, draw your own:
+
+```css
+.pp-cc-tags-regular.pp-tag-deaddove { font-size: 0; }
+.pp-cc-tags-regular.pp-tag-deaddove::before { content: "Dead Dove"; font-size: .75rem; }
+```
+
+## The page furniture
+
+| Selector | What it is |
+|---|---|
+| `.pp-page-background` | the page's backdrop layer |
+| `.pp-top-bar`, `.pp-top-bar-left`, `.pp-top-bar-right` | the site header |
+| `.glow-logo h2`, `.glow-logo p` | **the JanitorAI wordmark** — zero and redraw |
+| `.pp-top-bar-search-input`, `#search-input` | site search |
+| `.pp-top-bar-app-menu-list-item` | the account dropdown |
+| `.pp-mnb-wrapper` | mobile nav bar |
+| `.pp-uc-title` | your username |
+| `.pp-uc-followers-count` | follower count |
+| `.pp-uc-avatar-container`, `.pp-uc-member-since` | avatar, join date |
+| `.profile-badges`, `.profile-badge` | the site-awarded badges |
+| `#profile-tabs::before` | **the heading above your bot list** — "296 laments" lives here |
+| `.pp-tabs-button`, `.pp-tabs-indicator` | the tab strip, usually hidden |
+| `.pp-pg-total p`, `.Btn2-purple strong` | the character count |
+| `.pp-fl-search-input`, `.pp-fl-filter-button` | the profile's own search and filter |
+| `.pp-pg-page-button` | pagination numbers |
+
+## Exclusive accordions
+
+`<details name="...">` — same name on several, and opening one closes the rest.
+Native, no script. Worth knowing for the crypt: the thirteen seals currently all
+open independently, which is fine, but a tab strip wants this instead.
+
+```html
+<details name="profile-tabs" open><summary>About</summary>…</details>
+<details name="profile-tabs"><summary>Rules</summary>…</details>
+```
 
 ## The trick worth knowing
 

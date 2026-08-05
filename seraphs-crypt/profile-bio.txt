@@ -61,6 +61,23 @@ font-family: Arial, Helvetica, sans-serif;
   .crypt-ghost { display: none !important; }
 }
 
+/* THE BANNER — the name is drawn over the art, never baked into it, so it
+   stays selectable, restylable, and legible when the crop changes. Below
+   620px the plate is too short to hold type, so the name drops beneath it. */
+@media (max-width: 900px) {
+  .crypt-banner-title { font-size: 32px !important; letter-spacing: 3px !important; }
+}
+@media (max-width: 620px) {
+  .crypt-banner-name {
+    position: static !important;
+    transform: none !important;
+    padding: 16px 18px 18px 18px;
+    text-align: center !important;
+  }
+  .crypt-banner-veil { display: none !important; }
+  .crypt-banner-title { font-size: 27px !important; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .crypt-vitrine { transition: none; }
   .crypt-vitrine:hover, .crypt-vitrine:focus-visible { transform: none; }
@@ -90,6 +107,38 @@ box-shadow: 0 0 14px rgba(0, 0, 0, 0.85);
 
 
 
+<div class="crypt-banner" style="
+position: relative;
+max-width: 980px;
+margin: 0 auto 6px auto;
+border: 1px solid rgba(112, 14, 26, 0.55);
+border-radius: 18px;
+overflow: hidden;
+">
+
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-banner.jpg" alt="The Seraph's Crypt — the Keeper in the library with the winged fawn, the owl watching from the shelf" style="
+display: block;
+width: 100%;
+height: auto;
+">
+
+<div class="crypt-banner-veil" style="
+position: absolute;
+left: 0;
+top: 0;
+bottom: 0;
+width: 62%;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.62) 55%, rgba(0, 0, 0, 0) 100%);
+pointer-events: none;
+"></div>
+
+<div class="crypt-banner-name" style="
+position: absolute;
+left: 6%;
+top: 50%;
+transform: translateY(-50%);
+text-align: left;
+">
 <p style="
 margin: 0 0 10px 0;
 color: rgb(197, 184, 202);
@@ -97,27 +146,42 @@ font-family: Georgia, 'Times New Roman', serif;
 font-size: 12px;
 letter-spacing: 6px;
 ">
-THE SERAPH’S CRYPT
+THE SERAPH&rsquo;S CRYPT
 </p>
-
-<p style="
+<p class="crypt-banner-title" style="
 margin: 0;
 color: rgb(222, 219, 225);
 font-family: Georgia, 'Times New Roman', serif;
-font-size: 30px;
-letter-spacing: 4px;
+font-size: 44px;
+letter-spacing: 5px;
+line-height: 1.05;
+text-shadow: 0 2px 18px rgba(0, 0, 0, 0.9);
 ">
 BELOVED ANGEL
 </p>
-
 <p style="
-margin: 10px 0 0 0;
-color: rgb(92, 88, 96);
+margin: 12px 0 0 0;
+color: rgb(151, 138, 158);
 font-size: 11px;
 letter-spacing: 6px;
 ">
-she / her
+SHE / HER
 </p>
+</div>
+
+</div>
+
+<p style="
+margin: 0 auto 4px auto;
+max-width: 980px;
+padding-top: 14px;
+color: rgb(76, 71, 81);
+font-size: 10px;
+letter-spacing: 3px;
+">
+EIGHT WORLDS &nbsp;&middot;&nbsp; THIRTY-FIVE VESSELS KEPT
+</p>
+
 
 <br>
 

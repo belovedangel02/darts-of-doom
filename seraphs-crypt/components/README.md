@@ -14,7 +14,7 @@ header bar is the summary, and pressing it opens the panel beneath.
 | `02-about-me.txt` | About Me 🪽 seal + identity panel |
 | `03-rules.txt` | Rules 🪽 seal + ♡-bulleted rules |
 | `04-my-creations.txt` | My Creations 🪽 + vessels prose, Poe quote, The Ink / The Characters |
-| `04b-the-worlds.txt` | The Worlds 🪽 — seven world cards (90210, Fourth Wing, Supernatural, Camp Half-Blood, Elfhame, Ana Huang, Dark Romance & Dystopian) |
+| `04b-the-worlds.txt` | The Worlds 🪽 — eight world cards (90210, Fourth Wing, Supernatural, Camp Half-Blood, Elfhame, Ana Huang, Dark Romance & Dystopian, The Lost Tales) |
 | `04c-the-three-devotions.txt` | The Three Devotions 🪽 — Sanctuaries / Divided / Consuming shortcut index |
 | `05-status-and-current-release.txt` | Status 🪽 panel, search bar, last-updated pill, Liam Court card |
 | `06-upcoming-work.txt` | Upcoming Work 🪽 + the full vault, grouped by world |
@@ -24,10 +24,17 @@ header bar is the summary, and pressing it opens the panel beneath.
 | `10-guides.txt` | Guides 🪽 |
 | `11-friends.txt` | Friends 🪽 |
 | `12-extra.txt` | Extra 🪽 closing |
-| `15-music-player.txt` | Now Playing card — spinning disc + live SoundCloud embed |
+| `15-music-player.txt` | Now Playing card — spinning disc + SoundCloud embed. **The `<iframe>` is stripped by JanitorAI**; it needs rebuilding as a plain link to SoundCloud. |
 | `16-whispers.txt` | The whispers — small grey lines for the spaces between seals |
 
-`../profile-bio.txt` is the full bio with every section already assembled.
+## Pasting the whole thing
+
+Don't assemble by hand — the full profile is already built. See
+[`../PASTE-HERE.md`](../PASTE-HERE.md) for which file goes in which field.
+Short version: **`../profile-complete-lean.txt` → Settings → About Me.**
+
+`../profile-bio.txt` and `../profile-bio.html` are identical copies of the
+assembled bio without the site-wide styling. Edit one, copy it over the other.
 
 Before publishing, replace every `PASTE_..._HERE` placeholder with a real
 direct URL (character images, Carrd, guides, friend profiles).

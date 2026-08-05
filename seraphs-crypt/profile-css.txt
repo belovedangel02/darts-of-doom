@@ -1,4 +1,17 @@
 /* ==========================================================================
+   THE SERAPH'S CRYPT — SITE-WIDE STYLING  (heavy / reference only)
+   ==========================================================================
+   PASTE THIS INTO:  JanitorAI -> CSS Editor
+
+   CSS only, no <style> tag — correct for the CSS Editor.
+
+   PREFER profile-css-lean.txt INSTEAD. Most rules below target
+   .character-card__* class names that JanitorAI does not use; the site
+   ships hashed classes (.css-15w88gn) instead, so these match nothing.
+   Inert, not harmful. Kept for reference.
+   ========================================================================== */
+
+/* ==========================================================================
    THE SERAPH'S CRYPT — CSS STYLESHEET & SELECTOR MAP
    In the Manner of E. A. Poe: Gothic Architecture of the Digital Realm
    ========================================================================== */

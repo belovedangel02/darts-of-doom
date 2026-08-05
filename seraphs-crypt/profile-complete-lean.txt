@@ -119,10 +119,173 @@ a:has(img):hover img, a:has(img):active img, a:has(img):focus-within img {
 ::-webkit-scrollbar-thumb:hover { background: #c5b8ca; }
 * { scrollbar-width: thin; scrollbar-color: #4c4751 #050505; }
 
+/* ==========================================================================
+   THE VESSELS — the bot cards
+   Selector names verified against Hime's freely-published Dark Red template.
+   See JANITOR-SELECTORS.md. Written in the crypt's own palette; no borrowed
+   declarations.
+   ========================================================================== */
+
+/* The plate. Name across the head, portrait held on the left, the writing
+   and its tags to the right, the world named along the foot. */
+.profile-character-card-stack {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    "name  name"
+    "pfp   desc"
+    "pfp   tags"
+    "world world";
+  background: linear-gradient(-95deg, #050505, #0d0509) !important;
+  border: 1px solid rgba(112, 14, 26, 0.5) !important;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: border-color 0.4s ease;
+}
+.pp-cc-wrapper:hover .profile-character-card-stack {
+  border-color: rgba(150, 30, 45, 0.9) !important;
+}
+
+.profile-character-card-stack-link-component-box { grid-area: name; }
+.pp-cc-name {
+  padding: 7px 12px;
+  background: linear-gradient(to right, rgba(112, 14, 26, 0.55), transparent) !important;
+  color: #dedbe1 !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-size: 15px !important;
+  letter-spacing: 2px;
+}
+
+.profile-character-card-avatar-aspect-ratio { grid-area: pfp; height: 250px; }
+.pp-cc-avatar { padding: 8px; border-radius: 12px; background: #030303; }
+
+.profile-character-card-description-box { grid-area: desc; padding: 4px 12px 0 4px; }
+.pp-cc-description, .pp-cc-description * {
+  color: #8c8791 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 12px !important;
+  line-height: 1.75 !important;
+}
+/* A dropped capital, the way the museum labels open. */
+.pp-cc-description::first-letter {
+  color: #c5b8ca;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 24px;
+  line-height: 0.8;
+}
+
+.pp-cc-tags {
+  grid-area: tags;
+  align-self: end;
+  width: 100%;
+  padding: 0 12px 8px 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.chakra-wrap__list { display: flex; flex-wrap: nowrap; }
+.chakra-wrap__listitem { flex-shrink: 0; margin: 0; }
+.pp-cc-tags-wrap span {
+  display: inline-block;
+  margin: 0 3px 0 0;
+  padding: 2px 10px;
+  background: #070608 !important;
+  border: 1px solid rgba(197, 184, 202, 0.18) !important;
+  border-radius: 20px;
+  color: #978a9e !important;
+  font-size: 10px !important;
+  letter-spacing: 1px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+.pp-cc-tags-wrap span:hover {
+  border-color: rgba(112, 14, 26, 0.8) !important;
+  color: #dedbe1 !important;
+}
+
+/* Things the crypt does not need on a plate. */
+.pp-cc-creator-name, .pp-cc-star-line, .pp-cc-description hr { display: none !important; }
+
+/* THE WORLD, NAMED — each card reads its own tags and stamps itself.
+   -----------------------------------------------------------------
+   A tag becomes a class: lowercased, spaces and punctuation dropped.
+   "Dead Dove" -> .pp-tag-deaddove, "Fourth Wing" -> .pp-tag-fourthwing.
+   Correct the eight below to whatever you actually tag the bots with —
+   right-click a tag on your profile, Inspect, and read the class. */
+.profile-character-card-stack::after {
+  content: 'THE CRYPT';
+  grid-area: world;
+  padding: 3px 12px;
+  background: linear-gradient(to left, rgba(112, 14, 26, 0.55), transparent);
+  color: #c5b8ca;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-align: right;
+}
+.pp-cc-wrapper:has(.pp-tag-90210) .profile-character-card-stack::after { content: '90210'; }
+.pp-cc-wrapper:has(.pp-tag-fourthwing) .profile-character-card-stack::after { content: 'FOURTH WING'; }
+.pp-cc-wrapper:has(.pp-tag-supernatural) .profile-character-card-stack::after { content: 'SUPERNATURAL'; }
+.pp-cc-wrapper:has(.pp-tag-percyjackson) .profile-character-card-stack::after { content: 'CAMP HALF-BLOOD'; }
+.pp-cc-wrapper:has(.pp-tag-elfhame) .profile-character-card-stack::after { content: 'ELFHAME'; }
+.pp-cc-wrapper:has(.pp-tag-anahuang) .profile-character-card-stack::after { content: 'ANA HUANG'; }
+.pp-cc-wrapper:has(.pp-tag-dystopian) .profile-character-card-stack::after { content: 'DARK ROMANCE & DYSTOPIAN'; }
+.pp-cc-wrapper:has(.pp-tag-losttales) .profile-character-card-stack::after { content: 'THE LOST TALES'; }
+
+/* THE TALLY — the heading above the vessels, and the count beneath it */
+#profile-tabs::before {
+  content: "THE VESSELS";
+  display: block;
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 10px;
+  color: #dedbe1;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.4rem, 7vw, 4.5rem);
+  letter-spacing: 8px;
+  line-height: 1;
+  text-align: center;
+  pointer-events: none;
+}
+.pp-tabs-button, .pp-tabs-indicator { display: none !important; }
+.Btn2-purple strong {
+  color: #c5b8ca !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-size: clamp(1.6rem, 4vw, 2.2rem) !important;
+}
+
+/* THE WORDMARK — the crypt names itself in the site's own corner */
+.glow-logo :is(h2, p) {
+  font-size: 0 !important;
+  color: #c5b8ca !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  text-shadow: none !important;
+}
+.glow-logo h2::after { content: "THE SERAPH\2019S"; font-size: 17px; letter-spacing: 3px; }
+.glow-logo p::after  { content: " CRYPT"; font-size: 17px; letter-spacing: 3px; color: #700e1a; }
+
+/* THE COUNT — followers, told as the crypt would tell it */
+.pp-uc-followers-count {
+  color: #c5b8ca !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-weight: normal !important;
+}
+
+/* Narrow screens: the plate stops being two columns and stacks. */
+@media (max-width: 560px) {
+  .profile-character-card-stack {
+    grid-template-columns: 100%;
+    grid-template-areas: "name" "pfp" "desc" "tags" "world";
+  }
+  .profile-character-card-avatar-aspect-ratio { height: auto; }
+}
+
 /* MERCY FOR THOSE WHO ASK FOR STILLNESS */
 @media (prefers-reduced-motion: reduce) {
   .crypt-disc, [class*="albumArt"], [class*="AlbumArt"],
   [class*="udioPlayer"] img, [class*="usicPlayer"] img { animation: none !important; }
+  .profile-character-card-stack, .pp-cc-tags-wrap span { transition: none !important; }
 }
 </style>
 

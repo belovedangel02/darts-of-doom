@@ -71,6 +71,13 @@ details[open] > summary span:last-child {
   color: #c5b8ca !important;
 }
 
+
+/* The disc is the player now — the iframe never survived the sanitiser. */
+.crypt-disc-link { transition: transform 0.4s ease; }
+.crypt-disc-link:hover, .crypt-disc-link:focus-visible { transform: scale(1.05); outline: none; }
+.crypt-disc-link:focus-visible .crypt-disc { box-shadow: 0 0 0 2px #c5b8ca !important; }
+.crypt-disc-link:hover span:last-child { color: #c5b8ca !important; }
+
 /* THE GLASS OF REVELATION — the live character search */
 input[type="text"], input[type="search"], input[placeholder*="earch"] {
   background-color: #050505 !important;

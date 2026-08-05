@@ -41,14 +41,17 @@ starting with `/*` belongs in the CSS Editor and nowhere else.
 `profile-css.txt` and the `<style>` block inside `profile-complete.txt` are
 built on selectors like `.character-card__name` and `.character-card__wrapper`.
 
-**JanitorAI does not use those class names.** The site ships hashed classes
-(`.css-15w88gn`) that change whenever the site is redeployed. So most of those
-600 lines match nothing on the page and do nothing at all. They are not
-harmful, just inert — and they make the paste four times larger for no gain.
+**JanitorAI does not use those class names.** They were invented. The real page
+ships semantic classes like `.pp-uc-about-me` and `.profile-info-stack`, plus
+hashed ones like `.css-15w88gn`. So most of those 600 lines match nothing on the
+page and do nothing at all. They are not harmful, just inert — and they make the
+paste four times larger for no gain.
 
 The `-lean` files avoid this. They target things that genuinely exist:
 `body`, `summary`, `input[placeholder*="earch"]`, and substring matches like
 `[class*="wrapper"]` that survive a redeploy because only the hash changes.
+
+See [`JANITOR-SELECTORS.md`](JANITOR-SELECTORS.md) for the real class names.
 
 **Use the `-lean` files.** The big ones are kept for reference only.
 

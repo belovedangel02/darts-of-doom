@@ -216,10 +216,16 @@ a:has(img):hover img, a:has(img):active img, a:has(img):focus-within img {
 
 /* THE WORLD, NAMED — each card reads its own tags and stamps itself.
    -----------------------------------------------------------------
-   A tag becomes a class: lowercased, spaces and punctuation dropped.
-   "Dead Dove" -> .pp-tag-deaddove, "Fourth Wing" -> .pp-tag-fourthwing.
-   Correct the eight below to whatever you actually tag the bots with —
-   right-click a tag on your profile, Inspect, and read the class. */
+   Driven by CUSTOM tags, the #hashtag kind you type in yourself, not
+   JanitorAI's built-in ones. Add one of these to each bot and the card
+   labels itself:
+
+       #90210  #fourthwing  #supernatural  #percyjackson
+       #elfhame  #anahuang  #dystopian  #losttales
+
+   A tag becomes a class lowercased with spaces and punctuation dropped,
+   so #losttales -> .pp-tag-losttales. Anything untagged falls through to
+   THE CRYPT. Rename freely — just keep tag and selector in step. */
 .profile-character-card-stack::after {
   content: 'THE CRYPT';
   grid-area: world;

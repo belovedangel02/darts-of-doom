@@ -92,6 +92,39 @@ own in a pseudo-element:
 
 **Unrestrict the bio card's width** — `.pp-uc-background { max-width: unset; }`
 
+## Observed on live profiles
+
+Things seen working on real pages (Hime's *Carnal Archive*, Neri's *Come in,
+Angel*, *Noli Timere Messorem*, *Circus Troupe*) that go past the bio box:
+
+**The site's own wordmark can be replaced.** Top-left reads "Carnal Archive" or
+"Come in, Angel" instead of JanitorAI. Same `font-size: 0` + `::after { content }`
+move as the username.
+
+**So can the counts and placeholders.** "296 laments", "15 reaped souls",
+"2360 together, under the snowfield" in place of the follower count; "search
+lament…", "Do not fear the reaper" in place of the search placeholder. Anything
+rendered as text can be zeroed and redrawn.
+
+**Sticky bottom bar** — *Noli Timere* pins a strip along the foot of the page
+carrying a label and the search field. `position: fixed; bottom: 0`.
+
+**Frosted glass** — *Come in, Angel* floats near-transparent panels over a
+full-bleed background with `backdrop-filter: blur()`, which suits a misty
+palette far better than solid fills.
+
+**Full-bleed background behind everything**, header included — not just behind
+the bio. Our `profile-css-lean.txt` already does this on `body`.
+
+**A portrait row overlapping the hero** — five character plates centred beneath
+the display name, breaking the boundary between cover and content.
+
+**Left sidebar** — *Circus Troupe* puts avatar, follow button, stats and a
+stacked nav column down the left, cards to the right. Grid areas on
+`.profile-info-stack`, same mechanism as above.
+
+Every one of these is reachable from a single About Me paste.
+
 ## What survives the sanitizer
 
 | | |

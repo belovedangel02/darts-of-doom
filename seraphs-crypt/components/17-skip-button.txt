@@ -1,0 +1,30 @@
+<!-- SKIP TO THE VESSELS — sticky pill, bottom right.
+
+     Two pieces. This one goes near the TOP of the bio, just inside the
+     wrapper div. Because it is position:fixed it stays put wherever the
+     page is scrolled, so its place in the markup does not matter visually.
+
+     The matching anchor is the LAST thing before the wrapper closes:
+
+         <div id="crypt-vessels" style="height: 1px;"></div>
+
+     Landing on the end of the bio puts the reader at the top of the
+     character cards, which is the point. -->
+
+<a href="#crypt-vessels" style="
+position: fixed;
+right: 16px;
+bottom: 22px;
+z-index: 999;
+display: inline-block;
+padding: 9px 16px;
+background-color: rgba(7, 6, 8, 0.94);
+border: 1px solid rgba(112, 14, 26, 0.75);
+border-radius: 30px;
+color: rgb(197, 184, 202);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 10px;
+letter-spacing: 3px;
+text-decoration: none;
+box-shadow: 0 0 14px rgba(0, 0, 0, 0.85);
+">SKIP TO THE VESSELS &darr;</a>

@@ -5,7 +5,7 @@ margin: 0;
 padding: 30px 16px;
 box-sizing: border-box;
 background-color: rgb(0, 0, 0);
-background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)), url('https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-background.jpg');
+background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)), url('https://belovedangel02.github.io/seraphs-crypt/images/crypt-background.jpg');
 background-repeat: no-repeat;
 background-position: center top;
 background-size: cover;
@@ -1622,7 +1622,7 @@ letter-spacing: 2px;
 O VILINSKOJ KOSI
 </p>
 
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-hair-that-took-root.jpg" alt="The hair that took root — a vila of the old meadows" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-hair-that-took-root.jpg" alt="The hair that took root — a vila of the old meadows" style="
 display: block;
 width: 100%;
 max-width: 260px;

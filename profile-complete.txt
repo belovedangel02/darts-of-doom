@@ -327,7 +327,7 @@ body {
   background-color: #000000 !important;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)),
-    url("https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-background.jpg") !important;
+    url("https://belovedangel02.github.io/seraphs-crypt/images/crypt-background.jpg") !important;
   background-repeat: no-repeat, no-repeat !important;
   background-position: center top, center top !important;
   background-size: cover, cover !important;
@@ -622,7 +622,7 @@ margin: 0;
 padding: 30px 16px;
 box-sizing: border-box;
 background-color: rgb(0, 0, 0);
-background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)), url('https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-background.jpg');
+background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)), url('https://belovedangel02.github.io/seraphs-crypt/images/crypt-background.jpg');
 background-repeat: no-repeat;
 background-position: center top;
 background-size: cover;
@@ -721,7 +721,7 @@ border-radius: 18px;
 overflow: hidden;
 ">
 
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-banner.jpg" alt="The Seraph's Crypt — the Keeper in the library with the winged fawn, the owl watching from the shelf" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/crypt-banner.jpg" alt="The Seraph's Crypt — the Keeper in the library with the winged fawn, the owl watching from the shelf" style="
 display: block;
 width: 100%;
 height: auto;
@@ -1010,7 +1010,7 @@ border-radius: 18px;
 ">
 
 <p style="margin: 0 0 20px 0; text-align: center;">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper.png" alt="beloved angel, keeper of the crypt" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-keeper.png" alt="beloved angel, keeper of the crypt" style="
 display: inline-block;
 width: 100%;
 max-width: 420px;
@@ -2029,7 +2029,7 @@ CURRENT RELEASE
 padding: 0;
 background-color: rgb(3, 3, 3);
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/liam-court.png" alt="Liam Court" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/liam-court.png" alt="Liam Court" style="
 display: block;
 width: 100%;
 max-width: 100%;
@@ -3804,7 +3804,7 @@ letter-spacing: 2px;
 O VILINSKOJ KOSI
 </p>
 
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-hair-that-took-root.jpg" alt="The hair that took root — a vila of the old meadows" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-hair-that-took-root.jpg" alt="The hair that took root — a vila of the old meadows" style="
 display: block;
 width: 100%;
 max-width: 260px;
@@ -4875,7 +4875,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.55);
 border-radius: 18px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-owl.jpg" alt="The Keeper — Beloved Angel, with the winged fawn and the owl" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-keeper-owl.jpg" alt="The Keeper — Beloved Angel, with the winged fawn and the owl" style="
 display: block;
 width: 100%;
 height: auto;
@@ -4911,7 +4911,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-fawn.jpg" alt="The Keeper with the winged fawn" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-keeper-fawn.jpg" alt="The Keeper with the winged fawn" style="
 display: block;
 width: 100%;
 height: auto;
@@ -4947,7 +4947,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-01.jpg" alt="The Keeper, by candlelight" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-keeper-01.jpg" alt="The Keeper, by candlelight" style="
 display: block;
 width: 100%;
 height: auto;
@@ -4974,7 +4974,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-quotes.png" alt="The Keeper, among her own words" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-keeper-quotes.png" alt="The Keeper, among her own words" style="
 display: block;
 width: 100%;
 height: auto;
@@ -5001,7 +5001,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-02.jpg" alt="The Keeper, among the letters" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-keeper-02.jpg" alt="The Keeper, among the letters" style="
 display: block;
 width: 100%;
 height: auto;
@@ -5028,7 +5028,7 @@ background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
 ">
-<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-hero.jpg" alt="The Keeper, pretty and problematic" style="
+<img src="https://belovedangel02.github.io/seraphs-crypt/images/the-keeper-hero.jpg" alt="The Keeper, pretty and problematic" style="
 display: block;
 width: 100%;
 height: auto;

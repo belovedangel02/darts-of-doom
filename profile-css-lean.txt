@@ -32,7 +32,7 @@ body {
   background-color: #000000 !important;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.93)),
-    url("https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/crypt-background.jpg") !important;
+    url("https://belovedangel02.github.io/seraphs-crypt/images/crypt-background.jpg") !important;
   background-repeat: no-repeat, no-repeat !important;
   background-position: center top, center top !important;
   background-size: cover, cover !important;

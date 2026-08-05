@@ -4,7 +4,7 @@ Paste-ready panels for seraphscrypt.straw.page. One panel per character:
 card art on top, mood-board ingredients beneath (drop in 3–6 small images
 matching the ingredients — Pinterest-style), then the blurb line.
 Character card art is centrally hosted; use these URLs directly:
-https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/<name>.png
+https://belovedangel02.github.io/seraphs-crypt/images/<name>.png
 
 ---
 

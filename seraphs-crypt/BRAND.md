@@ -51,5 +51,12 @@ Guides ✧ · Friends ✦ · Extra ♡.
 - The little circular badges under a JanitorAI username are site-awarded profile
   badges and cannot be added via bio HTML; the bio uses a decorative emblem row
   (🪽 🕯️ 🥀 ⚰️ 🌙 🖤) to echo the look.
-- JanitorAI bios strip `<style>` blocks and classes — inline `style=""` only.
+- **`<style>` blocks DO work in About Me.** This file said otherwise for months
+  and it was wrong — that single line is why `profile-bio.html` grew into 130KB
+  of inline attributes with no grid anywhere in it. Live community themes paste
+  four `<style>` blocks into About Me and they hold. `<iframe>` and `<script>`
+  are the things that get stripped. See `JANITOR-SELECTORS.md`.
+- Keep inline `style=""` on the content regardless, and put only what inline
+  cannot express — `:hover`, `@media`, `scroll-snap`, pseudo-elements — in the
+  `<style>` block. Then a sanitiser change degrades the page instead of breaking it.
 - Image slots need direct image URLs (raw.githubusercontent.com or catbox).

@@ -142,6 +142,48 @@ color: rgb(170, 166, 174);
 font-family: Arial, Helvetica, sans-serif;
 ">
 
+<style>
+/* What inline style="" cannot express. If a sanitiser ever drops this block,
+   the crypt degrades to the plain stacked layout underneath — nothing breaks. */
+
+.crypt-wall {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #4c4751 transparent;
+}
+.crypt-wall::-webkit-scrollbar { height: 6px; }
+.crypt-wall::-webkit-scrollbar-track { background: transparent; }
+.crypt-wall::-webkit-scrollbar-thumb { background: #4c4751; border-radius: 4px; }
+
+.crypt-vitrine {
+  transition: border-color 0.35s ease, background-color 0.35s ease, transform 0.35s ease;
+}
+.crypt-vitrine:hover, .crypt-vitrine:focus-visible {
+  border-color: rgba(112, 14, 26, 0.85) !important;
+  background-color: #0b070d !important;
+  transform: translateY(-3px);
+  outline: none;
+}
+.crypt-vitrine:focus-visible { box-shadow: 0 0 0 2px #c5b8ca; }
+.crypt-vitrine:hover .crypt-enter, .crypt-vitrine:focus-visible .crypt-enter {
+  color: #961e2d !important;
+}
+
+/* The buried word behind a section. Too small a screen and it only crowds. */
+@media (max-width: 620px) {
+  .crypt-ghost { font-size: 46px !important; letter-spacing: 6px !important; }
+}
+@media (max-width: 400px) {
+  .crypt-ghost { display: none !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crypt-vitrine { transition: none; }
+  .crypt-vitrine:hover, .crypt-vitrine:focus-visible { transform: none; }
+  .crypt-wall { scroll-snap-type: none; }
+}
+</style>
+
 <a href="#crypt-vessels" style="
 position: fixed;
 right: 16px;
@@ -791,16 +833,29 @@ text-align: left;
 <br>
 
 <div style="
+position: relative;
 max-width: 720px;
 margin: 0 auto;
-padding: 24px 18px;
+padding: 24px 0 18px 0;
 text-align: center;
-background-color: rgb(7, 6, 8);
-border: 1px solid rgba(197, 184, 202, 0.14);
-border-radius: 18px;
 ">
 
+<p aria-hidden="true" class="crypt-ghost" style="
+position: absolute;
+left: 0;
+right: 0;
+top: 34px;
+margin: 0;
+color: rgba(197, 184, 202, 0.05);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 74px;
+letter-spacing: 12px;
+line-height: 1;
+pointer-events: none;
+">WORLDS</p>
+
 <p style="
+position: relative;
 margin: 0 0 20px 0;
 color: rgb(151, 138, 158);
 font-family: Georgia, 'Times New Roman', serif;
@@ -810,192 +865,163 @@ letter-spacing: 2px;
 <em>step through, and choose your haunting.</em>
 </p>
 
-<a href="#incarnations" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
-background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+<div class="crypt-wall" style="
+position: relative;
+display: flex;
+gap: 16px;
+overflow-x: auto;
+padding: 4px 18px 18px 18px;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">90210</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">SEASONS 4–5 AU · GROUNDED CANON REWRITE</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">loyalty · recovery · established devotion</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">the life he deserved, pulled from the wreckage — salt water, engine grease, sunset on asphalt.</p>
-</div>
-</div>
-</a>
-
-<a href="#fourth-wing" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
+<a href="#incarnations" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
 background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">FOURTH WING</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">FANTASY ROMANCE · WAR COLLEGE</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">survival beyond sacrifice · rebellion · divided loyalties</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">dragonfire on a cold ridge, leather flight straps, hands that check her buckles first.</p>
-</div>
-</div>
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">I</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">90210</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">SEASONS 4&ndash;5 AU &middot; GROUNDED CANON REWRITE</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">loyalty &middot; recovery &middot; established devotion</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">the life he deserved, pulled from the wreckage &mdash; salt water, engine grease, sunset on asphalt.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
 </a>
-
-<a href="#supernatural" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
+<a href="#fourth-wing" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
 background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">SUPERNATURAL</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HUNTER ROMANCE · ROAD GOTHIC</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">grief · responsibility · protection before self</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">the impala's dashboard glow, motel neon, devotion hidden beneath practised humour.</p>
-</div>
-</div>
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">II</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">FOURTH WING</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">FANTASY ROMANCE &middot; WAR COLLEGE</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">survival beyond sacrifice &middot; rebellion &middot; divided loyalties</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">dragonfire on a cold ridge, leather flight straps, hands that check her buckles first.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
 </a>
-
-<a href="#camp-half-blood" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
+<a href="#supernatural" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
 background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">CAMP HALF-BLOOD</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">RICK RIORDAN · PERCY JACKSON &amp; THE OLYMPIANS</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">fatal loyalty · prophecy · impossible choices</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">storm-green sea, salt on bronze, a loyalty strong enough to challenge fate.</p>
-</div>
-</div>
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">III</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">SUPERNATURAL</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">HUNTER ROMANCE &middot; ROAD GOTHIC</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">grief &middot; responsibility &middot; protection before self</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">the impala&rsquo;s dashboard glow, motel neon, devotion hidden beneath practised humour.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
 </a>
-
-<a href="#ana-huang" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
+<a href="#camp-half-blood" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
 background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">ANA HUANG</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CONTEMPORARY DARK ROMANCE</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">obsession beneath restraint · power · secrets</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">glass towers at midnight, arranged vows, devotion that becomes surveillance.</p>
-</div>
-</div>
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">IV</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">CAMP HALF-BLOOD</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">RICK RIORDAN &middot; PERCY JACKSON &amp; THE OLYMPIANS</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">fatal loyalty &middot; prophecy &middot; impossible choices</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">storm-green sea, salt on bronze, a loyalty strong enough to challenge fate.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
 </a>
-
-<a href="#dark-dystopian" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
+<a href="#elfhame" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
 background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">DARK ROMANCE &amp; DYSTOPIAN</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">EXTREME DARK ROMANCE · DYSTOPIAN</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">pursuit · fixation · psychological intensity</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">a shadow at the treeline, ruined cities, devotion inseparable from control.</p>
-</div>
-</div>
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">V</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">ELFHAME</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">cruelty as courtship &middot; mortality among immortals &middot; glamour</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">bramble crowns, poisoned wine, salt and iron, a mortal girl who refuses to kneel.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
 </a>
-
-<a href="#elfhame" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
+<a href="#ana-huang" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
 background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">ELFHAME</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">HOLLY BLACK &middot; THE FOLK OF THE AIR</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">cruelty as courtship &middot; mortality among immortals &middot; glamour</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">bramble crowns, poisoned wine, salt and iron, a mortal girl who refuses to kneel.</p>
-</div>
-</div>
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">VI</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">ANA HUANG</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">CONTEMPORARY DARK ROMANCE</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">obsession beneath restraint &middot; power &middot; secrets</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">glass towers at midnight, arranged vows, devotion that becomes surveillance.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
 </a>
-
-<a href="#lost-tales" style="display: block; max-width: 620px; margin: 0 auto 12px auto; text-decoration: none;">
-<div style="
+<a href="#dark-dystopian" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
 background-color: rgb(5, 5, 5);
-border: 1px solid rgba(112, 14, 26, 0.45);
-border-radius: 16px;
-overflow: hidden;
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
 text-align: left;
 ">
-<div style="
-padding: 12px 18px;
-background-color: rgb(18, 12, 21);
-border-bottom: 1px solid rgba(112, 14, 26, 0.35);
-">
-<span style="color: rgb(197, 184, 202); font-family: Georgia, 'Times New Roman', serif; font-size: 14px; letter-spacing: 3px;">THE LOST TALES</span>
-</div>
-<div style="padding: 16px 18px;">
-<p style="margin: 0 0 8px 0; color: rgb(103, 98, 108); font-size: 10px; letter-spacing: 2px;">CROATIAN &amp; SLAVIC FOLKLORE</p>
-<p style="margin: 0 0 8px 0; color: rgb(184, 176, 189); font-size: 12px; letter-spacing: 1px; line-height: 1.7;">old gods &middot; vile and vukodlaks &middot; oaths sworn under oak</p>
-<p style="margin: 0; color: rgb(125, 120, 130); font-size: 12px; line-height: 1.75;">the healing waters of Viraj, mountains that are sleeping giants, a name you must not say aloud after dark.</p>
-</div>
-</div>
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">VII</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">DARK ROMANCE &amp; DYSTOPIAN</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">EXTREME DARK ROMANCE &middot; DYSTOPIAN</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">pursuit &middot; fixation &middot; psychological intensity</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">a shadow at the treeline, ruined cities, devotion inseparable from control.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
 </a>
+<a href="#lost-tales" class="crypt-vitrine" style="
+flex: 0 0 268px;
+scroll-snap-align: start;
+display: block;
+padding: 22px 20px;
+background-color: rgb(5, 5, 5);
+border: 1px solid rgba(197, 184, 202, 0.14);
+border-radius: 14px;
+text-decoration: none;
+text-align: left;
+">
+<span style="color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">VIII</span>
+<p style="margin: 10px 0 0 0; color: rgb(222, 219, 225); font-family: Georgia, 'Times New Roman', serif; font-size: 18px; letter-spacing: 2px; line-height: 1.25;">THE LOST TALES</p>
+<p style="margin: 12px 0 0 0; padding-top: 11px; border-top: 1px solid rgba(197, 184, 202, 0.14); color: rgb(197, 184, 202); font-size: 9px; letter-spacing: 2px;">CROATIAN &amp; SLAVIC FOLKLORE</p>
+<p style="margin: 10px 0 0 0; color: rgb(140, 135, 145); font-size: 11px; letter-spacing: 1px;">old gods &middot; vile and vukodlaks &middot; oaths sworn under oak</p>
+<p style="margin: 14px 0 0 0; color: rgb(125, 120, 130); font-family: Georgia, 'Times New Roman', serif; font-size: 12px; font-style: italic; line-height: 1.75;">the healing waters of Viraj, mountains that are sleeping giants, a name you must not say aloud after dark.</p>
+<p class="crypt-enter" style="margin: 18px 0 0 0; color: rgb(76, 71, 81); font-size: 10px; letter-spacing: 3px;">ENTER &rarr;</p>
+</a>
+</div>
 
 <p style="
-margin: 6px 0 0 0;
+position: relative;
+margin: 4px 0 0 0;
 color: rgb(76, 71, 81);
 font-size: 10px;
 letter-spacing: 3px;

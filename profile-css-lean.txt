@@ -1,4 +1,15 @@
 /* ==========================================================================
+   THE SERAPH'S CRYPT — SITE-WIDE STYLING  (working set)
+   ==========================================================================
+   PASTE THIS INTO:  JanitorAI -> CSS Editor
+
+   CSS only, no <style> tag — correct for the CSS Editor.
+   Do NOT paste this into About Me on its own; it would show as text.
+
+   Only selectors that genuinely match the live site.
+   ========================================================================== */
+
+/* ==========================================================================
    THE SERAPH'S CRYPT — WORKING CSS
    Only what bites on JanitorAI: no hashed class names, no guesswork.
    ========================================================================== */

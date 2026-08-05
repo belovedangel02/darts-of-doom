@@ -1,3 +1,16 @@
+<!-- ==========================================================================
+   THE SERAPH'S CRYPT — ONE-PASTE PROFILE  (heavy / reference only)
+   ==========================================================================
+   PASTE THIS INTO:  JanitorAI -> Settings -> About Me
+
+   Do NOT paste this into the CSS Editor — line 1 is <style>, which is
+   HTML, not CSS.
+
+   PREFER profile-complete-lean.txt INSTEAD. The stylesheet below is
+   built on .character-card__* class names that JanitorAI does not use,
+   so most of it matches nothing and does nothing. Kept for reference.
+     ========================================================================== -->
+
 <style>
 /* ==========================================================================
    THE SERAPH'S CRYPT — CSS STYLESHEET & SELECTOR MAP

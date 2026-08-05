@@ -1,3 +1,15 @@
+<!-- ==========================================================================
+   THE SERAPH'S CRYPT — ONE-PASTE PROFILE  (styling + bio)
+   ==========================================================================
+   PASTE THIS INTO:  JanitorAI -> Settings -> About Me
+
+   Do NOT paste this into the CSS Editor. Line 1 below is <style>,
+   which is HTML, not CSS — the editor would reject the whole sheet
+   and nothing would be styled.
+
+   This is the file you want. See PASTE-HERE.md.
+     ========================================================================== -->
+
 <style>
 /* ==========================================================================
    THE SERAPH'S CRYPT — WORKING CSS

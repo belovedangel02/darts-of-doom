@@ -119,6 +119,13 @@ a:has(img):hover img, a:has(img):active img, a:has(img):focus-within img {
   filter: grayscale(0%) contrast(105%) brightness(1); transform: scale(1.03); }
 #crypt-bio img, #crypt-bio a img { filter: none !important; transform: none !important; }
 
+
+/* THE GALLERY WALL — plates fall into columns and keep their own heights */
+.crypt-masonry { column-count: 2; column-gap: 12px; }
+.crypt-plate { break-inside: avoid; -webkit-column-break-inside: avoid; }
+@media (min-width: 720px) { .crypt-masonry { column-count: 3; } }
+@media (max-width: 460px) { .crypt-masonry { column-count: 1; } }
+
 /* THE WINDING PASSAGE — scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: #050505; }
@@ -4552,13 +4559,12 @@ letter-spacing: 3px;
 &#9790; PORTRAITS OF THE ONE WHO TENDS THE CRYPT
 </p>
 
-<span style="
+<div class="crypt-masonry" style="margin: 0 auto; max-width: 660px; text-align: left;">
+<span class="crypt-plate" style="
 display: inline-block;
-width: 96%;
-max-width: 420px;
-margin: 6px 4px 14px 4px;
+width: 100%;
+margin: 0 0 12px 0;
 padding: 10px;
-vertical-align: top;
 background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.55);
 border-radius: 18px;
@@ -4566,33 +4572,20 @@ border-radius: 18px;
 <img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-owl.jpg" alt="The Keeper — Beloved Angel, with the winged fawn and the owl" style="
 display: block;
 width: 100%;
-max-width: 100%;
 height: auto;
 margin: 0;
-border: 1px solid rgba(112, 14, 26, 0.45);
+border: 1px solid rgba(112, 14, 26, 0.42);
 border-radius: 12px;
 ">
 <span style="
 display: block;
-margin: 12px 0 4px 0;
+margin: 11px 0 0 0;
 color: rgb(197, 184, 202);
 font-family: Georgia, 'Times New Roman', serif;
 font-size: 12px;
 letter-spacing: 4px;
 text-align: center;
-">
-THE KEEPER
-</span>
-<span style="
-display: block;
-margin: 0;
-color: rgb(76, 71, 81);
-font-size: 10px;
-letter-spacing: 3px;
-text-align: center;
-">
-BELOVED ANGEL &middot; SHE WHO TENDS THE CRYPT
-</span>
+">THE KEEPER</span>
 <span style="
 display: block;
 margin: 6px 0 0 0;
@@ -4601,18 +4594,49 @@ font-family: Georgia, 'Times New Roman', serif;
 font-size: 11px;
 font-style: italic;
 text-align: center;
-">
-and the small one that chose to stay &middot; and the one that watches
+">and the small one that chose to stay &middot; and the one that watches</span>
 </span>
-</span>
-
-<span style="
+<span class="crypt-plate" style="
 display: inline-block;
-width: 46%;
-max-width: 240px;
-margin: 6px 4px;
+width: 100%;
+margin: 0 0 12px 0;
 padding: 8px;
-vertical-align: top;
+background-color: rgb(12, 2, 4);
+border: 1px solid rgba(112, 14, 26, 0.5);
+border-radius: 16px;
+">
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-fawn.jpg" alt="The Keeper with the winged fawn" style="
+display: block;
+width: 100%;
+height: auto;
+margin: 0;
+border: 1px solid rgba(112, 14, 26, 0.42);
+border-radius: 10px;
+">
+<span style="
+display: block;
+margin: 8px 0 0 0;
+color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 9px;
+letter-spacing: 2px;
+text-align: center;
+">THE SMALL ONE</span>
+<span style="
+display: block;
+margin: 6px 0 0 0;
+color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 11px;
+font-style: italic;
+text-align: center;
+">who chose to stay</span>
+</span>
+<span class="crypt-plate" style="
+display: inline-block;
+width: 100%;
+margin: 0 0 12px 0;
+padding: 8px;
 background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
@@ -4620,30 +4644,53 @@ border-radius: 16px;
 <img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-01.jpg" alt="The Keeper, by candlelight" style="
 display: block;
 width: 100%;
-max-width: 100%;
 height: auto;
 margin: 0;
-border: 1px solid rgba(112, 14, 26, 0.4);
+border: 1px solid rgba(112, 14, 26, 0.42);
 border-radius: 10px;
 ">
 <span style="
 display: block;
 margin: 8px 0 0 0;
 color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
 font-size: 9px;
 letter-spacing: 2px;
 text-align: center;
-">
-BY CANDLELIGHT
+">BY CANDLELIGHT</span>
 </span>
-</span>
-<span style="
+<span class="crypt-plate" style="
 display: inline-block;
-width: 46%;
-max-width: 240px;
-margin: 6px 4px;
+width: 100%;
+margin: 0 0 12px 0;
 padding: 8px;
-vertical-align: top;
+background-color: rgb(12, 2, 4);
+border: 1px solid rgba(112, 14, 26, 0.5);
+border-radius: 16px;
+">
+<img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-quotes.png" alt="The Keeper, among her own words" style="
+display: block;
+width: 100%;
+height: auto;
+margin: 0;
+border: 1px solid rgba(112, 14, 26, 0.42);
+border-radius: 10px;
+">
+<span style="
+display: block;
+margin: 8px 0 0 0;
+color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 9px;
+letter-spacing: 2px;
+text-align: center;
+">HER OWN WORDS</span>
+</span>
+<span class="crypt-plate" style="
+display: inline-block;
+width: 100%;
+margin: 0 0 12px 0;
+padding: 8px;
 background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
@@ -4651,30 +4698,26 @@ border-radius: 16px;
 <img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-02.jpg" alt="The Keeper, among the letters" style="
 display: block;
 width: 100%;
-max-width: 100%;
 height: auto;
 margin: 0;
-border: 1px solid rgba(112, 14, 26, 0.4);
+border: 1px solid rgba(112, 14, 26, 0.42);
 border-radius: 10px;
 ">
 <span style="
 display: block;
 margin: 8px 0 0 0;
 color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
 font-size: 9px;
 letter-spacing: 2px;
 text-align: center;
-">
-AMONG THE LETTERS
+">AMONG THE LETTERS</span>
 </span>
-</span>
-<span style="
+<span class="crypt-plate" style="
 display: inline-block;
-width: 46%;
-max-width: 240px;
-margin: 6px 4px;
+width: 100%;
+margin: 0 0 12px 0;
 padding: 8px;
-vertical-align: top;
 background-color: rgb(12, 2, 4);
 border: 1px solid rgba(112, 14, 26, 0.5);
 border-radius: 16px;
@@ -4682,33 +4725,23 @@ border-radius: 16px;
 <img src="https://belovedangel02.github.io/darts-of-doom/seraphs-crypt/images/the-keeper-hero.jpg" alt="The Keeper, pretty and problematic" style="
 display: block;
 width: 100%;
-max-width: 100%;
 height: auto;
 margin: 0;
-border: 1px solid rgba(112, 14, 26, 0.4);
+border: 1px solid rgba(112, 14, 26, 0.42);
 border-radius: 10px;
 ">
 <span style="
 display: block;
 margin: 8px 0 0 0;
 color: rgb(103, 98, 108);
+font-family: Georgia, 'Times New Roman', serif;
 font-size: 9px;
 letter-spacing: 2px;
 text-align: center;
-">
-PRETTY &amp; PROBLEMATIC
+">PRETTY &amp; PROBLEMATIC</span>
 </span>
-</span>
+</div>
 
-<p style="
-margin: 14px 0 0 0;
-color: rgb(151, 138, 158);
-font-family: Georgia, 'Times New Roman', serif;
-font-size: 12px;
-line-height: 1.8;
-">
-<em>&ldquo;pretty &amp; problematic.&rdquo;</em>
-</p>
 </div>
 
 </div>
